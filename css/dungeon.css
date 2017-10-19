@@ -1,0 +1,82 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* dungeon.css */
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* structure */
+
+body { margin: 0px; padding: 0px;
+  font-family: 'Asul', sans-serif; font-size: 14px; }
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* common */
+
+h1 { text-align: center; font-size: 150%; font-weight: bold; }
+
+form { margin: 2ex 2em; padding: 0px; }
+input { margin-right: 0.5em; padding: 0.5ex 0.5em;
+  font-family: Monaco, monospace; font-size: 11px; }
+select { min-width: 10em; margin-right: 0.5em; font-size: 11px; }
+
+table { margin: 0px 2em; border: none; border-collapse: collapse; }
+td { padding: 0.5ex 0.5em; text-align: left; vertical-align: top; }
+td.key { text-align: right; font-weight: bold; }
+
+div.encounters {}
+div.rooms {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100% - 20px;
+    height: 70%;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgrey;
+}
+div.room {
+    background-color: ghostwhite;
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+}
+
+canvas { margin: 2ex auto; }
+
+.center { text-align: center; }
+table.center { margin-left: auto; margin-right: auto; }
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* screen */
+
+@media screen {
+  h1.title { display: none; }
+  form { display: block; }
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* print */
+
+@media print {
+    h1.title {
+        display: block;
+    }
+
+    form {
+        display: none;
+    }
+
+    div.encounters {
+        page-break-before: always;
+        text-align:initial;
+    }
+
+    div.rooms {
+        display: inline !important;
+    }
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
