@@ -21,6 +21,9 @@ table { margin: 0px 2em; border: none; border-collapse: collapse; }
 td { padding: 0.5ex 0.5em; text-align: left; vertical-align: top; }
 td.key { text-align: right; font-weight: bold; }
 
+.label { font-weight: bold; }
+.text {}
+
 div.encounters {}
 div.rooms {
     display: -webkit-flex;
