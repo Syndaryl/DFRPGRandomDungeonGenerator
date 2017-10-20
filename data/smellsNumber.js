@@ -1,11 +1,11 @@
 ﻿var smellsNumber = [
   {
-    "Weight": 1,
+    "Weight": 6,
     "Description": 0,
     "Tables": ""
   },
   {
-    "Weight": 10,
+    "Weight": 1,
     "Description": 1,
     "Tables": "smells"
   }
