@@ -1,8 +1,7 @@
 ﻿var feature = [
     {
         "Weight": 39,
-        "Description": "Nothing",
-        "Tables": ""
+        "Description": "Nothing"
     },
     {
         "Weight": 29,
