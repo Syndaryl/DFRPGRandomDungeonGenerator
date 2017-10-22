@@ -1,11 +1,11 @@
 ﻿var monsters = [
     {
-        "Name": "Acid Spider",
+        "Description": "Acid Spider",
         "Class": "Dire Animal",
         "Subclass": "Spider. Acid",
         "OR": 32,
         "PR": 62,
-        "Total": 94,
+        "CER": 94,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 21,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -13,12 +13,12 @@
         "Weight": 1
     },
     {
-        "Name": "as-Sharak (Agni)",
+        "Description": "as-Sharak (Agni)",
         "Class": "Demon",
         "Subclass": "Demon. Humanoid. Fire",
         "OR": 29.5,
         "PR": 59,
-        "Total": 88.5,
+        "CER": 88.5,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 21,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -26,12 +26,12 @@
         "Weight": 1
     },
     {
-        "Name": "as-Sharak (Akasha)",
+        "Description": "as-Sharak (Akasha)",
         "Class": "Demon",
         "Subclass": "Demon. Humanoid. Spirit",
         "OR": 25,
         "PR": 59,
-        "Total": 84,
+        "CER": 84,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 21,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -39,12 +39,12 @@
         "Weight": 1
     },
     {
-        "Name": "as-Sharak (Jala)",
+        "Description": "as-Sharak (Jala)",
         "Class": "Demon",
         "Subclass": "Demon. Humanoid. Water",
         "OR": 50,
         "PR": 59,
-        "Total": 109,
+        "CER": 109,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 21,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -52,12 +52,12 @@
         "Weight": 1
     },
     {
-        "Name": "as-Sharak (Prithvi)",
+        "Description": "as-Sharak (Prithvi)",
         "Class": "Demon",
         "Subclass": "Demon. Humanoid. Earth",
         "OR": 32.5,
         "PR": 59,
-        "Total": 91.5,
+        "CER": 91.5,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 21,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -65,12 +65,12 @@
         "Weight": 1
     },
     {
-        "Name": "as-Sharak (Vayu)",
+        "Description": "as-Sharak (Vayu)",
         "Class": "Demon",
         "Subclass": "Demon. Humanoid. Wind",
         "OR": 29.5,
         "PR": 59,
-        "Total": 88.5,
+        "CER": 88.5,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 21,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -78,12 +78,12 @@
         "Weight": 1
     },
     {
-        "Name": "Crushroom",
+        "Description": "Crushroom",
         "Class": "Plant",
         "Subclass": "Plant",
         "OR": 14,
         "PR": 55,
-        "Total": 69,
+        "CER": 69,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 22,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -91,12 +91,12 @@
         "Weight": 1
     },
     {
-        "Name": "Dire Wolf",
+        "Description": "Dire Wolf",
         "Class": "Giant Animal",
         "Subclass": "Mammal",
         "OR": 14,
         "PR": 13,
-        "Total": 27,
+        "CER": 27,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 22,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -104,12 +104,12 @@
         "Weight": 1
     },
     {
-        "Name": "Alpha Dire Wolf",
+        "Description": "Alpha Dire Wolf",
         "Class": "Giant Animal",
         "Subclass": "Mammal. Leader",
         "OR": 15,
         "PR": 15,
-        "Total": 30,
+        "CER": 30,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 22,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -117,12 +117,12 @@
         "Weight": 1
     },
     {
-        "Name": "Doomchild",
+        "Description": "Doomchild",
         "Class": "Demon",
         "Subclass": "Demon. Humanoid",
         "OR": 34,
         "PR": 16,
-        "Total": 50,
+        "CER": 50,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 22,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -130,12 +130,12 @@
         "Weight": 1
     },
     {
-        "Name": "Erupting Slime",
+        "Description": "Erupting Slime",
         "Class": "Slime",
         "Subclass": "Slime",
         "OR": 11,
         "PR": 20,
-        "Total": 31,
+        "CER": 31,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 23,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -143,12 +143,12 @@
         "Weight": 1
     },
     {
-        "Name": "Flaming Skull",
+        "Description": "Flaming Skull",
         "Class": "Undead",
         "Subclass": "Undead. Skull. Fire. Flying. Aerial",
         "OR": 37,
         "PR": 48,
-        "Total": 85,
+        "CER": 85,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 23,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -156,12 +156,12 @@
         "Weight": 1
     },
     {
-        "Name": "Flesh-Eating Ape",
+        "Description": "Flesh-Eating Ape",
         "Class": "Dire Animal",
         "Subclass": "Mammal. Humanoid",
         "OR": 16,
         "PR": 14,
-        "Total": 30,
+        "CER": 30,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 23,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -169,12 +169,12 @@
         "Weight": 1
     },
     {
-        "Name": "Foul Bat",
+        "Description": "Foul Bat",
         "Class": "Dire Animal",
         "Subclass": "Mammal. Bat. Flying",
         "OR": 31,
         "PR": 5,
-        "Total": 36,
+        "CER": 36,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 23,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -182,12 +182,12 @@
         "Weight": 1
     },
     {
-        "Name": "Foul Bat Leader",
+        "Description": "Foul Bat Leader",
         "Class": "Demon",
         "Subclass": "Demon. Leader. Bat. Flying",
         "OR": 31,
         "PR": 10,
-        "Total": 41,
+        "CER": 41,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 23,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -195,12 +195,12 @@
         "Weight": 1
     },
     {
-        "Name": "Frost Snake",
+        "Description": "Frost Snake",
         "Class": "Dire Animal",
         "Subclass": "Reptile. Cold",
         "OR": 28,
         "PR": 22,
-        "Total": 50,
+        "CER": 50,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 24,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -208,12 +208,12 @@
         "Weight": 1
     },
     {
-        "Name": "Giant Rat",
+        "Description": "Giant Rat",
         "Class": "Giant Animal",
         "Subclass": "Mammal. Rat",
         "OR": 13,
         "PR": 5,
-        "Total": 18,
+        "CER": 18,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 24,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -221,12 +221,12 @@
         "Weight": 1
     },
     {
-        "Name": "Golem-Armor Swordsman",
+        "Description": "Golem-Armor Swordsman",
         "Class": "Construct",
         "Subclass": "Construct. Humanoid. Metal",
         "OR": 19,
         "PR": 33,
-        "Total": 52,
+        "CER": 52,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 24,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -234,12 +234,12 @@
         "Weight": 1
     },
     {
-        "Name": "Horde Zombie",
+        "Description": "Horde Zombie",
         "Class": "Undead",
         "Subclass": "Undead. Zombie. Humanoid",
         "OR": 4,
         "PR": 19,
-        "Total": 23,
+        "CER": 23,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 24,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -247,12 +247,12 @@
         "Weight": 1
     },
     {
-        "Name": "Mindwarper",
+        "Description": "Mindwarper",
         "Class": "Elder Thing",
         "Subclass": "Elder Thing. Humanoid",
         "OR": 61,
         "PR": 75,
-        "Total": 136,
+        "CER": 136,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 25,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -260,12 +260,12 @@
         "Weight": 1
     },
     {
-        "Name": "Peshkali",
+        "Description": "Peshkali",
         "Class": "Demon",
         "Subclass": "Demon. Humanoid",
         "OR": 31,
         "PR": 81,
-        "Total": 112,
+        "CER": 112,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 25,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -273,12 +273,12 @@
         "Weight": 1
     },
     {
-        "Name": "Siege Beast",
+        "Description": "Siege Beast",
         "Class": "Mundane",
         "Subclass": "Humanoid",
         "OR": 37,
         "PR": 42,
-        "Total": 79,
+        "CER": 79,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 25,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -286,12 +286,12 @@
         "Weight": 1
     },
     {
-        "Name": "Stone Golem",
+        "Description": "Stone Golem",
         "Class": "Construct",
         "Subclass": "Humanoid. Earth",
         "OR": 29,
         "PR": 41,
-        "Total": 70,
+        "CER": 70,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 26,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -299,12 +299,12 @@
         "Weight": 1
     },
     {
-        "Name": "Toxifier",
+        "Description": "Toxifier",
         "Class": "Demon",
         "Subclass": "Demon. Diffuse. Aerial. Flying",
         "OR": 12,
         "PR": 35,
-        "Total": 47,
+        "CER": 47,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 26,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -312,12 +312,12 @@
         "Weight": 1
     },
     {
-        "Name": "Triger",
+        "Description": "Triger",
         "Class": "Dire Animal",
         "Subclass": "Mammal. Cat",
         "OR": 32,
         "PR": 16,
-        "Total": 48,
+        "CER": 48,
         "Source1": "Dungeon Fantasy 2: Dungeons",
         "Page1": 26,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -325,12 +325,12 @@
         "Weight": 1
     },
     {
-        "Name": "Bronze Spider",
+        "Description": "Bronze Spider",
         "Class": "Construct",
         "Subclass": "Metal. Spider",
         "OR": 19,
         "PR": 31,
-        "Total": 50,
+        "CER": 50,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 5,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -338,12 +338,12 @@
         "Weight": 1
     },
     {
-        "Name": "Bugbear",
+        "Description": "Bugbear",
         "Class": "Mundane",
         "Subclass": "Humanoid",
         "OR": 16,
         "PR": 10,
-        "Total": 26,
+        "CER": 26,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 6,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -351,12 +351,12 @@
         "Weight": 1
     },
     {
-        "Name": "Ciuaclá",
+        "Description": "Ciuaclá",
         "Class": "Divine Servitor",
         "Subclass": "Humanoid",
         "OR": 57,
         "PR": 50,
-        "Total": 107,
+        "CER": 107,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 7,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -364,12 +364,12 @@
         "Weight": 1
     },
     {
-        "Name": "Corpse Golem",
+        "Description": "Corpse Golem",
         "Class": "Construct",
         "Subclass": "Flesh. Humanoid",
         "OR": 20,
         "PR": 15,
-        "Total": 35,
+        "CER": 35,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 8,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -377,12 +377,12 @@
         "Weight": 1
     },
     {
-        "Name": "Demon from Between the Stars",
+        "Description": "Demon from Between the Stars",
         "Class": "Elder Thing",
         "Subclass": "Elder Thing. Humanoid",
         "OR": 44,
         "PR": 30,
-        "Total": 74,
+        "CER": 74,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 9,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -390,12 +390,12 @@
         "Weight": 1
     },
     {
-        "Name": "Priest Demon from Between the Stars",
+        "Description": "Priest Demon from Between the Stars",
         "Class": "Elder Thing",
         "Subclass": "Elder Thing. Humanoid",
         "OR": 56,
         "PR": 30,
-        "Total": 86,
+        "CER": 86,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 9,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -403,12 +403,12 @@
         "Weight": 1
     },
     {
-        "Name": "Demon of Old",
+        "Description": "Demon of Old",
         "Class": "Demon",
         "Subclass": "Demon",
         "OR": 29,
         "PR": 57,
-        "Total": 86,
+        "CER": 86,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 10,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -416,12 +416,12 @@
         "Weight": 1
     },
     {
-        "Name": "Dinoman",
+        "Description": "Dinoman",
         "Class": "Mundane",
         "Subclass": "Humanoid. Reptile",
         "OR": 9,
         "PR": 3,
-        "Total": 12,
+        "CER": 12,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 11,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -429,12 +429,12 @@
         "Weight": 1
     },
     {
-        "Name": "Draug",
+        "Description": "Draug",
         "Class": "Undead",
         "Subclass": "Undead. Intact. Humanoid",
         "OR": 31,
         "PR": 25,
-        "Total": 56,
+        "CER": 56,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 12,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -442,12 +442,12 @@
         "Weight": 1
     },
     {
-        "Name": "Electric Jelly",
+        "Description": "Electric Jelly",
         "Class": "Dire Animal",
         "Subclass": "Bug. Lightning. Flying. Aerial. Amphibious",
         "OR": 58,
         "PR": 89,
-        "Total": 147,
+        "CER": 147,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 13,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -455,12 +455,12 @@
         "Weight": 1
     },
     {
-        "Name": "Eye of Death",
+        "Description": "Eye of Death",
         "Class": "Elder Thing",
         "Subclass": "Elder Thing. Flying. Aerial",
         "OR": 25,
         "PR": 34,
-        "Total": 59,
+        "CER": 59,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 14,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -468,12 +468,12 @@
         "Weight": 1
     },
     {
-        "Name": "Flame Lord",
+        "Description": "Flame Lord",
         "Class": "Elemental",
         "Subclass": "Fire",
         "OR": 23,
         "PR": 44,
-        "Total": 67,
+        "CER": 67,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 15,
         "Source2": "",
@@ -481,12 +481,12 @@
         "Weight": 1
     },
     {
-        "Name": "Giant Ape",
+        "Description": "Giant Ape",
         "Class": "Dire Animal",
         "Subclass": "Mammal. Humanoid",
         "OR": 33,
         "PR": 45,
-        "Total": 78,
+        "CER": 78,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 16,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -494,12 +494,12 @@
         "Weight": 1
     },
     {
-        "Name": "King of the Apes",
+        "Description": "King of the Apes",
         "Class": "Dire Animal",
         "Subclass": "Mammal. Humanoid. Leader",
         "OR": 62,
         "PR": 67,
-        "Total": 129,
+        "CER": 129,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 16,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -507,12 +507,12 @@
         "Weight": 1
     },
     {
-        "Name": "Gladiator Ape",
+        "Description": "Gladiator Ape",
         "Class": "Dire Animal",
         "Subclass": "Mammal. Humanoid",
         "OR": 21,
         "PR": 16,
-        "Total": 37,
+        "CER": 37,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 17,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -520,12 +520,12 @@
         "Weight": 1
     },
     {
-        "Name": "Horde Pygmy",
+        "Description": "Horde Pygmy",
         "Class": "Mundane",
         "Subclass": "Humanoid",
         "OR": 14,
         "PR": -4,
-        "Total": 10,
+        "CER": 10,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 18,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -533,12 +533,12 @@
         "Weight": 1
     },
     {
-        "Name": "Horrid Skull",
+        "Description": "Horrid Skull",
         "Class": "Undead",
         "Subclass": "Undead. Skull",
         "OR": 49,
         "PR": -22,
-        "Total": 27,
+        "CER": 27,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 19,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -546,12 +546,12 @@
         "Weight": 1
     },
     {
-        "Name": "Ice Wyrm",
+        "Description": "Ice Wyrm",
         "Class": "Dire Animal",
         "Subclass": "Reptile. Cold",
         "OR": 55,
         "PR": 77,
-        "Total": 132,
+        "CER": 132,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 20,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -559,12 +559,12 @@
         "Weight": 1
     },
     {
-        "Name": "Karkadann",
+        "Description": "Karkadann",
         "Class": "Animal",
         "Subclass": "Mammal",
         "OR": 49,
         "PR": 20,
-        "Total": 69,
+        "CER": 69,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 21,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -572,12 +572,12 @@
         "Weight": 1
     },
     {
-        "Name": "Leaping Leech",
+        "Description": "Leaping Leech",
         "Class": "Animal",
         "Subclass": "Bug. Aquatic",
         "OR": 8,
         "PR": -7,
-        "Total": 1,
+        "CER": 1,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 22,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -585,12 +585,12 @@
         "Weight": 1
     },
     {
-        "Name": "Lich",
+        "Description": "Lich",
         "Class": "Undead",
         "Subclass": "Undead. Skeleton. Humanoid. Leader",
         "OR": 100,
         "PR": 59,
-        "Total": 159,
+        "CER": 159,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 23,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -598,12 +598,12 @@
         "Weight": 1
     },
     {
-        "Name": "Obsidian Jaguar",
+        "Description": "Obsidian Jaguar",
         "Class": "Construct",
         "Subclass": "Glass. Cat",
         "OR": 29,
         "PR": 45,
-        "Total": 74,
+        "CER": 74,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 24,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -611,12 +611,12 @@
         "Weight": 1
     },
     {
-        "Name": "Rock Mite",
+        "Description": "Rock Mite",
         "Class": "Mundane",
         "Subclass": "Stone",
         "OR": 13,
         "PR": 53,
-        "Total": 66,
+        "CER": 66,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 25,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -624,12 +624,12 @@
         "Weight": 1
     },
     {
-        "Name": "Slorn",
+        "Description": "Slorn",
         "Class": "Dire Animal",
         "Subclass": "Reptile. Fire",
         "OR": 23,
         "PR": 40,
-        "Total": 63,
+        "CER": 63,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 26,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -637,12 +637,12 @@
         "Weight": 1
     },
     {
-        "Name": "Slugbeast",
+        "Description": "Slugbeast",
         "Class": "Dire Animal",
         "Subclass": "Bug. Acid",
         "OR": 35,
         "PR": 28,
-        "Total": 63,
+        "CER": 63,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 27,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -650,12 +650,12 @@
         "Weight": 1
     },
     {
-        "Name": "Sphere of Madness",
+        "Description": "Sphere of Madness",
         "Class": "Elder Thing",
         "Subclass": "Elder Thing",
         "OR": 30,
         "PR": 40,
-        "Total": 70,
+        "CER": 70,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 28,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -663,12 +663,12 @@
         "Weight": 1
     },
     {
-        "Name": "Sword Spirit",
+        "Description": "Sword Spirit",
         "Class": "Faerie",
         "Subclass": "Humanoid",
         "OR": 41,
         "PR": 27,
-        "Total": 68,
+        "CER": 68,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 29,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -676,12 +676,12 @@
         "Weight": 1
     },
     {
-        "Name": "Throttler",
+        "Description": "Throttler",
         "Class": "Mundane",
         "Subclass": "Humanoid. Spirit",
         "OR": 18,
         "PR": 24,
-        "Total": 42,
+        "CER": 42,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 30,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -689,12 +689,12 @@
         "Weight": 1
     },
     {
-        "Name": "Troll",
+        "Description": "Troll",
         "Class": "Mundane",
         "Subclass": "Humanoid",
         "OR": 29,
         "PR": 86,
-        "Total": 115,
+        "CER": 115,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 31,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -702,12 +702,12 @@
         "Weight": 1
     },
     {
-        "Name": "Undead Slime",
+        "Description": "Undead Slime",
         "Class": "Undead",
         "Subclass": "Undead. Slime",
         "OR": 18,
         "PR": 63,
-        "Total": 81,
+        "CER": 81,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 32,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -715,12 +715,12 @@
         "Weight": 1
     },
     {
-        "Name": "Void Brute",
+        "Description": "Void Brute",
         "Class": "Mundane",
         "Subclass": "Humanoid. Elder Thing",
         "OR": 19,
         "PR": 35,
-        "Total": 54,
+        "CER": 54,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 33,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -728,12 +728,12 @@
         "Weight": 1
     },
     {
-        "Name": "Watcher at the Edge of Time",
+        "Description": "Watcher at the Edge of Time",
         "Class": "Elder Thing",
         "Subclass": "Elder Thing. Humanoid",
         "OR": 44,
         "PR": 48,
-        "Total": 92,
+        "CER": 92,
         "Source1": "Dungeon Fantasy Monsters 1",
         "Page1": 34,
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -741,12 +741,12 @@
         "Weight": 1
     },
     {
-        "Name": "as-Sharak (Aloakasa)",
+        "Description": "as-Sharak (Aloakasa)",
         "Class": "Demon",
         "Subclass": "Demon. Humanoid. Psi",
         "OR": 20,
         "PR": 58,
-        "Total": 78,
+        "CER": 78,
         "Source1": "Dungeon Fantasy 14: Psi",
         "Page1": 41,
         "Source2": "",
@@ -754,12 +754,12 @@
         "Weight": 1
     },
     {
-        "Name": "Astral Hound",
+        "Description": "Astral Hound",
         "Class": "Elder Thing",
         "Subclass": "Elder Thing. Psi",
         "OR": 17,
         "PR": 29,
-        "Total": 46,
+        "CER": 46,
         "Source1": "Dungeon Fantasy 14: Psi",
         "Page1": 42,
         "Source2": "",
@@ -767,12 +767,12 @@
         "Weight": 1
     },
     {
-        "Name": "Astral Thing",
+        "Description": "Astral Thing",
         "Class": "Spirit",
         "Subclass": "Spirit. Extradimensional. Psi",
         "OR": 33,
         "PR": -8,
-        "Total": 25,
+        "CER": 25,
         "Source1": "Dungeon Fantasy 14: Psi",
         "Page1": 42,
         "Source2": "",
@@ -780,12 +780,12 @@
         "Weight": 1
     },
     {
-        "Name": "Chaos Monk",
+        "Description": "Chaos Monk",
         "Class": "Mundane",
         "Subclass": "Humanoid. Psi",
         "OR": 29,
         "PR": 19,
-        "Total": 48,
+        "CER": 48,
         "Source1": "Dungeon Fantasy 14: Psi",
         "Page1": 42,
         "Source2": "",
@@ -793,12 +793,12 @@
         "Weight": 1
     },
     {
-        "Name": "Flying Squid Monster",
+        "Description": "Flying Squid Monster",
         "Class": "Elder Thing",
         "Subclass": "Elder Thing. Psi. Fuzzy",
         "OR": 23,
         "PR": 37,
-        "Total": 60,
+        "CER": 60,
         "Source1": "Dungeon Fantasy 14: Psi",
         "Page1": 43,
         "Source2": "",
@@ -806,12 +806,12 @@
         "Weight": 1
     },
     {
-        "Name": "Fuzzy, Biter",
+        "Description": "Fuzzy, Biter",
         "Class": "Elder Thing",
         "Subclass": "Elder Thing. Psi. Fuzzy",
         "OR": 16,
         "PR": -7,
-        "Total": 9,
+        "CER": 9,
         "Source1": "Dungeon Fantasy 14: Psi",
         "Page1": 44,
         "Source2": "",
@@ -819,12 +819,12 @@
         "Weight": 1
     },
     {
-        "Name": "Fuzzy, Bright",
+        "Description": "Fuzzy, Bright",
         "Class": "Elder Thing",
         "Subclass": "Elder Thing. Psi. Fuzzy",
         "OR": 25,
         "PR": -7,
-        "Total": 18,
+        "CER": 18,
         "Source1": "Dungeon Fantasy 14: Psi",
         "Page1": 44,
         "Source2": "",
@@ -832,12 +832,12 @@
         "Weight": 1
     },
     {
-        "Name": "Fuzzy, Gloomy",
+        "Description": "Fuzzy, Gloomy",
         "Class": "Elder Thing",
         "Subclass": "Elder Thing. Psi. Fuzzy",
         "OR": -3,
         "PR": -7,
-        "Total": 1,
+        "CER": 1,
         "Source1": "Dungeon Fantasy 14: Psi",
         "Page1": 44,
         "Source2": "",
@@ -845,12 +845,12 @@
         "Weight": 1
     },
     {
-        "Name": "Fuzzy, Jiggly",
+        "Description": "Fuzzy, Jiggly",
         "Class": "Elder Thing",
         "Subclass": "Elder Thing. Psi. Fuzzy",
         "OR": 20,
         "PR": -7,
-        "Total": 13,
+        "CER": 13,
         "Source1": "Dungeon Fantasy 14: Psi",
         "Page1": 44,
         "Source2": "",
@@ -858,12 +858,12 @@
         "Weight": 1
     },
     {
-        "Name": "Fuzzy, Lumpy",
+        "Description": "Fuzzy, Lumpy",
         "Class": "Elder Thing",
         "Subclass": "Elder Thing. Psi. Fuzzy",
         "OR": 5,
         "PR": -7,
-        "Total": 1,
+        "CER": 1,
         "Source1": "Dungeon Fantasy 14: Psi",
         "Page1": 44,
         "Source2": "",
@@ -871,12 +871,12 @@
         "Weight": 1
     },
     {
-        "Name": "Fuzzy, Spewer",
+        "Description": "Fuzzy, Spewer",
         "Class": "Elder Thing",
         "Subclass": "Elder Thing. Psi. Fuzzy",
         "OR": 11,
         "PR": -7,
-        "Total": 4,
+        "CER": 4,
         "Source1": "Dungeon Fantasy 14: Psi",
         "Page1": 44,
         "Source2": "",
@@ -884,12 +884,12 @@
         "Weight": 1
     },
     {
-        "Name": "Neuroid",
+        "Description": "Neuroid",
         "Class": "Spirit",
         "Subclass": "Spirit. Extradimensional. Psi",
         "OR": 37,
         "PR": 52,
-        "Total": 89,
+        "CER": 89,
         "Source1": "Dungeon Fantasy 14: Psi",
         "Page1": 45,
         "Source2": "",
@@ -897,12 +897,12 @@
         "Weight": 1
     },
     {
-        "Name": "No-Brainer",
+        "Description": "No-Brainer",
         "Class": "Undead",
         "Subclass": "Undead. Humanoid. Psi",
         "OR": 4,
         "PR": 20,
-        "Total": 24,
+        "CER": 24,
         "Source1": "Dungeon Fantasy 14: Psi",
         "Page1": 45,
         "Source2": "",
@@ -910,12 +910,12 @@
         "Weight": 1
     },
     {
-        "Name": "Odifier",
+        "Description": "Odifier",
         "Class": "Demon",
         "Subclass": "Demon. Psi",
         "OR": 17,
         "PR": 38,
-        "Total": 55,
+        "CER": 55,
         "Source1": "Dungeon Fantasy 14: Psi",
         "Page1": 45,
         "Source2": "",
@@ -923,12 +923,12 @@
         "Weight": 1
     },
     {
-        "Name": "Abominable Snowman",
+        "Description": "Abominable Snowman",
         "Class": "Dire Animal",
         "Subclass": "Mammal. Humanoid",
         "OR": 19,
         "PR": 22,
-        "Total": 41,
+        "CER": 41,
         "Source1": "Pyramid #3/50: Dungeon Fantasy II",
         "Page1": 38,
         "Source2": "",
@@ -936,12 +936,12 @@
         "Weight": 1
     },
     {
-        "Name": "Animated Snowman",
+        "Description": "Animated Snowman",
         "Class": "Construct",
         "Subclass": "Cold. Humanoid",
         "OR": 9,
         "PR": 4,
-        "Total": 13,
+        "CER": 13,
         "Source1": "Pyramid #3/50: Dungeon Fantasy II",
         "Page1": 38,
         "Source2": "",
@@ -949,12 +949,12 @@
         "Weight": 1
     },
     {
-        "Name": "Horde Ninja",
+        "Description": "Horde Ninja",
         "Class": "Mundane",
         "Subclass": "Humanoid",
         "OR": 28,
         "PR": 7,
-        "Total": 35,
+        "CER": 35,
         "Source1": "Pyramid #3/70: 4th Edition Festival",
         "Page1": 32,
         "Source2": "",
@@ -962,12 +962,12 @@
         "Weight": 1
     },
     {
-        "Name": "Dire Frog",
+        "Description": "Dire Frog",
         "Class": "Dire Animal",
         "Subclass": "Amphibian. Aquatic",
         "OR": 23,
         "PR": 11,
-        "Total": 34,
+        "CER": 34,
         "Source1": "Pyramid #3/76: Dungeon Fantasy IV",
         "Page1": 31,
         "Source2": "",
@@ -975,12 +975,12 @@
         "Weight": 1
     },
     {
-        "Name": "Dire Hart",
+        "Description": "Dire Hart",
         "Class": "Dire Animal",
         "Subclass": "Mammal",
         "OR": 23,
         "PR": 17,
-        "Total": 40,
+        "CER": 40,
         "Source1": "Pyramid #3/76: Dungeon Fantasy IV",
         "Page1": 30,
         "Source2": "",
@@ -988,12 +988,12 @@
         "Weight": 1
     },
     {
-        "Name": "Fetusoid",
+        "Description": "Fetusoid",
         "Class": "Elder Thing",
         "Subclass": "Elder Thing. Humanoid. Living Room",
         "OR": 14,
         "PR": 23,
-        "Total": 37,
+        "CER": 37,
         "Source1": "Pyramid #3/76: Dungeon Fantasy IV",
         "Page1": 23,
         "Source2": "",
@@ -1001,12 +1001,12 @@
         "Weight": 1
     },
     {
-        "Name": "Hungry Room",
+        "Description": "Hungry Room",
         "Class": "Elder Thing",
         "Subclass": "Elder Thing. Living Room. Sessile",
         "OR": 21,
         "PR": 112,
-        "Total": 133,
+        "CER": 133,
         "Source1": "Pyramid #3/76: Dungeon Fantasy IV",
         "Page1": 21,
         "Source2": "",
@@ -1014,12 +1014,12 @@
         "Weight": 1
     },
     {
-        "Name": "Intruder",
+        "Description": "Intruder",
         "Class": "Elder Thing",
         "Subclass": "Elder Thing. Humanoid. Psi",
         "OR": 42,
         "PR": 57,
-        "Total": 99,
+        "CER": 99,
         "Source1": "Pyramid #3/76: Dungeon Fantasy IV",
         "Page1": 9,
         "Source2": "",
@@ -1027,12 +1027,12 @@
         "Weight": 1
     },
     {
-        "Name": "Pscorpion",
+        "Description": "Pscorpion",
         "Class": "Dire Animal",
         "Subclass": "Bug. Psi",
         "OR": 26,
         "PR": 27,
-        "Total": 53,
+        "CER": 53,
         "Source1": "Pyramid #3/76: Dungeon Fantasy IV",
         "Page1": 10,
         "Source2": "",
@@ -1040,12 +1040,12 @@
         "Weight": 1
     },
     {
-        "Name": "Pyro-Tiger",
+        "Description": "Pyro-Tiger",
         "Class": "Dire Animal",
         "Subclass": "Mammal. Cat. Fire",
         "OR": 55,
         "PR": 15,
-        "Total": 70,
+        "CER": 70,
         "Source1": "Pyramid #3/76: Dungeon Fantasy IV",
         "Page1": 11,
         "Source2": "",
@@ -1053,12 +1053,12 @@
         "Weight": 1
     },
     {
-        "Name": "Terrible Dire Bunny",
+        "Description": "Terrible Dire Bunny",
         "Class": "Terrible Dire Animal",
         "Subclass": "Mammal",
         "OR": 52,
         "PR": 13,
-        "Total": 65,
+        "CER": 65,
         "Source1": "Pyramid #3/76: Dungeon Fantasy IV",
         "Page1": 32,
         "Source2": "",
@@ -1066,12 +1066,12 @@
         "Weight": 1
     },
     {
-        "Name": "Terribly Dire Wolverine",
+        "Description": "Terribly Dire Wolverine",
         "Class": "Terrible Dire Animal",
         "Subclass": "Mammal. Humanoid",
         "OR": 69,
         "PR": 65,
-        "Total": 134,
+        "CER": 134,
         "Source1": "Pyramid #3/76: Dungeon Fantasy IV",
         "Page1": 33,
         "Source2": "",
@@ -1079,12 +1079,12 @@
         "Weight": 1
     },
     {
-        "Name": "Terrible Hedge",
+        "Description": "Terrible Hedge",
         "Class": "Terrible Plant",
         "Subclass": "Plant. Sessile",
         "OR": 315,
         "PR": 8,
-        "Total": 323,
+        "CER": 323,
         "Source1": "Pyramid #3/76: Dungeon Fantasy IV",
         "Page1": 32,
         "Source2": "",
@@ -1092,12 +1092,12 @@
         "Weight": 1
     },
     {
-        "Name": "Terrible Terrier",
+        "Description": "Terrible Terrier",
         "Class": "Terrible Animal",
         "Subclass": "Mammal",
         "OR": 18,
         "PR": 3,
-        "Total": 21,
+        "CER": 21,
         "Source1": "Pyramid #3/76: Dungeon Fantasy IV",
         "Page1": 31,
         "Source2": "",
@@ -1105,12 +1105,12 @@
         "Weight": 1
     },
     {
-        "Name": "Terrible Whipping Willow",
+        "Description": "Terrible Whipping Willow",
         "Class": "Terrible Plant",
         "Subclass": "Plant. Sessile",
         "OR": 315,
         "PR": 76,
-        "Total": 391,
+        "CER": 391,
         "Source1": "Pyramid #3/76: Dungeon Fantasy IV",
         "Page1": 32,
         "Source2": "",
@@ -1118,12 +1118,12 @@
         "Weight": 1
     },
     {
-        "Name": "Bear",
+        "Description": "Bear",
         "Class": "Animal",
         "Subclass": "Mammal. Bear",
         "OR": 18.5,
         "PR": 17,
-        "Total": 35.5,
+        "CER": 35.5,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1131,12 +1131,12 @@
         "Weight": 1
     },
     {
-        "Name": "Cave Bear",
+        "Description": "Cave Bear",
         "Class": "Animal",
         "Subclass": "Mammal. Bear",
         "OR": 21.5,
         "PR": 21,
-        "Total": 42.5,
+        "CER": 42.5,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1144,12 +1144,12 @@
         "Weight": 1
     },
     {
-        "Name": "Air Elemental",
+        "Description": "Air Elemental",
         "Class": "Elemental",
         "Subclass": "Elemental. Air. Flying",
         "OR": 51,
         "PR": 33,
-        "Total": 84,
+        "CER": 84,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1157,12 +1157,12 @@
         "Weight": 1
     },
     {
-        "Name": "Earth Elemental",
+        "Description": "Earth Elemental",
         "Class": "Elemental",
         "Subclass": "Elemental. Earth",
         "OR": 13,
         "PR": 42,
-        "Total": 55,
+        "CER": 55,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1170,12 +1170,12 @@
         "Weight": 1
     },
     {
-        "Name": "Fire Elemental",
+        "Description": "Fire Elemental",
         "Class": "Elemental",
         "Subclass": "Elemental. Fire",
         "OR": 23,
         "PR": 43,
-        "Total": 66,
+        "CER": 66,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1183,12 +1183,12 @@
         "Weight": 1
     },
     {
-        "Name": "Water Elemental",
+        "Description": "Water Elemental",
         "Class": "Elemental",
         "Subclass": "Elemental. Water",
         "OR": 11,
         "PR": 38,
-        "Total": 49,
+        "CER": 49,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1196,12 +1196,12 @@
         "Weight": 1
     },
     {
-        "Name": "Dragon, Small acid",
+        "Description": "Dragon, Small acid",
         "Class": "Mundane",
         "Subclass": "Dragon. acid. Flying",
         "OR": 46,
         "PR": 39,
-        "Total": 85,
+        "CER": 85,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1209,12 +1209,12 @@
         "Weight": 1
     },
     {
-        "Name": "Dragon, Small cold",
+        "Description": "Dragon, Small cold",
         "Class": "Mundane",
         "Subclass": "Dragon. cold. Flying",
         "OR": 36,
         "PR": 39,
-        "Total": 75,
+        "CER": 75,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1222,12 +1222,12 @@
         "Weight": 1
     },
     {
-        "Name": "Dragon, Small fire",
+        "Description": "Dragon, Small fire",
         "Class": "Mundane",
         "Subclass": "Dragon. fire. Flying",
         "OR": 36,
         "PR": 39,
-        "Total": 75,
+        "CER": 75,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1235,12 +1235,12 @@
         "Weight": 1
     },
     {
-        "Name": "Dragon, Small poison",
+        "Description": "Dragon, Small poison",
         "Class": "Mundane",
         "Subclass": "Dragon. poison. Flying",
         "OR": 51,
         "PR": 39,
-        "Total": 90,
+        "CER": 90,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1248,12 +1248,12 @@
         "Weight": 1
     },
     {
-        "Name": "Dragon, medium acid",
+        "Description": "Dragon, medium acid",
         "Class": "Mundane",
         "Subclass": "Dragon. acid. Flying",
         "OR": 78,
         "PR": 55,
-        "Total": 133,
+        "CER": 133,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1261,12 +1261,12 @@
         "Weight": 1
     },
     {
-        "Name": "Dragon, medium cold",
+        "Description": "Dragon, medium cold",
         "Class": "Mundane",
         "Subclass": "Dragon. cold. Flying",
         "OR": 68,
         "PR": 55,
-        "Total": 123,
+        "CER": 123,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1274,12 +1274,12 @@
         "Weight": 1
     },
     {
-        "Name": "Dragon, medium fire",
+        "Description": "Dragon, medium fire",
         "Class": "Mundane",
         "Subclass": "Dragon. fire. Flying",
         "OR": 68,
         "PR": 55,
-        "Total": 123,
+        "CER": 123,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1287,12 +1287,12 @@
         "Weight": 1
     },
     {
-        "Name": "Dragon, medium poison",
+        "Description": "Dragon, medium poison",
         "Class": "Mundane",
         "Subclass": "Dragon. poison. Flying",
         "OR": 83,
         "PR": 61,
-        "Total": 144,
+        "CER": 144,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1300,12 +1300,12 @@
         "Weight": 1
     },
     {
-        "Name": "Dragon, large acid",
+        "Description": "Dragon, large acid",
         "Class": "Mundane",
         "Subclass": "Dragon. acid. Flying",
         "OR": 102,
         "PR": 76,
-        "Total": 178,
+        "CER": 178,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1313,12 +1313,12 @@
         "Weight": 1
     },
     {
-        "Name": "Dragon, large cold",
+        "Description": "Dragon, large cold",
         "Class": "Mundane",
         "Subclass": "Dragon. cold. Flying",
         "OR": 92,
         "PR": 76,
-        "Total": 168,
+        "CER": 168,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1326,12 +1326,12 @@
         "Weight": 1
     },
     {
-        "Name": "Dragon, large fire",
+        "Description": "Dragon, large fire",
         "Class": "Mundane",
         "Subclass": "Dragon. fire. Flying",
         "OR": 92,
         "PR": 76,
-        "Total": 168,
+        "CER": 168,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1339,12 +1339,12 @@
         "Weight": 1
     },
     {
-        "Name": "Dragon, large poison",
+        "Description": "Dragon, large poison",
         "Class": "Mundane",
         "Subclass": "Dragon. poison",
         "OR": 107,
         "PR": 82,
-        "Total": 189,
+        "CER": 189,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1352,12 +1352,12 @@
         "Weight": 1
     },
     {
-        "Name": "Giant Constrictor",
+        "Description": "Giant Constrictor",
         "Class": "Giant Animal",
         "Subclass": "Reptile. Snake",
         "OR": 24,
         "PR": 23,
-        "Total": 47,
+        "CER": 47,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1365,12 +1365,12 @@
         "Weight": 1
     },
     {
-        "Name": "Giant Viper",
+        "Description": "Giant Viper",
         "Class": "Giant Animal",
         "Subclass": "Reptile. Snake. Poison",
         "OR": 17,
         "PR": 8,
-        "Total": 25,
+        "CER": 25,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1378,12 +1378,12 @@
         "Weight": 1
     },
     {
-        "Name": "Giant Spider, big",
+        "Description": "Giant Spider, big",
         "Class": "Giant Animal",
         "Subclass": "Spider. Poison",
         "OR": 41,
         "PR": -1,
-        "Total": 40,
+        "CER": 40,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1391,12 +1391,12 @@
         "Weight": 1
     },
     {
-        "Name": "Giant Spider, huge",
+        "Description": "Giant Spider, huge",
         "Class": "Giant Animal",
         "Subclass": "Spider. Poison",
         "OR": 46,
         "PR": 7,
-        "Total": 53,
+        "CER": 53,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1404,12 +1404,12 @@
         "Weight": 1
     },
     {
-        "Name": "Giant Spider, humongous",
+        "Description": "Giant Spider, humongous",
         "Class": "Giant Animal",
         "Subclass": "Spider. Poison",
         "OR": 53,
         "PR": 16,
-        "Total": 69,
+        "CER": 69,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1417,12 +1417,12 @@
         "Weight": 1
     },
     {
-        "Name": "Goblin",
+        "Description": "Goblin",
         "Class": "Mundane",
         "Subclass": "Humanoid. Goblin-kin",
         "OR": 23,
         "PR": 7,
-        "Total": 30,
+        "CER": 30,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1430,12 +1430,12 @@
         "Weight": 1
     },
     {
-        "Name": "Hobgoblin",
+        "Description": "Hobgoblin",
         "Class": "Mundane",
         "Subclass": "Humanoid. Goblin-kin",
         "OR": 14,
         "PR": 13,
-        "Total": 27,
+        "CER": 27,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1443,12 +1443,12 @@
         "Weight": 1
     },
     {
-        "Name": "Orc",
+        "Description": "Orc",
         "Class": "Mundane",
         "Subclass": "Humanoid. Goblin-kin",
         "OR": 13,
         "PR": 10,
-        "Total": 23,
+        "CER": 23,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1456,12 +1456,12 @@
         "Weight": 1
     },
     {
-        "Name": "Gryphon",
+        "Description": "Gryphon",
         "Class": "Hybrid",
         "Subclass": "Animal. bird. cat. Flying",
         "OR": 40.5,
         "PR": 15,
-        "Total": 55.5,
+        "CER": 55.5,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1469,12 +1469,12 @@
         "Weight": 1
     },
     {
-        "Name": "Gargoyle",
+        "Description": "Gargoyle",
         "Class": "Mundane",
         "Subclass": "Humanoid. Flying",
         "OR": 21,
         "PR": 7,
-        "Total": 28,
+        "CER": 28,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1482,12 +1482,12 @@
         "Weight": 1
     },
     {
-        "Name": "Hellhound",
+        "Description": "Hellhound",
         "Class": "Demon",
         "Subclass": "Dog. Fire.",
         "OR": 18.5,
         "PR": 8,
-        "Total": 26.5,
+        "CER": 26.5,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1495,12 +1495,12 @@
         "Weight": 1
     },
     {
-        "Name": "Ice Weasel",
+        "Description": "Ice Weasel",
         "Class": "Dire Animal",
         "Subclass": "Ice. Mammal",
         "OR": 83,
         "PR": 6,
-        "Total": 89,
+        "CER": 89,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1508,12 +1508,12 @@
         "Weight": 1
     },
     {
-        "Name": "Jelly, SM+1",
+        "Description": "Jelly, SM+1",
         "Class": "Slime",
         "Subclass": "Acid. Bug. Slime",
         "OR": 48,
         "PR": 46,
-        "Total": 94,
+        "CER": 94,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1521,12 +1521,12 @@
         "Weight": 1
     },
     {
-        "Name": "Jelly, SM+2",
+        "Description": "Jelly, SM+2",
         "Class": "Slime",
         "Subclass": "Acid. Bug. Slime",
         "OR": 48,
         "PR": 56,
-        "Total": 104,
+        "CER": 104,
         "Source1": "",
         "Page1": "",
         "Source2": "",
@@ -1534,12 +1534,12 @@
         "Weight": 1
     },
     {
-        "Name": "Jelly, SM+3",
+        "Description": "Jelly, SM+3",
         "Class": "Slime",
         "Subclass": "Acid. Bug. Slime",
         "OR": 48,
         "PR": 66,
-        "Total": 114,
+        "CER": 114,
         "Source1": "",
         "Page1": "",
         "Source2": "",
@@ -1547,12 +1547,12 @@
         "Weight": 1
     },
     {
-        "Name": "Jelly, SM+4",
+        "Description": "Jelly, SM+4",
         "Class": "Slime",
         "Subclass": "Acid. Bug. Slime",
         "OR": 48,
         "PR": 81,
-        "Total": 129,
+        "CER": 129,
         "Source1": "",
         "Page1": "",
         "Source2": "",
@@ -1560,12 +1560,12 @@
         "Weight": 1
     },
     {
-        "Name": "Lizard Man",
+        "Description": "Lizard Man",
         "Class": "Mundane",
         "Subclass": "Humanoid. Reptile. Sand. Swamp",
         "OR": 23,
         "PR": 7,
-        "Total": 30,
+        "CER": 30,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1573,12 +1573,12 @@
         "Weight": 1
     },
     {
-        "Name": "Minotaur",
+        "Description": "Minotaur",
         "Class": "Mundane",
         "Subclass": "Humanoid. Mammal.",
         "OR": 27,
         "PR": 13,
-        "Total": 40,
+        "CER": 40,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1586,12 +1586,12 @@
         "Weight": 1
     },
     {
-        "Name": "Ogre",
+        "Description": "Ogre",
         "Class": "Mundane",
         "Subclass": "Humanoid. Mammal.",
         "OR": 27,
         "PR": 14,
-        "Total": 41,
+        "CER": 41,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1599,12 +1599,12 @@
         "Weight": 1
     },
     {
-        "Name": "Ooze",
+        "Description": "Ooze",
         "Class": "Slime",
         "Subclass": "Slime. Bug. Acid",
         "OR": "",
         "PR": "",
-        "Total": 1,
+        "CER": 1,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1612,12 +1612,12 @@
         "Weight": 1
     },
     {
-        "Name": "Pudding, Black",
+        "Description": "Pudding, Black",
         "Class": "Slime",
         "Subclass": "Slime.Bug. Acid",
         "OR": "",
         "PR": "",
-        "Total": 1,
+        "CER": 1,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1625,12 +1625,12 @@
         "Weight": 1
     },
     {
-        "Name": "Pudding, Brown",
+        "Description": "Pudding, Brown",
         "Class": "Slime",
         "Subclass": "Slime.Bug. Acid. Sand",
         "OR": "",
         "PR": "",
-        "Total": 1,
+        "CER": 1,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1638,12 +1638,12 @@
         "Weight": 1
     },
     {
-        "Name": "Pudding, Gray",
+        "Description": "Pudding, Gray",
         "Class": "Slime",
         "Subclass": "Slime.Bug. Acid Astral",
         "OR": "",
         "PR": "",
-        "Total": 1,
+        "CER": 1,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1651,12 +1651,12 @@
         "Weight": 1
     },
     {
-        "Name": "Pudding, Green",
+        "Description": "Pudding, Green",
         "Class": "Slime",
         "Subclass": "Slime.Bug. Acid. Amphibious. Swamp. Poison",
         "OR": "",
         "PR": "",
-        "Total": 1,
+        "CER": 1,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1664,12 +1664,12 @@
         "Weight": 1
     },
     {
-        "Name": "Pudding, Red",
+        "Description": "Pudding, Red",
         "Class": "Slime",
         "Subclass": "Slime.Bug. Acid. Fire",
         "OR": "",
         "PR": "",
-        "Total": 1,
+        "CER": 1,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1677,12 +1677,12 @@
         "Weight": 1
     },
     {
-        "Name": "Pudding, White",
+        "Description": "Pudding, White",
         "Class": "Slime",
         "Subclass": "Slime.Bug. Acid. Ice",
         "OR": "",
         "PR": "",
-        "Total": 1,
+        "CER": 1,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1690,12 +1690,12 @@
         "Weight": 1
     },
     {
-        "Name": "Skeleton",
+        "Description": "Skeleton",
         "Class": "Undead",
         "Subclass": "Humanoid. Skeleton",
         "OR": 19,
         "PR": 7,
-        "Total": 26,
+        "CER": 26,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1703,12 +1703,12 @@
         "Weight": 1
     },
     {
-        "Name": "Slime",
+        "Description": "Slime",
         "Class": "Slime",
         "Subclass": "Acid. Bug. Slime. Poison",
         "OR": "",
         "PR": "",
-        "Total": 1,
+        "CER": 1,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1716,12 +1716,12 @@
         "Weight": 1
     },
     {
-        "Name": "Specter",
+        "Description": "Specter",
         "Class": "Undead",
         "Subclass": "Ghost. Insubstantial.",
         "OR": 112.5,
         "PR": 63,
-        "Total": 175.5,
+        "CER": 175.5,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1729,12 +1729,12 @@
         "Weight": 1
     },
     {
-        "Name": "Spirit Guardian",
+        "Description": "Spirit Guardian",
         "Class": "Spirit",
         "Subclass": "Insubstantial, Spirit, Aerial. Flying",
         "OR": 10,
         "PR": 63,
-        "Total": 73,
+        "CER": 73,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1742,12 +1742,12 @@
         "Weight": 1
     },
     {
-        "Name": "Swarm, Army Ants",
+        "Description": "Swarm, Army Ants",
         "Class": "Animal",
         "Subclass": "Swarm. Bug",
         "OR": "",
         "PR": "",
-        "Total": 1,
+        "CER": 1,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1755,12 +1755,12 @@
         "Weight": 1
     },
     {
-        "Name": "Swarm, Bats",
+        "Description": "Swarm, Bats",
         "Class": "Animal",
         "Subclass": "Swarm. Mammal. Flying",
         "OR": "",
         "PR": "",
-        "Total": 1,
+        "CER": 1,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1768,12 +1768,12 @@
         "Weight": 1
     },
     {
-        "Name": "Swarm, Bees",
+        "Description": "Swarm, Bees",
         "Class": "Animal",
         "Subclass": "Swarm. Bug. Poison",
         "OR": "",
         "PR": "",
-        "Total": 1,
+        "CER": 1,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1781,12 +1781,12 @@
         "Weight": 1
     },
     {
-        "Name": "Swarm, Birds",
+        "Description": "Swarm, Birds",
         "Class": "Animal",
         "Subclass": "Swarm. Bird. Flying",
         "OR": "",
         "PR": "",
-        "Total": 1,
+        "CER": 1,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1794,12 +1794,12 @@
         "Weight": 1
     },
     {
-        "Name": "Swarm, Centipedes",
+        "Description": "Swarm, Centipedes",
         "Class": "Animal",
         "Subclass": "Swarm. Poison. Bug",
         "OR": "",
         "PR": "",
-        "Total": 1,
+        "CER": 1,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1807,12 +1807,12 @@
         "Weight": 1
     },
     {
-        "Name": "Swarm, Scorpions",
+        "Description": "Swarm, Scorpions",
         "Class": "Animal",
         "Subclass": "Swarm. Poison. Bug",
         "OR": "",
         "PR": "",
-        "Total": 1,
+        "CER": 1,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1820,12 +1820,12 @@
         "Weight": 1
     },
     {
-        "Name": "Swarm, Spiders",
+        "Description": "Swarm, Spiders",
         "Class": "Animal",
         "Subclass": "Swarm. Poison. Bug",
         "OR": "",
         "PR": "",
-        "Total": 1,
+        "CER": 1,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1833,12 +1833,12 @@
         "Weight": 1
     },
     {
-        "Name": "Swarm, Fire Ants",
+        "Description": "Swarm, Fire Ants",
         "Class": "Animal",
         "Subclass": "Swarm. Poison. Bug",
         "OR": "",
         "PR": "",
-        "Total": 1,
+        "CER": 1,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1846,12 +1846,12 @@
         "Weight": 1
     },
     {
-        "Name": "Swarm, Hornets",
+        "Description": "Swarm, Hornets",
         "Class": "Animal",
         "Subclass": "Swarm. Poison. Bug",
         "OR": "",
         "PR": "",
-        "Total": 1,
+        "CER": 1,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1859,12 +1859,12 @@
         "Weight": 1
     },
     {
-        "Name": "Swarm, Wasps",
+        "Description": "Swarm, Wasps",
         "Class": "Animal",
         "Subclass": "Swarm. Poison. Bug",
         "OR": "",
         "PR": "",
-        "Total": 1,
+        "CER": 1,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1872,12 +1872,12 @@
         "Weight": 1
     },
     {
-        "Name": "Swarm, Mosquitoes",
+        "Description": "Swarm, Mosquitoes",
         "Class": "Animal",
         "Subclass": "Swarm. Bug",
         "OR": "",
         "PR": "",
-        "Total": 1,
+        "CER": 1,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1885,12 +1885,12 @@
         "Weight": 1
     },
     {
-        "Name": "Swarm, Piranha",
+        "Description": "Swarm, Piranha",
         "Class": "Animal",
         "Subclass": "Swarm. Fish. Aquatic",
         "OR": "",
         "PR": "",
-        "Total": 1,
+        "CER": 1,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1898,12 +1898,12 @@
         "Weight": 1
     },
     {
-        "Name": "Swarm, Rats",
+        "Description": "Swarm, Rats",
         "Class": "Animal",
         "Subclass": "Swarm. Mammal",
         "OR": "",
         "PR": "",
-        "Total": 1,
+        "CER": 1,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1911,12 +1911,12 @@
         "Weight": 1
     },
     {
-        "Name": "Swarm, Small Snakes",
+        "Description": "Swarm, Small Snakes",
         "Class": "Animal",
         "Subclass": "Swarm. Reptile",
         "OR": "",
         "PR": "",
-        "Total": 1,
+        "CER": 1,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1924,12 +1924,12 @@
         "Weight": 1
     },
     {
-        "Name": "Tiger",
+        "Description": "Tiger",
         "Class": "Animal",
         "Subclass": "Mammal. Cat",
         "OR": 19,
         "PR": 13,
-        "Total": 32,
+        "CER": 32,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1937,12 +1937,12 @@
         "Weight": 1
     },
     {
-        "Name": "Vampire",
+        "Description": "Vampire",
         "Class": "Undead",
         "Subclass": "Humanoid. Vampire. Undead.",
         "OR": 31,
         "PR": 37,
-        "Total": 68,
+        "CER": 68,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1950,12 +1950,12 @@
         "Weight": 1
     },
     {
-        "Name": "Werewolf",
+        "Description": "Werewolf",
         "Class": "Mundane",
         "Subclass": "Mammal. Lycanthrope. Humanoid",
         "OR": 21,
         "PR": 51,
-        "Total": 72,
+        "CER": 72,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1963,12 +1963,12 @@
         "Weight": 1
     },
     {
-        "Name": "Wildman",
+        "Description": "Wildman",
         "Class": "Mundane",
         "Subclass": "Mammal. Humanoid. Leader",
         "OR": 12,
         "PR": 5,
-        "Total": 17,
+        "CER": 17,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
@@ -1976,12 +1976,12 @@
         "Weight": 1
     },
     {
-        "Name": "Zombie",
+        "Description": "Zombie",
         "Class": "Undead",
         "Subclass": "Humanoid. Zombie",
         "OR": 13,
         "PR": 21,
-        "Total": 34,
+        "CER": 34,
         "Source1": "",
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",

@@ -69,11 +69,11 @@
                     <input type="checkbox" name="remote_treasure" id="remote_treasure" onclick="remote_reaction();" /> <label for="remote_treasure">Use remote treasure service?</label>
                     <input type="button" value="Save as PNG" onclick="save_map();" />
                     &nbsp; <input type="button" value="Print" onclick="window.print();" />
+                    <div class="center"><p id="remote_treasure_notice">Remote treasure service disabled</p></div>
                 </td>
             </tr>
         </table>
     </form>
-    <div class="center"><p id="remote_treasure_notice">Remote treasure service disabled</p></div>
     <div class="center">
         <h1 id="dungeon_title" class="title"></h1>
         <canvas id="map" width="1" height="1">Your web browser does not appear to support the HTML5 &lt;canvas&gt; element.</canvas>
@@ -107,6 +107,8 @@
     <script type="text/javascript" src="lib/gen_data.js"></script>
     <script type="text/javascript" src="lib/name_set.js"></script>
     <script type="text/javascript" src="lib/canvas.js"></script>
+    <script type="text/javascript" src="lib/dungeon_types.js"></script>
+    <script type="text/javascript" src="lib/CER_encounter.js"></script>
     <script type="text/javascript" src="lib/dungeon.js"></script>
     <div id="debug"></div>
 </body>
