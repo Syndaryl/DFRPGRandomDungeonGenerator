@@ -11,8 +11,7 @@
             "Weight": 15,
             "Description": "Fodder",
             N: {
-                "min": 3,
-                "max": 11
+                "min": 3
             }
         },
         {
@@ -51,8 +50,7 @@
             "Weight": 20,
             "Description": "Fodder",
             N: {
-                "min": 3,
-                "max": 11
+                "min": 3
             }
         },
         {
@@ -89,15 +87,14 @@
             }
         },
         {
-            "Weight": 30,
+            "Weight": 2,
             "Description": "Fodder",
             N: {
-                "min": 3,
-                "max": 11
+                "min": 3
             }
         },
         {
-            "Weight": 20,
+            "Weight": 4,
             "Description": "Worthy",
             N: {
                 "min": 0.5,
@@ -105,7 +102,7 @@
             }
         },
         {
-            "Weight": 3,
+            "Weight": 1,
             "Description": "Boss",
             N: {
                 "min": 0.1,
@@ -174,12 +171,11 @@
             "Weight": 2,
             "Description": "Fodder",
             N: {
-                "min": 3,
-                "max": 11
+                "min": 3
             }
         },
         {
-            "Weight": 7,
+            "Weight": 15,
             "Description": "Worthy",
             N: {
                 "min": 0.5,
@@ -195,7 +191,7 @@
             }
         },
         {
-            "Weight": 2,
+            "Weight": 5,
             "Description": "Epic",
             N: {
                 "max": 0.1
