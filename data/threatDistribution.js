@@ -130,8 +130,7 @@
             "Weight": 15,
             "Description": "Fodder",
             N: {
-                "min": 3,
-                "max": 11
+                "min": 3
             }
         },
         {
