@@ -1,4 +1,37 @@
-﻿var threat_distribution = {
+﻿var threats = [
+    {
+        "Name": "nuisance",
+        "NgtX": 11,
+        "Treasure": 0.25,
+        "Description": "The monsters are pests or a diversion of some kind."
+    },
+    {
+        "Name": "fodder",
+        "NgtX": 3,
+        "Treasure": 0.5,
+        "Description": "The enemy may wear down the PCs, but will rarely beat them."
+    },
+    {
+        "Name": "worthy",
+        "NgtX": 0.5,
+        "Treasure": 1,
+        "Description": "This fight is roughly even."
+    },
+    {
+        "Name": "boss",
+        "NgtX": 0.1,
+        "Treasure": 5,
+        "Description": "The enemy outmatches the party, who will need luck and quick wits to win."
+    },
+    {
+        "Name": "epic",
+        "NgtX": 0,
+        "Treasure": 20,
+        "Description": "Only luck, emergency one-use magic, or unexpected reinforcements will save the heroes!"
+    }
+];
+
+var threat_distribution = {
     "cakewalk": [
         {
             "Weight": 50,
