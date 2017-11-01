@@ -10,7 +10,8 @@
         "Page1": 21,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 16,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 2
     },
     {
         "Description": "as-Sharak (Agni)",
@@ -23,7 +24,8 @@
         "Page1": 21,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 16,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "as-Sharak (Akasha)",
@@ -36,7 +38,8 @@
         "Page1": 21,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 16,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "as-Sharak (Jala)",
@@ -49,7 +52,8 @@
         "Page1": 21,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 16,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "as-Sharak (Prithvi)",
@@ -62,7 +66,8 @@
         "Page1": 21,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 16,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "as-Sharak (Vayu)",
@@ -75,7 +80,8 @@
         "Page1": 21,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 16,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Crushroom",
@@ -88,7 +94,8 @@
         "Page1": 22,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 19,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Dire Wolf",
@@ -101,7 +108,8 @@
         "Page1": 22,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 19,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Alpha Dire Wolf",
@@ -114,7 +122,8 @@
         "Page1": 22,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 21,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Doomchild",
@@ -127,7 +136,8 @@
         "Page1": 22,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 21,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Erupting Slime",
@@ -140,7 +150,8 @@
         "Page1": 23,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 26,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Flaming Skull",
@@ -153,7 +164,8 @@
         "Page1": 23,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 27,
-        "Weight": 1
+        "Weight": 1,
+        "SM": -5
     },
     {
         "Description": "Flesh-Eating Ape",
@@ -166,7 +178,8 @@
         "Page1": 23,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 27,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Foul Bat",
@@ -179,7 +192,8 @@
         "Page1": 23,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 28,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Foul Bat Leader",
@@ -192,7 +206,8 @@
         "Page1": 23,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 28,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Frost Snake",
@@ -205,7 +220,8 @@
         "Page1": 24,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 28,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Giant Rat",
@@ -218,7 +234,8 @@
         "Page1": 24,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 30,
-        "Weight": 1
+        "Weight": 1,
+        "SM": -1
     },
     {
         "Description": "Golem-Armor Swordsman",
@@ -231,7 +248,8 @@
         "Page1": 24,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 35,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Horde Zombie",
@@ -244,7 +262,8 @@
         "Page1": 24,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 36,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Mindwarper",
@@ -257,7 +276,8 @@
         "Page1": 25,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 41,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Peshkali",
@@ -270,7 +290,8 @@
         "Page1": 25,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 45,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Siege Beast",
@@ -283,7 +304,8 @@
         "Page1": 25,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 47,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 2
     },
     {
         "Description": "Stone Golem",
@@ -296,7 +318,8 @@
         "Page1": 26,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 54,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Toxifier",
@@ -309,7 +332,8 @@
         "Page1": 26,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 56,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Triger",
@@ -322,7 +346,8 @@
         "Page1": 26,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 57,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Bronze Spider",
@@ -335,7 +360,8 @@
         "Page1": 5,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 17,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Bugbear",
@@ -348,7 +374,8 @@
         "Page1": 6,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 17,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Ciuaclá",
@@ -361,7 +388,8 @@
         "Page1": 7,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 18,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Corpse Golem",
@@ -374,7 +402,8 @@
         "Page1": 8,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 18,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Demon from Between the Stars",
@@ -387,7 +416,8 @@
         "Page1": 9,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 19,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Priest Demon from Between the Stars",
@@ -400,7 +430,8 @@
         "Page1": 9,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 19,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Demon of Old",
@@ -413,7 +444,8 @@
         "Page1": 10,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 20,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Dinoman",
@@ -426,7 +458,8 @@
         "Page1": 11,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 20,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Draug",
@@ -439,7 +472,8 @@
         "Page1": 12,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 23,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Electric Jelly",
@@ -452,7 +486,8 @@
         "Page1": 13,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 24,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 3
     },
     {
         "Description": "Eye of Death",
@@ -465,7 +500,8 @@
         "Page1": 14,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 26,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Flame Lord",
@@ -478,7 +514,8 @@
         "Page1": 15,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Giant Ape",
@@ -491,7 +528,8 @@
         "Page1": 16,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 30,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 4
     },
     {
         "Description": "King of the Apes",
@@ -504,7 +542,8 @@
         "Page1": 16,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 30,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 5
     },
     {
         "Description": "Gladiator Ape",
@@ -517,7 +556,8 @@
         "Page1": 17,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 32,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Horde Pygmy",
@@ -530,7 +570,8 @@
         "Page1": 18,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 36,
-        "Weight": 1
+        "Weight": 1,
+        "SM": -2
     },
     {
         "Description": "Horrid Skull",
@@ -543,7 +584,8 @@
         "Page1": 19,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 37,
-        "Weight": 1
+        "Weight": 1,
+        "SM": -5
     },
     {
         "Description": "Ice Wyrm",
@@ -556,7 +598,8 @@
         "Page1": 20,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 38,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 5
     },
     {
         "Description": "Karkadann",
@@ -569,7 +612,8 @@
         "Page1": 21,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 39,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Leaping Leech",
@@ -582,7 +626,8 @@
         "Page1": 22,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 40,
-        "Weight": 1
+        "Weight": 1,
+        "SM": -9
     },
     {
         "Description": "Lich",
@@ -595,7 +640,8 @@
         "Page1": 23,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 40,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Obsidian Jaguar",
@@ -608,7 +654,8 @@
         "Page1": 24,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 43,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Rock Mite",
@@ -621,7 +668,8 @@
         "Page1": 25,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 47,
-        "Weight": 1
+        "Weight": 1,
+        "SM": -1
     },
     {
         "Description": "Slorn",
@@ -634,7 +682,8 @@
         "Page1": 26,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 49,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 2
     },
     {
         "Description": "Slugbeast",
@@ -647,7 +696,8 @@
         "Page1": 27,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 50,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 2
     },
     {
         "Description": "Sphere of Madness",
@@ -660,7 +710,8 @@
         "Page1": 28,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 51,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Sword Spirit",
@@ -673,7 +724,8 @@
         "Page1": 29,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 55,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Throttler",
@@ -686,7 +738,8 @@
         "Page1": 30,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 55,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Troll",
@@ -699,7 +752,8 @@
         "Page1": 31,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 57,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Undead Slime",
@@ -712,7 +766,8 @@
         "Page1": 32,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 58,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 4
     },
     {
         "Description": "Void Brute",
@@ -725,7 +780,8 @@
         "Page1": 33,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 59,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Watcher at the Edge of Time",
@@ -738,7 +794,8 @@
         "Page1": 34,
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 59,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "as-Sharak (Aloakasa)",
@@ -751,7 +808,8 @@
         "Page1": 41,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Astral Hound",
@@ -764,7 +822,8 @@
         "Page1": 42,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Astral Thing",
@@ -777,7 +836,8 @@
         "Page1": 42,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Chaos Monk",
@@ -790,7 +850,8 @@
         "Page1": 42,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Flying Squid Monster",
@@ -803,7 +864,8 @@
         "Page1": 43,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Fuzzy, Biter",
@@ -816,7 +878,8 @@
         "Page1": 44,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": -6
     },
     {
         "Description": "Fuzzy, Bright",
@@ -829,7 +892,8 @@
         "Page1": 44,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": -6
     },
     {
         "Description": "Fuzzy, Gloomy",
@@ -842,7 +906,8 @@
         "Page1": 44,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": -6
     },
     {
         "Description": "Fuzzy, Jiggly",
@@ -855,7 +920,8 @@
         "Page1": 44,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": -6
     },
     {
         "Description": "Fuzzy, Lumpy",
@@ -868,7 +934,8 @@
         "Page1": 44,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": -6
     },
     {
         "Description": "Fuzzy, Spewer",
@@ -881,7 +948,8 @@
         "Page1": 44,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": -6
     },
     {
         "Description": "Neuroid",
@@ -894,7 +962,8 @@
         "Page1": 45,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": -5
     },
     {
         "Description": "No-Brainer",
@@ -907,7 +976,8 @@
         "Page1": 45,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Odifier",
@@ -920,7 +990,8 @@
         "Page1": 45,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Abominable Snowman",
@@ -933,7 +1004,8 @@
         "Page1": 38,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Animated Snowman",
@@ -946,7 +1018,8 @@
         "Page1": 38,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Horde Ninja",
@@ -959,7 +1032,8 @@
         "Page1": 32,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Dire Frog",
@@ -972,7 +1046,8 @@
         "Page1": 31,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Dire Hart",
@@ -985,7 +1060,8 @@
         "Page1": 30,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 2
     },
     {
         "Description": "Fetusoid",
@@ -998,7 +1074,8 @@
         "Page1": 23,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Hungry Room",
@@ -1011,7 +1088,8 @@
         "Page1": 21,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 5
     },
     {
         "Description": "Intruder",
@@ -1024,7 +1102,8 @@
         "Page1": 9,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Pscorpion",
@@ -1037,7 +1116,8 @@
         "Page1": 10,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Pyro-Tiger",
@@ -1050,7 +1130,8 @@
         "Page1": 11,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Terrible Dire Bunny",
@@ -1063,7 +1144,8 @@
         "Page1": 32,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": -4
     },
     {
         "Description": "Terribly Dire Wolverine",
@@ -1076,7 +1158,8 @@
         "Page1": 33,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Terrible Hedge",
@@ -1089,7 +1172,8 @@
         "Page1": 32,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Terrible Terrier",
@@ -1102,7 +1186,8 @@
         "Page1": 31,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Terrible Whipping Willow",
@@ -1115,7 +1200,8 @@
         "Page1": 32,
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 6
     },
     {
         "Description": "Bear",
@@ -1128,7 +1214,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 16,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Cave Bear",
@@ -1141,7 +1228,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 16,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Air Elemental",
@@ -1154,7 +1242,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 25,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Earth Elemental",
@@ -1167,7 +1256,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 25,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Fire Elemental",
@@ -1180,7 +1270,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 25,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Water Elemental",
@@ -1193,7 +1284,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 26,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Dragon, Small acid",
@@ -1206,7 +1298,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 21,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 3
     },
     {
         "Description": "Dragon, Small cold",
@@ -1219,7 +1312,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 21,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 3
     },
     {
         "Description": "Dragon, Small fire",
@@ -1232,7 +1326,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 21,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 3
     },
     {
         "Description": "Dragon, Small poison",
@@ -1245,7 +1340,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 21,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 3
     },
     {
         "Description": "Dragon, medium acid",
@@ -1258,7 +1354,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 21,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 4
     },
     {
         "Description": "Dragon, medium cold",
@@ -1271,7 +1368,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 21,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 4
     },
     {
         "Description": "Dragon, medium fire",
@@ -1284,7 +1382,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 21,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 4
     },
     {
         "Description": "Dragon, medium poison",
@@ -1297,7 +1396,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 21,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 4
     },
     {
         "Description": "Dragon, large acid",
@@ -1310,7 +1410,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 21,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 5
     },
     {
         "Description": "Dragon, large cold",
@@ -1323,7 +1424,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 21,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 5
     },
     {
         "Description": "Dragon, large fire",
@@ -1336,7 +1438,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 21,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 5
     },
     {
         "Description": "Dragon, large poison",
@@ -1349,7 +1452,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 21,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 5
     },
     {
         "Description": "Giant Constrictor",
@@ -1362,7 +1466,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 31,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 2
     },
     {
         "Description": "Giant Viper",
@@ -1375,7 +1480,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 31,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Giant Spider, big",
@@ -1388,7 +1494,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 31,
-        "Weight": 1
+        "Weight": 1,
+        "SM": -1
     },
     {
         "Description": "Giant Spider, huge",
@@ -1401,7 +1508,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 31,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Giant Spider, humongous",
@@ -1414,7 +1522,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 31,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 3
     },
     {
         "Description": "Goblin",
@@ -1427,7 +1536,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 33,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Hobgoblin",
@@ -1440,7 +1550,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 34,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Orc",
@@ -1453,7 +1564,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 34,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Gryphon",
@@ -1466,7 +1578,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 35,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Gargoyle",
@@ -1479,7 +1592,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 35,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Hellhound",
@@ -1492,7 +1606,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 35,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Ice Weasel",
@@ -1505,7 +1620,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 37,
-        "Weight": 1
+        "Weight": 1,
+        "SM": -4
     },
     {
         "Description": "Jelly, SM+1",
@@ -1518,7 +1634,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 38,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Jelly, SM+2",
@@ -1531,7 +1648,8 @@
         "Page1": "",
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 2
     },
     {
         "Description": "Jelly, SM+3",
@@ -1544,7 +1662,8 @@
         "Page1": "",
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 3
     },
     {
         "Description": "Jelly, SM+4",
@@ -1557,7 +1676,8 @@
         "Page1": "",
         "Source2": "",
         "Page2": "",
-        "Weight": 1
+        "Weight": 1,
+        "SM": 4
     },
     {
         "Description": "Lizard Man",
@@ -1570,7 +1690,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 38,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Minotaur",
@@ -1583,7 +1704,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 42,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Ogre",
@@ -1596,7 +1718,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 44,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Ooze",
@@ -1609,7 +1732,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 45,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Pudding, Black",
@@ -1622,7 +1746,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 46,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Pudding, Brown",
@@ -1635,7 +1760,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 46,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Pudding, Gray",
@@ -1648,7 +1774,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 46,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Pudding, Green",
@@ -1661,7 +1788,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 46,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Pudding, Red",
@@ -1674,7 +1802,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 46,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Pudding, White",
@@ -1687,7 +1816,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 46,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Skeleton",
@@ -1700,7 +1830,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 47,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Slime",
@@ -1713,7 +1844,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 48,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Specter",
@@ -1726,7 +1858,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 50,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Spirit Guardian",
@@ -1739,7 +1872,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 52,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Swarm, Army Ants",
@@ -1752,7 +1886,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 54,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Swarm, Bats",
@@ -1765,7 +1900,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 54,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Swarm, Bees",
@@ -1778,7 +1914,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 54,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Swarm, Birds",
@@ -1791,7 +1928,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 54,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Swarm, Centipedes",
@@ -1804,7 +1942,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 54,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Swarm, Scorpions",
@@ -1817,7 +1956,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 54,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Swarm, Spiders",
@@ -1830,7 +1970,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 54,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Swarm, Fire Ants",
@@ -1843,7 +1984,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 54,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Swarm, Hornets",
@@ -1856,7 +1998,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 54,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Swarm, Wasps",
@@ -1869,7 +2012,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 54,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Swarm, Mosquitoes",
@@ -1882,7 +2026,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 54,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Swarm, Piranha",
@@ -1895,7 +2040,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 54,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Swarm, Rats",
@@ -1908,7 +2054,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 54,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Swarm, Small Snakes",
@@ -1921,7 +2068,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 54,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Tiger",
@@ -1934,7 +2082,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 56,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 1
     },
     {
         "Description": "Vampire",
@@ -1947,7 +2096,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 58,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Werewolf",
@@ -1960,7 +2110,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 60,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Wildman",
@@ -1973,7 +2124,8 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 60,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     },
     {
         "Description": "Zombie",
@@ -1986,6 +2138,7 @@
         "Page1": "",
         "Source2": "Dungeon Fantasy RPG Monsters",
         "Page2": 62,
-        "Weight": 1
+        "Weight": 1,
+        "SM": 0
     }
 ];
