@@ -32,202 +32,40 @@
 ];
 
 var threat_distribution = {
-    "cakewalk": [
-        {
-            "Weight": 50,
-            "Description": "Nuisance",
-            N: {
-                "min": 11
-            }
-        },
-        {
-            "Weight": 15,
-            "Description": "Fodder",
-            N: {
-                "min": 3
-            }
-        },
-        {
-            "Weight": 5,
-            "Description": "Worthy",
-            N: {
-                "min": 0.5,
-                "max": 3
-            }
-        },
-        {
-            "Weight": 0,
-            "Description": "Boss",
-            N: {
-                "min": 0.1,
-                "max": 0.5
-            }
-        },
-        {
-            "Weight": 0,
-            "Description": "Epic",
-            N: {
-                "max": 0.1
-            }
-        }
-    ],
-    "easy": [
-        {
-            "Weight": 40,
-            "Description": "Nuisance",
-            N: {
-                "min": 11
-            }
-        },
-        {
-            "Weight": 20,
-            "Description": "Fodder",
-            N: {
-                "min": 3
-            }
-        },
-        {
-            "Weight": 10,
-            "Description": "Worthy",
-            N: {
-                "min": 0.5,
-                "max": 3
-            }
-        },
-        {
-            "Weight": 1,
-            "Description": "Boss",
-            N: {
-                "min": 0.1,
-                "max": 0.5
-            }
-        },
-        {
-            "Weight": 0,
-            "Description": "Epic",
-            N: {
-                "max": 0.1
-            }
-        }
-    ],
-    "average": [
-        {
-            "Weight": 20,
-            "Description": "Nuisance",
-            N: {
-                "min": 10,
-                "max": 20
-            }
-        },
-        {
-            "Weight": 2,
-            "Description": "Fodder",
-            N: {
-                "min": 3
-            }
-        },
-        {
-            "Weight": 4,
-            "Description": "Worthy",
-            N: {
-                "min": 0.5,
-                "max": 3
-            }
-        },
-        {
-            "Weight": 1,
-            "Description": "Boss",
-            N: {
-                "min": 0.1,
-                "max": 0.5
-            }
-        },
-        {
-            "Weight": 0,
-            "Description": "Epic",
-            N: {
-                "max": 0.1
-            }
-        }
-    ],
-    "hard": [
-        {
-            "Weight": 10,
-            "Description": "Nuisance",
-            N: {
-                "min": 10,
-                "max": 20
-            }
-        },
-        {
-            "Weight": 15,
-            "Description": "Fodder",
-            N: {
-                "min": 3
-            }
-        },
-        {
-            "Weight": 40,
-            "Description": "Worthy",
-            N: {
-                "min": 0.5,
-                "max": 3
-            }
-        },
-        {
-            "Weight": 5,
-            "Description": "Boss",
-            N: {
-                "min": 0.1,
-                "max": 0.5
-            }
-        },
-        {
-            "Weight": 1,
-            "Description": "Epic",
-            N: {
-                "max": 0.1
-            }
-        }
-    ],
-    "evil": [
-        {
-            "Weight": 0,
-            "Description": "Nuisance",
-            N: {
-                "min": 10,
-                "max": 20
-            }
-        },
-        {
-            "Weight": 2,
-            "Description": "Fodder",
-            N: {
-                "min": 3
-            }
-        },
-        {
-            "Weight": 15,
-            "Description": "Worthy",
-            N: {
-                "min": 0.5,
-                "max": 3
-            }
-        },
-        {
-            "Weight": 7,
-            "Description": "Boss",
-            N: {
-                "min": 0.1,
-                "max": 0.5
-            }
-        },
-        {
-            "Weight": 5,
-            "Description": "Epic",
-            N: {
-                "max": 0.1
-            }
-        }
-    ]
+    "cakewalk": {
+        "nuisance": 0.5,
+        "fodder": 0.3,
+        "worthy": 0.2,
+        "boss": 0,
+        "epic": 0
+    },
+    "easy": {
+        "nuisance": 0.3,
+        "fodder": 0.4,
+        "worthy": 0.25,
+        "boss": 0.05,
+        "epic": 0
+    },
+    "average": {
+        "nuisance": 0.2,
+        "fodder": 0.23,
+        "worthy": 0.5,
+        "boss": 0.07,
+        "epic": 0
+    },
+    "hard": {
+        "nuisance": 0.1,
+        "fodder": 0.2,
+        "worthy": 0.59,
+        "boss": 0.1,
+        "epic": 0.01
+    },
+    "evil": {
+        "nuisance": 0,
+        "fodder": 0.1,
+        "worthy": 0.65,
+        "boss": 0.2,
+        "epic": 0.05
+    }
+
 };
