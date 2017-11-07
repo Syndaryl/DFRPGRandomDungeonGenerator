@@ -1,10 +1,10 @@
 ﻿var threats = {
-    "comment": {
+    /* "comment": {
         "Name": "Name of the threat level",
         "NgtX": "N is the party CER divided by the encounter/monster CER",
         "Treasure": "Treasure is based on CER times this scaling factor",
         "Description": "A text description to give a human-friendly idea of the threat."
-    },
+    }, */
     "nuisance": {
         "Name": "Nuisance",
         "NgtX": 0,
