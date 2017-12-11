@@ -22,9 +22,10 @@ td { padding: 0.5ex 0.5em; text-align: left; vertical-align: top; }
 td.key { text-align: right; font-weight: bold; }
 
 .label { font-weight: bold; }
-.text {}
 
+.text {}
 div.encounters {}
+
 .rooms {
     display: -webkit-flex;
     display: flex;
@@ -40,11 +41,15 @@ div.encounters {}
     margin: 10px;
     background-color: lightgrey;
 }
-.room {
+.dungeon, .room {
     background-color: ghostwhite;
     width: 45%;
     margin: 10px;
     padding: 10px;
+}
+
+.dungeon{
+    width: 95%;
 }
 
 canvas { margin: 2ex auto; }

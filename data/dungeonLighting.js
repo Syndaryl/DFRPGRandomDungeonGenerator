@@ -1,4 +1,4 @@
-dungeonLighting = [
+var dungeonLighting = [
     {
       "Description": "Daylight",
       "Penalty": "0",
