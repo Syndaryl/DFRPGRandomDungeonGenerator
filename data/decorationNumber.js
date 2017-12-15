@@ -2,7 +2,7 @@
     {
         "Weight": 50,
         "Description": 1,
-        "Tables": ""
+        "Tables": "decorations"
     },
     {
         "Weight": 50,
