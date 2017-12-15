@@ -24,6 +24,11 @@
         "Tables": "treasure; concealment"
     },
     {
+        "Weight": 10,
+        "Description": "Concealed treasure in a container",
+        "Tables": "treasure; concealment; container"
+    },
+    {
         "Weight": 25,
         "Description": "Random monster plus a concealed treasure",
         "Tables": "monsters; treasure; concealment"
@@ -67,5 +72,15 @@
         "Weight": 4,
         "Description": "Trap plus a weird spring or fountain",
         "Tables": "traps; spring"
+    },
+    {
+        "Weight": 4,
+        "Description": "Trap plus an unusual atmosphere plus a Treasure in a container",
+        "Tables": "traps; atmosphere; treasure; container"
+    },
+    {
+        "Weight": 4,
+        "Description": "Trap plus a weird spring or fountain plus a Treasure in a container",
+        "Tables": "traps; spring; treasure; container"
     }
 ];
