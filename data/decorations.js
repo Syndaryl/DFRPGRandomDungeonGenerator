@@ -1,7 +1,7 @@
 ﻿var decorations = [
     {
         "Weight": 20,
-        "Description": "There is an alcove"
+        "Description": "There are alcoves along the walls"
     },
     {
         "Weight": 5,
@@ -25,7 +25,11 @@
     },
     {
         "Weight": 1,
-        "Description": "There is an arrow slit (wall)/murder hole (ceiling)"
+        "Description": "There are arrow slits in the wall"
+    },
+    {
+        "Weight": 1,
+        "Description": "There are murder holes in the ceiling"
     },
     {
         "Weight": 5,
@@ -33,19 +37,27 @@
     },
     {
         "Weight": 1,
-        "Description": "There is a balcony"
+        "Description": "There is a balcony and stairs"
+    },
+    {
+        "Weight": 1,
+        "Description": "There is a balcony and ladder"
     },
     {
         "Weight": 3,
         "Description": "There is a barrel"
     },
     {
-        "Weight": 5,
+        "Weight": 3,
         "Description": "There is a bed"
     },
     {
-        "Weight": 2,
+        "Weight": 4,
         "Description": "There are beds"
+    },
+    {
+        "Weight": 5,
+        "Description": "There are bunk beds"
     },
     {
         "Weight": 3,
@@ -57,19 +69,19 @@
     },
     {
         "Weight": 3,
-        "Description": "There is a bookcase"
+        "Description": "There is a bookcase filled with mouldering books"
     },
     {
         "Weight": 1,
-        "Description": "There is a box (large)"
+        "Description": "There is a large box"
     },
     {
         "Weight": 5,
-        "Description": "There is a brazier"
+        "Description": "There is an empty brass brazier"
     },
     {
         "Weight": 3,
-        "Description": "There is a brazier and charcoal"
+        "Description": "There is a brass brazier filled with charcoal"
     },
     {
         "Weight": 1,
@@ -176,10 +188,6 @@
         "Description": "There is a buffet (side-board)"
     },
     {
-        "Weight": 1,
-        "Description": "There are bunks"
-    },
-    {
         "Weight": 3,
         "Description": "There is a butt of water (large barrel)"
     },
@@ -236,16 +244,24 @@
         "Description": "There is a chair"
     },
     {
+        "Weight": 5,
+        "Description": "There is table and four chairs"
+    },
+    {
         "Weight": 2,
         "Description": "There is a chair, padded"
     },
     {
         "Weight": 1,
-        "Description": "There is a chair, padded, arm"
+        "Description": "There is a padded armchair"
+    },
+    {
+        "Weight": 1,
+        "Description": "There are two padded armchairs"
     },
     {
         "Weight": 3,
-        "Description": "There is a chandelier"
+        "Description": "There is a simple wood chandelier (unlit)"
     },
     {
         "Weight": 1,
@@ -253,11 +269,7 @@
     },
     {
         "Weight": 1,
-        "Description": "There is a charcoal bin"
-    },
-    {
-        "Weight": 1,
-        "Description": "There is a chasm"
+        "Description": "There is an empty charcoal bin"
     },
     {
         "Weight": 1,
@@ -269,7 +281,11 @@
     },
     {
         "Weight": 1,
-        "Description": "There is a chest"
+        "Description": "There is an empty chest"
+    },
+    {
+        "Weight": 1,
+        "Description": "There is a shattered chest"
     },
     {
         "Weight": 1,
@@ -277,15 +293,7 @@
     },
     {
         "Weight": 1,
-        "Description": "There is a chest, large"
-    },
-    {
-        "Weight": 1,
-        "Description": "There is a chest, medium"
-    },
-    {
-        "Weight": 1,
-        "Description": "There is a chimney"
+        "Description": "There is a chimney and fireplace"
     },
     {
         "Weight": 1,
@@ -700,10 +708,6 @@
         "Description": "There is a pool"
     },
     {
-        "Weight": 5,
-        "Description": "There is a portcullis"
-    },
-    {
         "Weight": 3,
         "Description": "There is a quilt"
     },
@@ -741,7 +745,7 @@
     },
     {
         "Weight": 10,
-        "Description": "There is a sconce, wall"
+        "Description": "There is a wall sconce"
     },
     {
         "Weight": 1,
@@ -776,12 +780,12 @@
         "Description": "There is a spinning wheel"
     },
     {
-        "Weight": 1,
-        "Description": "There is a staff, normal"
+        "Weight": 3,
+        "Description": "There is a stall or pen"
     },
     {
         "Weight": 3,
-        "Description": "There is a stall or pen"
+        "Description": "There is a stall or pen with the skeleton of a dead animal in it"
     },
     {
         "Weight": 1,
@@ -869,19 +873,27 @@
     },
     {
         "Weight": 1,
-        "Description": "There is a trough"
+        "Description": "There is a dry trough"
+    },
+    {
+        "Weight": 1,
+        "Description": "There is a trough filled with stagnant water"
+    },
+    {
+        "Weight": 1,
+        "Description": "There is a trough filled with fresh water"
     },
     {
         "Weight": 5,
-        "Description": "There is a trunk"
+        "Description": "There is a trunk (sea chest)"
     },
     {
         "Weight": 10,
-        "Description": "There is a tub (empty)"
+        "Description": "There is an empty tub"
     },
     {
         "Weight": 30,
-        "Description": "There is a tub (filled with water)"
+        "Description": "There is a tub filled with fresh water"
     },
     {
         "Weight": 1,
@@ -889,19 +901,19 @@
     },
     {
         "Weight": 15,
-        "Description": "There is a wall basin (dry)"
+        "Description": "There is a dry wall basin"
     },
     {
         "Weight": 5,
-        "Description": "There is a wall basin and font (filled with water)"
+        "Description": "There is a wall basin and font, filled with water"
     },
     {
         "Weight": 1,
-        "Description": "The walls are made of air"
+        "Description": "The walls are made of solid air"
     },
     {
         "Weight": 1,
-        "Description": "The walls are made of bone"
+        "Description": "The walls are made of interlaced bone"
     },
     {
         "Weight": 1,
@@ -909,11 +921,19 @@
     },
     {
         "Weight": 1,
-        "Description": "The walls are made of flesh"
+        "Description": "The walls are made of living flesh"
     },
     {
         "Weight": 1,
-        "Description": "The walls are made of glass"
+        "Description": "The walls are made of undead flesh"
+    },
+    {
+        "Weight": 1,
+        "Description": "The walls are made of clear glass"
+    },
+    {
+        "Weight": 1,
+        "Description": "The walls are made of frosted glass"
     },
     {
         "Weight": 1,
@@ -921,11 +941,11 @@
     },
     {
         "Weight": 1,
-        "Description": "The walls are made of insects"
+        "Description": "The walls are made of insects; they buzz and click"
     },
     {
         "Weight": 1,
-        "Description": "The walls are made of magma"
+        "Description": "The walls are made of magically suspended magma; it's very hot in here"
     },
     {
         "Weight": 1,
@@ -937,11 +957,11 @@
     },
     {
         "Weight": 1,
-        "Description": "The walls are made of souls"
+        "Description": "The walls are made of condensed souls"
     },
     {
         "Weight": 1,
-        "Description": "The walls are made of water"
+        "Description": "The walls are made of magically suspended water"
     },
     {
         "Weight": 1,
