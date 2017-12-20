@@ -116,6 +116,10 @@
         "Description": "There is a smell of fresh fruit"
     },
     {
+        "Weight": 1,
+        "Description": "There is a smell of fresh-cut vegetables"
+    },
+    {
         "Weight": 2,
         "Description": "There is the smell of fresh-cut wood"
     },
@@ -126,6 +130,10 @@
     {
         "Weight": 1,
         "Description": "There is a smell of exotic spices"
+    },
+    {
+        "Weight": 1,
+        "Description": "There is a smell of cedar wood"
     },
     {
         "Weight": 1,
