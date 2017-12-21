@@ -19,9 +19,13 @@ select { min-width: 10em; margin-right: 0.5em; font-size: 11px; }
 
 table { margin: 0 2em; border: none; border-collapse: collapse; }
 td { padding: 0.5ex 0.5em; text-align: left; vertical-align: top; }
-td.key { text-align: right; font-weight: bold; }
+.key { text-align: right; font-weight: bold; }
 
 .label { font-weight: bold; }
+
+.hidden{
+    display: none !important;
+}
 
 .text {}
 div.encounters {}
