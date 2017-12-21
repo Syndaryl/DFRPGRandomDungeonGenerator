@@ -65,11 +65,17 @@
                 <td colspan="6"></td>
             </tr>
             <tr>
-                <td colspan="6" class="center" style="background: #dedede;">
-                    <input type="checkbox" name="remote_treasure" id="remote_treasure" onclick="remote_reaction();" /> <label for="remote_treasure">Use remote treasure service?</label>
-                    <input type="button" value="Save as PNG" onclick="save_map();" />
-                    &nbsp; <input type="button" value="Print" onclick="window.print();" />
-                    <div class="center"><p id="remote_treasure_notice">Remote treasure service disabled</p></div>
+                <td colspan="6" style="background: #dedede;">
+                    <div class="center">
+                        <input type="button" value="Save as PNG" onclick="save_map();" />
+                        &nbsp; <input type="button" value="Print" onclick="window.print();" />
+                        <span class="key">Px Per Hex:</span>
+                        <span class="value"><input id="Resolution" value="50" style="width:3em;"></input></span>
+                    </div>
+                    <div class="center">
+                        <input type="checkbox" name="remote_treasure" id="remote_treasure" onclick="remote_reaction();" /> <label for="remote_treasure">Use remote treasure service?</label>
+                        <p id="remote_treasure_notice">Remote treasure service disabled</p>
+                    </div>
                 </td>
             </tr>
         </table>
