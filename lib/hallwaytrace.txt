@@ -1,0 +1,31 @@
+Wherein I talk to myself about how to track linking of rooms and cost of doors.
+
+find paths through dungeon
+    foreach room/stairs
+        add room as node to graph   (does having monsters increase the cost of passing this node?)
+        foreach door
+            make a stack of gridspaces
+            push door gridspace on visited stack
+            call doorcreep(stack)
+            get list of door information and travel cost
+            add door paths to graph as edges
+    
+    get all up stairs
+    get all down stairs
+
+    foreach combination of up and down stairs
+        djikstra from up to down
+
+
+doorcreep(stack)
+    current = top of stack
+    collect adjacent doors in doors stack
+    if doors stack is not empty
+        collect identifying door information and travel cost (door locks/traps increase cost?)
+    
+    collect adjacent unvisited corridor gridspace in border stack
+    foreach gridspace in border stack
+        push unvisited corridor gridspace on stack with cost (1 for empty room, more if trapped)
+        return call doorcreep(stack)
+    
+    return stack of door information and travel cost
