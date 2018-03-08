@@ -4,3 +4,5 @@
 
 /packages.config
 *.exclude
+/.vs
+*.bak
