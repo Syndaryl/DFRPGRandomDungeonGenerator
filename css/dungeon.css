@@ -81,6 +81,12 @@ table.center { margin-left: auto; margin-right: auto; }
         display: none;
     }
 
+    div.dungeon {
+        text-align:initial;
+        width: 100% !important;
+        display: block;
+    }
+
     div.encounters {
         page-break-before: always;
         text-align:initial;
@@ -89,8 +95,12 @@ table.center { margin-left: auto; margin-right: auto; }
     div.rooms {
         display: inline !important;
     }
-    .room {
+    .dungeon_key, .room {
         width: 100% !important;
+    }
+    canvas {
+        width: 100% !important;
+        object-fit: contain;
     }
 }
 
