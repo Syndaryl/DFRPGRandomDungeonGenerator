@@ -1,19 +1,35 @@
 ﻿var decorations = [
     {
-        "Weight": 20,
-        "Description": "There are alcoves along the walls"
+        "Weight": 15,
+        "Description": "There are 1 yard deep alcoves along the north and south walls"
+    },
+    {
+        "Weight": 15,
+        "Description": "There are 1 yard deep alcoves along the east and west walls"
     },
     {
         "Weight": 5,
-        "Description": "There is an altar"
+        "Description": "There is an altar in the center of the room"
     },
     {
         "Weight": 1,
-        "Description": "There is an arch"
+        "Description": "There is a free-standing archway"
     },
     {
         "Weight": 2,
-        "Description": "There is an armchair"
+        "Description": "There is an armchair along the west wall"
+    },
+    {
+        "Weight": 2,
+        "Description": "There is an armchair along the east wall"
+    },
+    {
+        "Weight": 2,
+        "Description": "There is an armchair along the north wall"
+    },
+    {
+        "Weight": 2,
+        "Description": "There is an armchair along the south wall"
     },
     {
         "Weight": 1,
@@ -25,7 +41,19 @@
     },
     {
         "Weight": 1,
-        "Description": "There are arrow slits in the wall"
+        "Description": "There are arrow slits in the north wall"
+    },
+    {
+        "Weight": 1,
+        "Description": "There are arrow slits in the south wall"
+    },
+    {
+        "Weight": 1,
+        "Description": "There are arrow slits in the east wall"
+    },
+    {
+        "Weight": 1,
+        "Description": "There are arrow slits in the west wall"
     },
     {
         "Weight": 1,
@@ -33,15 +61,39 @@
     },
     {
         "Weight": 5,
-        "Description": "There is a bag"
+        "Description": "There is an empty bag"
     },
     {
         "Weight": 1,
-        "Description": "There is a balcony and stairs"
+        "Description": "There is a balcony along the north wall, and stairs leading up on the east end"
     },
     {
         "Weight": 1,
-        "Description": "There is a balcony and ladder"
+        "Description": "There is a balcony along the east wall, and stairs leading up on the south end"
+    },
+    {
+        "Weight": 1,
+        "Description": "There is a balcony along the south wall, and stairs leading up on the west end"
+    },
+    {
+        "Weight": 1,
+        "Description": "There is a balcony along the west wall, and stairs leading up on the south end"
+    },
+    {
+        "Weight": 1,
+        "Description": "There is a balcony and ladder along the north wall"
+    },
+    {
+        "Weight": 1,
+        "Description": "There is a balcony and ladder along the east wall"
+    },
+    {
+        "Weight": 1,
+        "Description": "There is a balcony and ladder along the south wall"
+    },
+    {
+        "Weight": 1,
+        "Description": "There is a balcony and ladder along the west wall"
     },
     {
         "Weight": 3,
@@ -85,99 +137,99 @@
     },
     {
         "Weight": 1,
-        "Description": "There is a creek or river crossed by a bone bridge"
+        "Description": "There is a 10' wide creek or river spanning the entire room, crossed by an eery bone bridge"
     },
     {
         "Weight": 5,
-        "Description": "There is a creek or river crossed by a chain bridge"
+        "Description": "There is a 10' wide creek or river spanning the entire room, crossed by a wobbly chain bridge"
     },
     {
         "Weight": 1,
-        "Description": "There is a creek or river crossed by a conjured (magical) bridge"
+        "Description": "There is a 10' wide creek or river spanning the entire room,  crossed by a bridge conjured by pulling a lever"
     },
     {
         "Weight": 1,
-        "Description": "There is a creek or river crossed by a force (magical) bridge"
+        "Description": "There is a 10' wide creek or river spanning the entire room, crossed by a bridge made of magical forcefields"
     },
     {
         "Weight": 3,
-        "Description": "There is a creek or river crossed by a ice bridge"
+        "Description": "There is a 10' wide creek or river spanning the entire room, crossed by a delicate ice bridge"
     },
     {
         "Weight": 15,
-        "Description": "There is a creek or river crossed by a log bridge"
+        "Description": "There is a 10' wide creek or river spanning the entire room, crossed by a stout (but flammable) log bridge"
     },
     {
         "Weight": 20,
-        "Description": "There is a creek or river crossed by a rope bridge"
+        "Description": "There is a 10' wide creek or river spanning the entire room, crossed by a wobbly rope bridge"
     },
     {
         "Weight": 1,
-        "Description": "There is a creek or river crossed by a stone bridge"
+        "Description": "There is a 10' wide creek or river spanning the entire room, crossed by a sturdy stone bridge"
     },
     {
         "Weight": 1,
-        "Description": "There is a creek or river crossed by a swinging (like a swing) bridge"
+        "Description": "There is a 10' wide creek or river spanning the entire room, crossed by a swinging (like a swing) bridge"
     },
     {
         "Weight": 1,
-        "Description": "There is a creek or river crossed by a web bridge"
+        "Description": "There is a 10' wide creek or river spanning the entire room, crossed by a sticky web bridge"
     },
     {
         "Weight": 3,
-        "Description": "There is a creek or river crossed by a bridge with car and pulley system"
+        "Description": "There is a 10' wide creek or river spanning the entire room, crossed by a bridge with car and pulley system"
     },
     {
         "Weight": 15,
-        "Description": "There is a creek or river crossed by a wood bridge"
+        "Description": "There is a 10' wide creek or river spanning the entire room, crossed by a wood bridge"
     },
     {
         "Weight": 1,
-        "Description": "There is a chasm crossed by a bone bridge"
+        "Description": "There is a 15' chasm crossed by a bone bridge"
     },
     {
         "Weight": 5,
-        "Description": "There is a chasm crossed by a chain bridge"
+        "Description": "There is a 15' chasm crossed by a chain bridge"
     },
     {
         "Weight": 1,
-        "Description": "There is a chasm crossed by a conjured (magical) bridge"
+        "Description": "There is a 15' chasm crossed by a conjured (magical) bridge"
     },
     {
         "Weight": 1,
-        "Description": "There is a chasm crossed by a force (magical) bridge"
+        "Description": "There is a 15' chasm crossed by a force (magical) bridge"
     },
     {
         "Weight": 3,
-        "Description": "There is a chasm crossed by a ice bridge"
+        "Description": "There is a 15' chasm crossed by a ice bridge"
     },
     {
         "Weight": 15,
-        "Description": "There is a chasm crossed by a log bridge"
+        "Description": "There is a 15' chasm crossed by a log bridge"
     },
     {
         "Weight": 20,
-        "Description": "There is a chasm crossed by a rope bridge"
+        "Description": "There is a 15' chasm crossed by a rope bridge"
     },
     {
         "Weight": 1,
-        "Description": "There is a chasm crossed by a stone bridge"
+        "Description": "There is a 15' chasm crossed by a stone bridge"
     },
     {
         "Weight": 1,
-        "Description": "There is a chasm crossed by a swinging (like a swing) bridge"
+        "Description": "There is a 15' chasm crossed by a swinging (like a swing) bridge"
     },
     {
         "Weight": 1,
-        "Description": "There is a chasm crossed by a web bridge"
+        "Description": "There is a 15' chasm crossed by a sticky web bridge"
     },
     {
         "Weight": 3,
-        "Description": "There is a chasm crossed by a bridge with car and pulley system"
+        "Description": "There is a 15' chasm crossed by a bridge with car and pulley system"
     },
     {
         "Weight": 15,
-        "Description": "There is a chasm crossed by a wood bridge"
+        "Description": "There is a 15' chasm crossed by a wood bridge"
     },
     {
         "Weight": 1,
@@ -201,7 +253,11 @@
     },
     {
         "Weight": 1,
-        "Description": "There is a cage"
+        "Description": "There is an iron cage, large enough for a human"
+    },
+    {
+        "Weight": 1,
+        "Description": "There is a brass cage, suitable for a small pet"
     },
     {
         "Weight": 1,
@@ -273,11 +329,11 @@
     },
     {
         "Weight": 1,
-        "Description": "There is a chasm, purposely built"
+        "Description": "There is a 15' chasm, purposely built"
     },
     {
         "Weight": 1,
-        "Description": "There is a chasm, natural"
+        "Description": "There is a 15' chasm, natural"
     },
     {
         "Weight": 1,
@@ -345,7 +401,11 @@
     },
     {
         "Weight": 1,
-        "Description": "There is a cresset (torch on a pole)"
+        "Description": "There is a cresset (torch on a pole), unlit"
+    },
+    {
+        "Weight": 1,
+        "Description": "There is a cresset (torch on a pole), lit"
     },
     {
         "Weight": 1,
@@ -381,7 +441,7 @@
     },
     {
         "Weight": 1,
-        "Description": "There is a dung heap"
+        "Description": "There is a dung heap in the south-west corner"
     },
     {
         "Weight": 1,
@@ -393,7 +453,11 @@
     },
     {
         "Weight": 10,
-        "Description": "There is a firepit"
+        "Description": "There is an empty firepit"
+    },
+    {
+        "Weight": 10,
+        "Description": "There is a firepit filled with ashes"
     },
     {
         "Weight": 10,
@@ -401,7 +465,11 @@
     },
     {
         "Weight": 10,
-        "Description": "There is a fireplace"
+        "Description": "There is an empty fireplace"
+    },
+    {
+        "Weight": 10,
+        "Description": "There is a fireplace filled with ashes"
     },
     {
         "Weight": 10,
@@ -508,7 +576,7 @@
         "Description": "There is graffiti (charcoal or chalk)"
     },
     {
-        "Weight": 5,
+        "Weight": 15,
         "Description": "There is graffiti (painted)"
     },
     {
@@ -601,7 +669,19 @@
     },
     {
         "Weight": 1,
-        "Description": "There are manacles bolted to the wall"
+        "Description": "There are manacles bolted to the north wall"
+    },
+    {
+        "Weight": 1,
+        "Description": "There are manacles bolted to the south wall"
+    },
+    {
+        "Weight": 1,
+        "Description": "There are manacles bolted to the east wall"
+    },
+    {
+        "Weight": 1,
+        "Description": "There are manacles bolted to the west wall"
     },
     {
         "Weight": 1,
@@ -965,7 +1045,7 @@
     },
     {
         "Weight": 1,
-        "Description": "The walls are made of webs"
+        "Description": "The walls are made of webs, they are terribly sticky"
     },
     {
         "Weight": 10,
