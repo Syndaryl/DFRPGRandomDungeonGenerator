@@ -60,14 +60,14 @@ tr.thead {
     margin: 10px;
     background-color: lightgrey;
 }
-.dungeon, .room, .wandering_monsters {
+.dungeon, .room, .wandering_monsters, .travel {
     background-color: ghostwhite;
     width: 45%;
     margin: 10px;
     padding: 10px;
 }
 
-.dungeon, .wandering_monsters{
+.dungeon, .wandering_monsters, .travel{
     width: 95%;
 }
 
