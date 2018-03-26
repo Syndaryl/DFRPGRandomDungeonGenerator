@@ -30,6 +30,21 @@ td { padding: 0.5ex 0.5em; text-align: left; vertical-align: top; }
 .text {}
 div.encounters {}
 
+#wandering_monsters {
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+tr.thead {
+    font-weight: bold;
+}
+#footer {
+    font-style:italic;
+    font-size: 14px;
+}
+
 .rooms {
     display: -webkit-flex;
     display: flex;
@@ -45,18 +60,19 @@ div.encounters {}
     margin: 10px;
     background-color: lightgrey;
 }
-.dungeon, .room {
+.dungeon, .room, .wandering_monsters {
     background-color: ghostwhite;
     width: 45%;
     margin: 10px;
     padding: 10px;
 }
 
-.dungeon{
+.dungeon, .wandering_monsters{
     width: 95%;
 }
 
-canvas { margin: 2ex auto; }
+canvas { margin: 2ex auto; 
+}
 
 .center { text-align: center; }
 table.center { margin-left: auto; margin-right: auto; }
@@ -99,8 +115,8 @@ table.center { margin-left: auto; margin-right: auto; }
         width: 100% !important;
     }
     canvas {
-        width: 100% !important;
         object-fit: contain;
+        width: 100% !important;
     }
 }
 
