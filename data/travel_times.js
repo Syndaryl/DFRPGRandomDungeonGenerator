@@ -4,7 +4,7 @@
         "Description": "In the Neighborhood",
         "Time": "1d6-3",
         "Treasure": 0.8,
-        "Notes": "Everone knows a little something about these places! Proximity to town means significantly less risk for delvers and the site as probably been picked over before"
+        "Notes": "Everone knows a little something about these places! Proximity to town means significantly less risk for delvers and the site has probably been picked over before."
     },
     "near": {
         "Weight": 1,
