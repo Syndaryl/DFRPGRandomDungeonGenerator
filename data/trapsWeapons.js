@@ -66,7 +66,7 @@ var trapsBuilder = {
   "trap_detect_spell" : ["Detect Life"],
   "trap_shots": [
     {"Description": "Constant or Infinite", "Weight": 1},
-    {"Description": "${ shots }", "Weight": 5}
+    {"Description": "${ shots } shots", "Weight": 5}
   ],
   "shots": [1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11, 11, 12, 13, 14, 15, 16, 17, 18 ],
   "trap_can_be_stolen": [ 
