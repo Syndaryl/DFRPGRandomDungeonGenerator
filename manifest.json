@@ -1,0 +1,22 @@
+{
+    "short_name": "Dungeon",
+    "name": "DFRPG Random Dungeon Generator",
+    "icons": [
+      {
+        "src": "images/icons-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "images/icons-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "default_locale": "en",
+    "description": "Generates dungeons with statistics for GURPS DF and DFRPG",
+    "start_url": ".",
+    "background_color": "#FFF",
+    "display": "standalone",
+    "theme_color": "#FFF"
+  }
