@@ -6,3 +6,6 @@
 *.exclude
 /.vs
 *.bak
+/.cache
+/images
+/dist
