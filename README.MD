@@ -1,5 +1,5 @@
 ﻿# The DFRPG Random Dungeon Generator
-## WHAT THIS IS:
+## WHAT THIS IS AND HOW TO USE IT:
 A HTML/CSS/JavaScript based random dungeon generator for the Dungeon Fantasy RPG, and for GURPS (particularly the GURPS Dungeon Fantasy product line).
 
 This is intended as an entirely stand-alone and cross-platform application. It does not require web hosting and it does not require installation of a scripting environment or other special software. All you need is to download, unzip, and then open "index.html" in a relatively modern web-browser (I just can't support IE6, sorry).
@@ -24,16 +24,17 @@ This app produces a dungeon map image with customizable resolution (suitable for
 * Wandering monster table, populated primarily from monsters found in the dungeon.
 * Treasures keyed to encounter difficulty and overall dungeon CER (with option to produce completely random treasure using the DF8 treasure generator service, online)
 * Concealed treasures.
-* Doors with GURPS/DFRPG statistics for forcing open, picking, and breaking down.
+* Doors with GURPS/DFRPG statistics for forcing open, picking, and breaking down. And shoving open, if they're particularly heavy.
 * Secret or concealed doors
 * Portcullises and how hard they are to lift.
 * Traps (currently handled by references to published traps).
 * Notes on general environmental conditions (Mana level, Sanctity, lighting).
 * Odd dungeon features (misty or dangerous atmospheres, weird and magical pools and fountains - and mundane ones).
-* Random dungeon junk in rooms to provide some colour.
+* Random dungeon junk in rooms to provide some colour and potentially interesting environments to interact with.
+* Randomize travel time to the dungeon or select manually. Further dungeons have better loot, but burn more resources to get there and back again.
 
 ### TODO:
-* Randomize travel time to the dungeon, and quick description of the enviornment, Survival checks.
+*Quick description of the enviornment, Survival checks for the trip from town.
 * Create random rumours about the dungeon to find in town.
 * Create some quest hooks - provide McGuffins to recover, kidnapped NPCs, name particularly notorious monsters, generate bounties
 * Generate some "exceptional" monsters with lenses or special abilities.
@@ -50,12 +51,12 @@ This app produces a dungeon map image with customizable resolution (suitable for
 * More coherent hallway digging algorithm (as an option; insane is also fun)
 * option to create "flow" in the dungeon level, adjusting difficulty according to proximity to entrance/exit.
 * match up stairs up/down to a "generate next floor" option
-* option to regenerate a room, treasure, or trap if you don't like it
+* option to regenerate a room, encounter, treasure, or trap if you don't like it
 * Themed monster groups (with the option for totally insane monster groups too)
 * Dungeons (or subsections of large dungeons) entirely populated on a selectable theme
 * Cool hash-fill dungeon design
 * put water on the map
-* put dungeon junk on the map? (may never happen)
+* position dungeon junk on the map? (may never happen)
 
 ## CREDIT:
 
