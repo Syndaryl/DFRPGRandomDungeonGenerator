@@ -27,8 +27,8 @@ td { padding: 0.5ex 0.5em; text-align: left; vertical-align: top; }
     display: none !important;
 }
 
-.text {}
-div.encounters {}
+/* .text {}
+div.encounters {} */
 
 #wandering_monsters {
     -webkit-justify-content: center;
@@ -83,12 +83,25 @@ table.center { margin-left: auto; margin-right: auto; }
 @media screen {
   h1.title { display: none; }
   form { display: block; }
+  div.page {
+      margin: 0 !important; 
+      padding: 0 !important;
+      width: 100% !important;
+  }
 }
-
+@media screen and (max-width: 870px) {
+    .room {width: 95%;}
+  }
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /* print */
 
 @media print {
+    
+     * { 
+        margin: 0; 
+        padding: 0; 
+    } 
+    
     h1.title {
         display: block;
     }
@@ -96,8 +109,18 @@ table.center { margin-left: auto; margin-right: auto; }
     form {
         display: none;
     }
+    div.page {
+        /* page-break-inside:avoid; */
+
+        margin: 0 !important; 
+        padding: 0 !important; 
+        
+        height: 100% !important;
+        width: 100% !important;
+    }
 
     div.dungeon {
+        page-break-inside:avoid;
         text-align:initial;
         width: 100% !important;
         display: block;
@@ -109,14 +132,19 @@ table.center { margin-left: auto; margin-right: auto; }
     }
 
     div.rooms {
+        page-break-inside:avoid;
         display: inline !important;
     }
     .dungeon_key, .room {
         width: 100% !important;
+        margin: 5 !important; 
+        padding: 5 !important; 
     }
     canvas {
-        object-fit: contain;
-        width: 100% !important;
+        /* object-fit: contain;*/
+        height: 9.5in !important;
+        /* width: 7in !important; */
+        object-fit: scale-down !important;
     }
 }
 
