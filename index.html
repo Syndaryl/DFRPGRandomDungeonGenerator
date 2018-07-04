@@ -33,44 +33,44 @@
                 <td colspan="5" class="value"><input id="dungeon_name" size="60" /> &nbsp; <input type="button" id="new_name" value="New" /> </td>
             </tr>
             <tr>
-                <td class="key">Map Style:</td>
-                <td class="value"><select id="map_style"></select></td>
-                <td class="key">Grid:</td>
-                <td class="value"><select id="grid"></select></td>
-                <td class="key">Stairs?</td>
-                <td class="value"><select id="add_stairs"></select></td>
-            </tr>
-            <tr>
-                <td class="key">Dungeon Layout:</td>
-                <td class="value"><select id="dungeon_layout"></select></td>
                 <td class="key">Dungeon Size:</td>
                 <td class="value"><select id="dungeon_size"></select></td>
-                <td class="key">Doors:</td>
-                <td class="value"><select id="doors"></select></td>
-            </tr>
-            <tr>
-                <td class="key">Room Layout:</td>
-                <td class="value"><select id="room_layout"></select></td>
-                <td class="key">Room Size:</td>
-                <td class="value"><select id="room_size"></select></td>
+                <td class="key">Grid:</td>
+                <td class="value"><select id="grid"></select></td>
                 <td class="key">Party CER</td>
                 <td class="value"><input id="cer" value="100" /></td>
             </tr>
             <tr>
+                <td class="key">Dungeon Layout:</td>
+                <td class="value"><select id="dungeon_layout"></select></td>
+                <td class="key">Map Style:</td>
+                <td class="value"><select id="map_style"></select></td>
+                <td class="key">Monster Challenge:</td>
+                <td class="value"><select id="challenge"></select></td>
+            </tr>
+            <tr>
+                <td class="key">Room Layout:</td>
+                <td class="value"><select id="room_layout"></select></td>
                 <td class="key">Corridors:</td>
                 <td class="value"><select id="corridor_layout"></select></td>
-                <td class="key">Trim deadends?</td>
-                <td class="value"><select id="remove_deadends"></select></td>
                 <td class="key">Generosity:</td>
                 <td class="value"><select id="generosity"></select></td>
             </tr>
             <tr>
-                <td class="key"></td>
-                <td class="value"></td>
-                <td class="key"></td>
-                <td class="value"></td>
+                    <td class="key">Room Size:</td>
+                    <td class="value"><select id="room_size"></select></td>
+                <td class="key">Trim deadends?</td>
+                <td class="value"><select id="remove_deadends"></select></td>
                 <td class="key">Travel time:</td>
                 <td class="value"><select id="travel_distance"></select></td>
+            </tr>
+            <tr>
+                    <td class="key">Stairs?</td>
+                    <td class="value"><select id="add_stairs"></select></td>
+                    <td class="key">Doors:</td>
+                    <td class="value"><select id="doors"></select></td>
+                <td class="key"></td>
+                <td class="value"></td>
             </tr>
             <tr>
                 <td colspan="6"><div class="center">Link <a id="self_link">to re-create this dungeon</a></div></td>
@@ -107,7 +107,7 @@
             <div id="room_key" class="rooms">
             </div>
         </div>
-        <p>Random Dungeon Generator<br />http://donjon.bin.sh/</p>
+        <p>Original Random Dungeon Generator<br />http://donjon.bin.sh/</p>
     </div>
     <script type="text/javascript" src="lib/treasure_service.js"></script>
     <script type="text/javascript" src="data/archesList.js"></script>

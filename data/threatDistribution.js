@@ -21,51 +21,131 @@
         "Name": "boss",
         "NgtX": 0.1,
         "Treasure": 5,
-        "Description": "The enemy outmatches the party, who will need luck and quick wits to win."
+        "Description": "The enemy outmatches the party, who will need luck and quick wits to win.",
+        "ForceTreasure": true
     },
     {
         "Name": "epic",
         "NgtX": 0,
         "Treasure": 20,
-        "Description": "Only luck, emergency one-use magic, or unexpected reinforcements will save the heroes!"
+        "Description": "Only luck, emergency one-use magic, or unexpected reinforcements will save the heroes!",
+        "ForceTreasure": true
     }
 ];
 
+var threatIndex = 
+{    "nuisance":0,
+    "fodder":1,
+    "worthy":2,
+    "boss":3,
+    "epic":4
+}
+
 var threat_distribution = {
-    "cakewalk": {
-        "nuisance": 0.5,
-        "fodder": 0.3,
-        "worthy": 0.2,
-        "boss": 0,
-        "epic": 0
-    },
-    "easy": {
-        "nuisance": 0.3,
-        "fodder": 0.4,
-        "worthy": 0.25,
-        "boss": 0.05,
-        "epic": 0
-    },
-    "average": {
-        "nuisance": 0.2,
-        "fodder": 0.23,
-        "worthy": 0.5,
-        "boss": 0.07,
-        "epic": 0
-    },
-    "hard": {
-        "nuisance": 0.1,
-        "fodder": 0.2,
-        "worthy": 0.59,
-        "boss": 0.1,
-        "epic": 0.01
-    },
-    "evil": {
-        "nuisance": 0,
-        "fodder": 0.1,
-        "worthy": 0.65,
-        "boss": 0.2,
-        "epic": 0.05
-    }
+    "cakewalk": [
+        {
+            "Description": "nuisance",
+            "Weight": 5
+        },
+        {
+            "Description": "fodder",
+            "Weight": 3
+        },
+        {
+            "Description": "worthy",
+            "Weight": 2
+        },
+        {
+            "Description": "boss",
+            "Weight": 0
+        },
+        {
+            "Description": "epic",
+            "Weight": 0}
+        ],
+    "easy": [
+        {
+            "Description": "nuisance",
+            "Weight": 30
+        },
+        {
+            "Description": "fodder",
+            "Weight": 40
+        },
+        {
+            "Description": "worthy",
+            "Weight": 25
+        },
+        {
+            "Description": "boss",
+            "Weight": 5
+        },
+        {
+            "Description": "epic",
+            "Weight": 0}
+        ],
+    "average": [
+        {
+            "Description": "nuisance",
+            "Weight": 20
+        },
+        {
+            "Description": "fodder",
+            "Weight": 23
+        },
+        {
+            "Description": "worthy",
+            "Weight": 5
+        },
+        {
+            "Description": "boss",
+            "Weight": 7
+        },
+        {
+            "Description": "epic",
+            "Weight": 0}
+        ],
+    "hard": [
+        {
+            "Description": "nuisance",
+            "Weight": 10
+        },
+        {
+            "Description": "fodder",
+            "Weight": 20
+        },
+        {
+            "Description": "worthy",
+            "Weight": 59
+        },
+        {
+            "Description": "boss",
+            "Weight": 10
+        },
+        {
+            "Description": "epic",
+            "Weight": 1}
+    ],
+    "evil": [
+        {
+            "Description": "nuisance",
+            "Weight": 0
+        },
+        {
+            "Description": "fodder",
+            "Weight": 10
+        },
+        {
+            "Description": "worthy",
+            "Weight": 65
+        },
+        {
+            "Description": "boss",
+            "Weight": 20
+        },
+        {
+            "Description": "epic",
+            "Weight": 5}
+    ]
 
 };
