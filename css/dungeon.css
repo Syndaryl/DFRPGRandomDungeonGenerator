@@ -94,7 +94,19 @@ table.center { margin-left: auto; margin-right: auto; }
   }
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /* print */
+/* style sheet for "A4" printing */
+@media print and (width: 21cm) and (height: 29.7cm) {
+    @page {
+       margin: 1.5cm;
+    }
+ }
 
+ /* style sheet for "letter" printing */
+ @media print and (width: 8.5in) and (height: 11in) {
+    @page {
+        margin: 0.5in;
+    }
+ }
 @media print {
     
      * { 
@@ -115,15 +127,17 @@ table.center { margin-left: auto; margin-right: auto; }
         margin: 0 !important; 
         padding: 0 !important; 
         
-        height: 100% !important;
+        /* height: 100% !important; */
         width: 100% !important;
     }
 
-    div.dungeon {
+    div.dungeon, div.travel {
         page-break-inside:avoid;
         text-align:initial;
         width: 100% !important;
         display: block;
+        margin-left: 0 !important; 
+        padding-left: 0 !important; 
     }
 
     div.encounters {
@@ -135,6 +149,11 @@ table.center { margin-left: auto; margin-right: auto; }
         page-break-inside:avoid;
         display: inline !important;
     }
+    /* #dungeon_key, .dungeon {
+        
+        margin: 0 !important; 
+        padding: 0 !important; 
+    } */
     .dungeon_key, .room {
         width: 100% !important;
         margin: 5 !important; 
