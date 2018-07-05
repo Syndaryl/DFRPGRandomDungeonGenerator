@@ -78,7 +78,7 @@ var threat_distribution = {
         },
         {
             "Description": "boss",
-            "Weight": 5
+            "Weight": 3
         },
         {
             "Description": "epic",
@@ -87,15 +87,15 @@ var threat_distribution = {
     "average": [
         {
             "Description": "nuisance",
-            "Weight": 20
+            "Weight": 10
         },
         {
             "Description": "fodder",
-            "Weight": 23
+            "Weight": 20
         },
         {
             "Description": "worthy",
-            "Weight": 5
+            "Weight": 20
         },
         {
             "Description": "boss",
