@@ -137,102 +137,6 @@
     },
     {
         "Weight": 1,
-        "Description": "There is a 10' wide creek or river spanning the entire room, crossed by an eery bone bridge"
-    },
-    {
-        "Weight": 5,
-        "Description": "There is a 10' wide creek or river spanning the entire room, crossed by a wobbly chain bridge"
-    },
-    {
-        "Weight": 1,
-        "Description": "There is a 10' wide creek or river spanning the entire room,  crossed by a bridge conjured by pulling a lever"
-    },
-    {
-        "Weight": 1,
-        "Description": "There is a 10' wide creek or river spanning the entire room, crossed by a bridge made of magical forcefields"
-    },
-    {
-        "Weight": 3,
-        "Description": "There is a 10' wide creek or river spanning the entire room, crossed by a delicate ice bridge"
-    },
-    {
-        "Weight": 15,
-        "Description": "There is a 10' wide creek or river spanning the entire room, crossed by a stout (but flammable) log bridge"
-    },
-    {
-        "Weight": 20,
-        "Description": "There is a 10' wide creek or river spanning the entire room, crossed by a wobbly rope bridge"
-    },
-    {
-        "Weight": 1,
-        "Description": "There is a 10' wide creek or river spanning the entire room, crossed by a sturdy stone bridge"
-    },
-    {
-        "Weight": 1,
-        "Description": "There is a 10' wide creek or river spanning the entire room, crossed by a swinging (like a swing) bridge"
-    },
-    {
-        "Weight": 1,
-        "Description": "There is a 10' wide creek or river spanning the entire room, crossed by a sticky web bridge"
-    },
-    {
-        "Weight": 3,
-        "Description": "There is a 10' wide creek or river spanning the entire room, crossed by a bridge with car and pulley system"
-    },
-    {
-        "Weight": 15,
-        "Description": "There is a 10' wide creek or river spanning the entire room, crossed by a wood bridge"
-    },
-    {
-        "Weight": 1,
-        "Description": "There is a 15' chasm crossed by a bone bridge"
-    },
-    {
-        "Weight": 5,
-        "Description": "There is a 15' chasm crossed by a chain bridge"
-    },
-    {
-        "Weight": 1,
-        "Description": "There is a 15' chasm crossed by a conjured (magical) bridge"
-    },
-    {
-        "Weight": 1,
-        "Description": "There is a 15' chasm crossed by a force (magical) bridge"
-    },
-    {
-        "Weight": 3,
-        "Description": "There is a 15' chasm crossed by a ice bridge"
-    },
-    {
-        "Weight": 15,
-        "Description": "There is a 15' chasm crossed by a log bridge"
-    },
-    {
-        "Weight": 20,
-        "Description": "There is a 15' chasm crossed by a rope bridge"
-    },
-    {
-        "Weight": 1,
-        "Description": "There is a 15' chasm crossed by a stone bridge"
-    },
-    {
-        "Weight": 1,
-        "Description": "There is a 15' chasm crossed by a swinging (like a swing) bridge"
-    },
-    {
-        "Weight": 1,
-        "Description": "There is a 15' chasm crossed by a sticky web bridge"
-    },
-    {
-        "Weight": 3,
-        "Description": "There is a 15' chasm crossed by a bridge with car and pulley system"
-    },
-    {
-        "Weight": 15,
-        "Description": "There is a 15' chasm crossed by a wood bridge"
-    },
-    {
-        "Weight": 1,
         "Description": "There is a bucket and mop"
     },
     {
@@ -782,10 +686,6 @@
     {
         "Weight": 6,
         "Description": "There is a platform"
-    },
-    {
-        "Weight": 5,
-        "Description": "There is a pool"
     },
     {
         "Weight": 3,

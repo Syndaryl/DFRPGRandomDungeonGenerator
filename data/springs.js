@@ -17,7 +17,7 @@
     },
     {
         "Weight": 9,
-        "Description": "Poison water: Roll vs. Smell at -4 to detect before contacting.",
+        "Description": "Poison water: Roll vs. Smell at -4 to detect something is awry before contacting.",
         "Tables": "poison"
     },
     {
@@ -27,5 +27,21 @@
     {
         "Weight": 4,
         "Description": "This spring is a fountain of youth. Whoever drinks from it will immediately becomes 2d6 years younger."
+    },
+    {
+        "Weight": 10,
+        "Description": "Fresh water spring. This is a perfectly safe and mundane spring. The water is cool and refreshing."
+    },
+    {
+        "Weight": 10,
+        "Description": "Fresh water spring. The water is warm and smells of sulphur, but is harmless."
+    },
+    {
+        "Weight": 10,
+        "Description": "Fresh water spring. This is a perfectly safe and mundane spring. The water stains a rusty red and tastes strongly of minerals, but is harmless."
+    },
+    {
+        "Weight": 14,
+        "Description": "Contaminated spring. The water from this spring looks, smells, and tastes fresh, but is contaminated. Drinkers must roll HT -2 (plus any bonuses for Fit, disease resistance or resistance to metabolic hazards) or develop a severe 'digestive complaint' that will manifest itself overnight. Upon awakening each day roll again - if you succeed you shake it off; if you fail, lose 1d FP that cannot be recovered until you are cured and can rest with clean water to drink."
     }
 ];

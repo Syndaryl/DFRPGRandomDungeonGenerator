@@ -10,32 +10,32 @@
     "Description": "Black Wind",
     "Book": "DFRPG: Traps",
     "Page": 4,
-    "Tags": "Hall. Room. Plate. Alchemical. Gas",
+    "Tags": "Hall. Room. Plate. Alchemical. Gas.",
     "Weight": 5
   },
   {
     "Description": "Magebane Dust",
     "Book": "DFRPG: Traps",
     "Page": 5,
-    "Tags": "Floor. Wall. Alchemical. Hall. Room. Surface",
+    "Tags": "Floor. Wall. Alchemical. Hall. Room. Surface.",
     "Weight": 5
   },
   {
     "Description": "Rain of Liquid Ice",
     "Book": "DFRPG: Traps",
     "Page": 5,
-    "Tags": "Ceiling. Hall. Alchemical. Plate. Cold",
+    "Tags": "Ceiling. Hall. Alchemical. Plate. Cold.",
     "Weight": 5
   },
   {
     "Description": "Deadfall",
     "Book": "DFRPG: Traps",
     "Page": 5,
-    "Tags": "Ceiling. Wall. Outdoors. Tripwire. Mundane. Crushing",
+    "Tags": "Ceiling. Wall. Outdoors. Tripwire. Mundane. Crushing.",
     "Weight": 5
   },
   {
-    "Description": "Portcullis",
+    "Description": "Portcullis trap",
     "Book": "DFRPG: Traps",
     "Page": 6,
     "Tags": "Door. Tripwire. Mundane.",
@@ -66,7 +66,7 @@
     "Description": "Spring Snare",
     "Book": "DFRPG: Traps",
     "Page": 6,
-    "Tags": "Outdoors. Tree. Room. Hall. Tall",
+    "Tags": "Outdoors. Tree. Room. Hall. Tall.",
     "Weight": 5
   },
   {
@@ -80,14 +80,14 @@
     "Description": "Malicious Marble Madness",
     "Book": "DFRPG: Traps",
     "Page": 10,
-    "Tags": "Ceiling. Piercing. Floor. Nausea. Room. Hall. Mundane",
+    "Tags": "Ceiling. Piercing. Floor. Nausea. Room. Hall. Mundane.",
     "Weight": 5
   },
   {
     "Description": "Sand trap",
     "Book": "DFRPG: Traps",
     "Page": 10,
-    "Tags": "Plate. Room. Sand. Desert. Suffocation. Hall. Mundane",
+    "Tags": "Plate. Room. Sand. Desert. Suffocation. Hall. Mundane.",
     "Weight": 5
   },
   {
@@ -108,63 +108,63 @@
     "Description": "Acid Pit",
     "Book": "DFRPG: Traps",
     "Page": 12,
-    "Tags": "Corrosive. Floor. Illusion. Magical. Pit. Room. Hall",
+    "Tags": "Corrosive. Floor. Illusion. Magical. Pit. Room. Hall.",
     "Weight": 5
   },
   {
     "Description": "Bladed Pit",
     "Book": "DFRPG: Traps",
     "Page": 13,
-    "Tags": "Floor. Mechanical. Pit. Cutting. Room. Hall. Tripwire. Mundane",
+    "Tags": "Floor. Mechanical. Pit. Cutting. Room. Hall. Tripwire. Mundane.",
     "Weight": 5
   },
   {
     "Description": "Entombment",
     "Book": "DFRPG: Traps",
     "Page": 13,
-    "Tags": "Floor. Plate. Crushing. Mechanical. Room. Hall. Mundane",
+    "Tags": "Floor. Plate. Crushing. Mechanical. Room. Hall. Mundane.",
     "Weight": 5
   },
   {
     "Description": "Gladiator Pit",
     "Book": "DFRPG: Traps",
     "Page": 13,
-    "Tags": "Floor. Plate. StaticSummon. Crushing. Room. Hall",
+    "Tags": "Floor. Plate. StaticSummon. Crushing. Room. Hall.",
     "Weight": 5
   },
   {
     "Description": "Wire Slide",
     "Book": "DFRPG: Traps",
     "Page": 13,
-    "Tags": "Pit. Cutting. Slide. Plate. Room. Hall.. Mundane",
+    "Tags": "Pit. Cutting. Slide. Plate. Room. Hall.. Mundane.",
     "Weight": 5
   },
   {
     "Description": "Miasmic Mist",
     "Book": "DFRPG: Traps",
     "Page": 14,
-    "Tags": "Magic. Gas. Room. Hall. Poison. Disease",
+    "Tags": "Magic. Gas. Room. Hall. Poison. Disease.",
     "Weight": 5
   },
   {
     "Description": "Needle Floor",
     "Book": "DFRPG: Traps",
     "Page": 14,
-    "Tags": "Poison. Room. Hall. Plate. Mundane",
+    "Tags": "Poison. Room. Hall. Plate. Mundane.",
     "Weight": 5
   },
   {
     "Description": "Obvious Swinging Blade",
     "Book": "DFRPG: Traps",
     "Page": 24,
-    "Tags": "Room. Hall. Magical. Illusion",
+    "Tags": "Room. Hall. Magical. Illusion.",
     "Weight": 5
   },
   {
     "Description": "Dehydrating Basin",
     "Book": "DFRPG: Traps",
     "Page": 7,
-    "Tags": "Object. Room. Magical. Dehydration. Water. Treasure",
+    "Tags": "Object. Room. Magical. Dehydration. Water. Treasure.",
     "Weight": 2
   },
   {
@@ -178,14 +178,14 @@
     "Description": "Heiroglyphs of Insanity",
     "Book": "DFRPG: Traps",
     "Page": 7,
-    "Tags": "Room. Hall. Magical. Surface. Runes",
+    "Tags": "Room. Hall. Magical. Surface. Runes.",
     "Weight": 2
   },
   {
     "Description": "Crush Room",
     "Book": "DFRPG: Traps",
     "Page": 8,
-    "Tags": "WholeRoom. Mechanical. Crushing. Room. Mundane",
+    "Tags": "WholeRoom. Mechanical. Crushing. Room. Mundane.",
     "Weight": 1
   },
   {
@@ -199,14 +199,14 @@
     "Description": "Lava Pit",
     "Book": "DFRPG: Traps",
     "Page": 13,
-    "Tags": "Lava. Fire. Pit. Room. Hall",
+    "Tags": "Lava. Fire. Pit. Room. Hall.",
     "Weight": 1
   },
   {
     "Description": "Delvers Under Glass",
     "Book": "DFRPG: Traps",
     "Page": 17,
-    "Tags": "Solo. Room. WholeRoom. Cutting. Puzzle",
+    "Tags": "Solo. Room. WholeRoom. Cutting. Puzzle.",
     "Weight": 1
   },
   {
@@ -220,14 +220,14 @@
     "Description": "Reverse Gavity",
     "Book": "DFRPG: Traps",
     "Page": 18,
-    "Tags": "Magical. Room. Hall. WholeRoom. Fall",
+    "Tags": "Magical. Room. Hall. WholeRoom. Fall.",
     "Weight": 1
   },
   {
     "Description": "Rotating Room",
     "Book": "DFRPG: Traps",
     "Page": 18,
-    "Tags": "Room. WholeRoom. Will. Magical. Solo",
+    "Tags": "Room. WholeRoom. Will. Magical. Solo.",
     "Weight": 1
   },
   {
@@ -241,28 +241,28 @@
     "Description": "Imprisment",
     "Book": "DFRPG: Traps",
     "Page": 7,
-    "Tags": "WholeRoom. Magical. Jumping. Light. Room",
+    "Tags": "WholeRoom. Magical. Jumping. Light. Room.",
     "Weight": 0
   },
   {
     "Description": "Bowling for Boulders",
     "Book": "DFRPG: Traps",
     "Page": 8,
-    "Tags": "Hall. Mechanical. Crushing. Mundane",
+    "Tags": "Hall. Mechanical. Crushing. Mundane.",
     "Weight": 0
   },
   {
     "Description": "Dragon's Maw Hallway",
     "Book": "DFRPG: Traps",
     "Page": 9,
-    "Tags": "Hall. Mechanical. Impaling. Dragon. Plate. Mundane",
+    "Tags": "Hall. Mechanical. Impaling. Dragon. Plate. Mundane.",
     "Weight": 0
   },
   {
     "Description": "Smashing Walls",
     "Book": "DFRPG: Traps",
     "Page": 11,
-    "Tags": "Hall. Crushing. Ongoing. Mundane",
+    "Tags": "Hall. Crushing. Ongoing. Mundane.",
     "Weight": 0
   },
   {
@@ -276,56 +276,56 @@
     "Description": "Poisoned Needle",
     "Book": "DFRPG: Traps",
     "Page": 14,
-    "Tags": "Poison. Door. Container. Lock. Mundane",
+    "Tags": "Poison. Door. Container. Lock. Mundane.",
     "Weight": 0
   },
   {
     "Description": "A Crooked Mile",
     "Book": "DFRPG: Traps",
     "Page": 17,
-    "Tags": "Mundane. Inconvenience. Companion. Room",
+    "Tags": "Mundane. Inconvenience. Companion. Room.",
     "Weight": 0
   },
   {
     "Description": "Slip and Slide",
     "Book": "DFRPG: Traps",
     "Page": 19,
-    "Tags": "Staircase. Mundane. Plate",
+    "Tags": "Staircase. Mundane. Plate.",
     "Weight": 0
   },
   {
     "Description": "Alchemy Basin",
     "Book": "DFRPG: Traps",
     "Page": 19,
-    "Tags": "Alchemy. WholeRoom. Puzzle",
+    "Tags": "Alchemy. WholeRoom. Puzzle.",
     "Weight": 0
   },
   {
     "Description": "Door of Stars",
     "Book": "DFRPG: Traps",
     "Page": 20,
-    "Tags": "Puzzle. Door. ElderThings. Obstacle",
+    "Tags": "Puzzle. Door. ElderThings. Obstacle.",
     "Weight": 0
   },
   {
     "Description": "Dungeon Djinn Dupes",
     "Book": "DFRPG: Traps",
     "Page": 20,
-    "Tags": "Puzzle. Magic.Obstacle",
+    "Tags": "Puzzle. Magic.Obstacle.",
     "Weight": 0
   },
   {
     "Description": "Eye on the Prize",
     "Book": "DFRPG: Traps",
     "Page": 21,
-    "Tags": "Puzzle. Magic. Obstacle. Riddle",
+    "Tags": "Puzzle. Magic. Obstacle. Riddle.",
     "Weight": 0
   },
   {
     "Description": "Javelin Lock",
     "Book": "DFRPG: Traps",
     "Page": 22,
-    "Tags": "Puzzle. Obstacle. Impaling",
+    "Tags": "Puzzle. Obstacle. Impaling.",
     "Weight": 0
   },
   {
@@ -346,7 +346,7 @@
     "Description": "Blind Man's Bamf",
     "Book": "DFRPG: Traps",
     "Page": 23,
-    "Tags": "Puzzle. Obstacle. WholeRoom",
+    "Tags": "Puzzle. Obstacle. WholeRoom.",
     "Weight": 0
   },
   {
@@ -367,63 +367,63 @@
     "Description": "Helpful Climbing Wall",
     "Book": "DFRPG: Traps",
     "Page": 24,
-    "Tags": "WholeRoom. Climbing. Obstacle",
+    "Tags": "WholeRoom. Climbing. Obstacle.",
     "Weight": 0
   },
   {
     "Description": "Ankle-Breaking Spears",
     "Book": "DFRPG: Traps",
     "Page": 15,
-    "Tags": "Tripwire. Room. Hall. Mundane. Weapon",
+    "Tags": "Tripwire. Room. Hall. Mundane. Weapon.",
     "Weight": 5
   },
   {
     "Description": "Chainshot",
     "Book": "DFRPG: Traps",
     "Page": 15,
-    "Tags": "Room. Hall. Plate. Mundane. Weapon",
+    "Tags": "Room. Hall. Plate. Mundane. Weapon.",
     "Weight": 5
   },
   {
     "Description": "Drop Net",
     "Book": "DFRPG: Traps",
     "Page": 15,
-    "Tags": "Room. Hall. Plate. Mundane. Inconvenience. Companion",
+    "Tags": "Room. Hall. Plate. Mundane. Inconvenience. Companion.",
     "Weight": 5
   },
   {
     "Description": "Fiendish Flung Axe",
     "Book": "DFRPG: Traps",
     "Page": 15,
-    "Tags": "Room. Hall. Plate. Mundane. Weapon",
+    "Tags": "Room. Hall. Plate. Mundane. Weapon.",
     "Weight": 5
   },
   {
     "Description": "Projectile Capturing Field",
     "Book": "DFRPG: Traps",
     "Page": 15,
-    "Tags": "Room. Hall. Magic. Companion",
+    "Tags": "Room. Hall. Magic. Companion.",
     "Weight": 5
   },
   {
     "Description": "Rain of Daggers",
     "Book": "DFRPG: Traps",
     "Page": 16,
-    "Tags": "Room. Hall. Mundane. Plate. Weapon",
+    "Tags": "Room. Hall. Mundane. Plate. Weapon.",
     "Weight": 5
   },
   {
     "Description": "Sticky Caltrops",
     "Book": "DFRPG: Traps",
     "Page": 16,
-    "Tags": "Room. Hall. Mundane. Impaling. Floor",
+    "Tags": "Room. Hall. Mundane. Impaling. Floor.",
     "Weight": 5
   },
   {
     "Description": "Wall-Scyther",
     "Book": "DFRPG: Traps",
     "Page": 16,
-    "Tags": "Mechanical. Melee. Blades. Floor. Plate. Room. Hall. Mundane. Weapon",
+    "Tags": "Mechanical. Melee. Blades. Floor. Plate. Room. Hall. Mundane. Weapon.",
     "Weight": 5
   }
  ];
