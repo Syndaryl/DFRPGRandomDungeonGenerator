@@ -84,68 +84,68 @@
         "Tables": "traps; spring; treasure; container"
     },
     {
-        "Weight": 300,
-        "Description": "Water",
+        "Weight": 10,
+        "Description": "Terrain Feature",
         "Tables": "water"
     },
     {
         "Weight": 15,
-        "Description": "Water, plus a Random monster",
+        "Description": "A Random monster",
         "Tables": "water; monsters"
     },
     {
         "Weight": 25,
-        "Description": "Water, Random monster, plus a Treasure in a container",
+        "Description": "A Random monster, plus a Treasure in a container",
         "Tables": "water; monsters; treasure; container"
     },
     {
         "Weight": 4,
-        "Description": "Water, plus an Unusual atmosphere",
+        "Description": "An Unusual atmosphere",
         "Tables": "water; atmosphere"
     },
     {
         "Weight": 5,
-        "Description": "Water, plus Concealed treasure",
+        "Description": "Concealed treasure",
         "Tables": "water; treasure; concealment"
     },
     {
         "Weight": 6,
-        "Description": "Water, plus Concealed treasure in a container",
+        "Description": "Concealed treasure in a container",
         "Tables": "water; treasure; concealment; container"
     },
     {
         "Weight": 12,
-        "Description": "Water, Random monster, plus a concealed treasure",
+        "Description": "A Random monster, plus a concealed treasure",
         "Tables": "water; monsters; treasure; concealment"
     },
     {
         "Weight": 2,
-        "Description": "Water, Random monster, plus an unusual atmosphere",
+        "Description": "A Random monster, plus an unusual atmosphere",
         "Tables": "water; monsters; atmosphere"
     },
     {
         "Weight": 6,
-        "Description": "Water, plus a Trap",
+        "Description": "A Trap",
         "Tables": "water; traps"
     },
     {
         "Weight": 10,
-        "Description": "Water, a Trap, plus a Treasure in a container",
+        "Description": "A Trap, plus a Treasure in a container",
         "Tables": "water; traps; treasure; container"
     },
     {
         "Weight": 4,
-        "Description": "Water, a Trap, plus a concealed treasure",
+        "Description": "A Trap, plus a concealed treasure",
         "Tables": "water; traps; treasure; concealment"
     },
     {
         "Weight": 1,
-        "Description": "Water, a Trap, plus an unusual atmosphere",
+        "Description": "A Trap, plus an unusual atmosphere",
         "Tables": "water; traps; atmosphere"
     },
     {
         "Weight": 1,
-        "Description": "Water, a Trap, plus an unusual atmosphere plus a Treasure in a container",
+        "Description": "A Trap, plus an unusual atmosphere plus a Treasure in a container",
         "Tables": "water; traps; atmosphere; treasure; container"
     }
 ];
