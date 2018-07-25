@@ -22,15 +22,18 @@
     },
     {
         "Weight": 10,
-        "Description": "There is a ${ River Width } wide and ${ Chasm Depth } deep chasm running ${ Direction } and spanning the entire room, ${ Crossing }"
+        "Description": "There is a ${ River Width } wide and ${ Chasm Depth } deep chasm running ${ Direction } and spanning the entire room, ${ Crossing }",
+        "Tag":"Rift"
     },
     {
         "Weight": 10,
-        "Description": "There is a ${ River Width } wide and ${ Chasm Depth } deep chasm running ${ Direction } and spanning the entire room, crossed by ${ Common Bridge }"
+        "Description": "There is a ${ River Width } wide and ${ Chasm Depth } deep chasm running ${ Direction } and spanning the entire room, crossed by ${ Common Bridge }",
+        "Tag":"Rift"
     },
     {
         "Weight": 6,
-        "Description": "There is a ${ River Width } wide and ${ Chasm Depth } chasm running ${ Direction } and spanning the entire room, crossed by ${ Rare Bridge }"
+        "Description": "There is a ${ River Width } wide and ${ Chasm Depth } chasm running ${ Direction } and spanning the entire room, crossed by ${ Rare Bridge }",
+        "Tag":"Rift"
     }
 ];
 
