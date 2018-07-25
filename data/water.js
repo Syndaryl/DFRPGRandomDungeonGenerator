@@ -19,7 +19,7 @@
         "Weight": 5,
         "Description": "There is a ${ River Width } wide and ${ River Depth } deep stream running ${ Direction } and spanning the entire room, crossed by ${ Rare Bridge }",
         "Tag":"River"
-    }
+    },
     {
         "Weight": 10,
         "Description": "There is a ${ River Width } wide and ${ Chasm Depth } deep chasm running ${ Direction } and spanning the entire room, ${ Crossing }"
