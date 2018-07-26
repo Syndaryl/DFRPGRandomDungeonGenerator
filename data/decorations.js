@@ -969,6 +969,31 @@
     },
     {
         "Weight": 3,
-        "Description": "There is a workbench"
+        "Description": "There is a workbench ${ Walls Or Corner Or Center }"
     }
 ];
+
+
+var decoration_data = {
+    "Cardinal Direction": [
+        "north",
+        "south",
+        "east",
+        "west"
+    ],
+    "Corner": [
+        "north-west",
+        "north-east",
+        "south-west",
+        "south-east"
+    ],
+    "Walls Or Corner": [
+        "${ Cardinal Direction } wall",
+        "${ Corner } corner"
+    ]
+    "Walls Or Corner Or Center": [
+        "along the ${ Cardinal Direction } wall",
+        "in the ${ Corner } corner",
+        "at the center of the room"
+    ]
+};
