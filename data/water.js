@@ -22,17 +22,17 @@
     },
     {
         "Weight": 10,
-        "Description": "There is a ${ River Width } wide and ${ Chasm Depth } deep chasm running ${ Direction } and spanning the entire room, ${ Crossing }",
+        "Description": "There is a ${ River Width } wide and ${ Chasm Depth } deep chasm running ${ Alignment } and spanning the entire room, ${ Chasm Crossing }",
         "Tag":"Rift"
     },
     {
         "Weight": 10,
-        "Description": "There is a ${ River Width } wide and ${ Chasm Depth } deep chasm running ${ Direction } and spanning the entire room, crossed by ${ Common Bridge }",
+        "Description": "There is a ${ River Width } wide and ${ Chasm Depth } deep chasm running ${ Alignment } and spanning the entire room, crossed by ${ Common Bridge }",
         "Tag":"Rift"
     },
     {
         "Weight": 6,
-        "Description": "There is a ${ River Width } wide and ${ Chasm Depth } chasm running ${ Direction } and spanning the entire room, crossed by ${ Rare Bridge }",
+        "Description": "There is a ${ River Width } wide and ${ Chasm Depth } chasm running ${ Alignment } and spanning the entire room, crossed by ${ Rare Bridge }",
         "Tag":"Rift"
     }
 ];
@@ -44,16 +44,29 @@ var water_data = {
                     "8 yard deep", "8 yard deep", "8 yard deep", 
                     "10 yard deep", "10 yard deep", "20 yard deep", "bottomless"],
     "Direction": [
+        "east to west",
+        "west to east",
+        "north to south",
+        "south to north"
+    ],
+    "Alignment": [
         "east-west",
         "north-south"
     ],
     "Crossing": ["and no bridge in sight!", "and a conspicuous 1 foot wide plank on the ${ Side } side", "and a series of (wet, slippery) stepping stones across"],
+    "Chasm Crossing": ["and no bridge in sight!", "and a conspicuous 1 foot wide plank on the ${ Side } side"],
     "Common Bridge": [
         "a wobbly chain bridge (DX${ Penalty } roll to keep your feet)",
+        "a tight rope (300 lb capacity)",
+        "a tight rope (300 lb capacity) with a second rope as a \"hand railing\"",
+        "a sturdy tight rope (1000 lb capacity)",
         "a ${ Bridge Width } wide ${ Hidden Bridge }, activated by pulling a lever on the ${ Side } side",
         "a ${ Bridge Width } wide ${ Hidden Bridge }, activated by pulling a hidden lever on the ${ Side } side (Observation${ Penalty } roll to find",
         "a ${ Bridge Width } wide stout oak bridge",
         "a ${ Bridge Width } wide stout oak bridge",
+        "a ${ Bridge Width } wide stout oak bridge",
+        "a ${ Bridge Width } wide stout oak bridge",
+        "a ${ Bridge Width } sturdy stone bridge",
         "a ${ Bridge Width } sturdy stone bridge",
         "a ${ Bridge Width } sturdy stone bridge",
         "a ${ Beam Width } wide oak beam, 1 yard above the ground",
@@ -65,7 +78,7 @@ var water_data = {
         "a ${ Bridge Width } wide delicate ice bridge (treat the slick surface as under the effect of the Grease spell)",
         "a 2 yard by 2 yard swinging platform, suspended in the middle",
         "a ${ Bridge Width } wide spider webbing bridge (treat the incredibly sticky surface as under the effect of the Glue spell)",
-        "a 2 yard by 2 yard cart suspended from a heavy 3\" rope, cranked by a pully on the ${ Side }",
+        "a 2 yard by 2 yard cart suspended from a heavy 3\" rope, cranked by a pully on the ${ Side } side",
         "a 2 yard by 2 yard cart suspended from a heavy 3\" rope, cranked by a pully on the cart"
     ],
     "Bridge Width": [
