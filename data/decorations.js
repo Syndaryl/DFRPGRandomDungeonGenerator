@@ -965,7 +965,7 @@
     },
     {
         "Weight": 8,
-        "Description": "There are wooden billets (shelf beds)"
+        "Description": "There are wooden billets (shelf beds) ${ Walls Or Corner Or Center }"
     },
     {
         "Weight": 3,
@@ -990,7 +990,7 @@ var decoration_data = {
     "Walls Or Corner": [
         "${ Cardinal Direction } wall",
         "${ Corner } corner"
-    ]
+    ],
     "Walls Or Corner Or Center": [
         "along the ${ Cardinal Direction } wall",
         "in the ${ Corner } corner",
