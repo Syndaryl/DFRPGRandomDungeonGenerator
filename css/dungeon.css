@@ -77,6 +77,10 @@ canvas { margin: 2ex auto;
 .center { text-align: center; }
 table.center { margin-left: auto; margin-right: auto; }
 
+#hatching{
+    visibility:hidden;
+}
+
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /* screen */
 
