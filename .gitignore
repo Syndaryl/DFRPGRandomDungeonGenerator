@@ -7,6 +7,6 @@
 /.vs
 *.bak
 /.cache
-/images
+/images/icons*.*
 /dist
 *.zip
