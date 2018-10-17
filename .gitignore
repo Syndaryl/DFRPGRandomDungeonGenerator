@@ -6,6 +6,7 @@
 *.exclude
 /.vs
 *.bak
+*.orig
 /.cache
 /images/icons*.*
 /dist
