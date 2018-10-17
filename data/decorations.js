@@ -257,19 +257,19 @@
     },
     {
         "Weight": 1,
-        "Description": "There is a chute"
+        "Description": "There is a chute ${ Corner Or Center }"
     },
     {
         "Weight": 1,
-        "Description": "There is a chute, flesh-lined (take 1d6 cor damage if pushed down)"
+        "Description": "There is a chute, flesh-lined (take 1d6 cor damage if pushed down) ${ Corner Or Center }"
     },
     {
         "Weight": 1,
-        "Description": "There is a chute, blade-lined (take 2d6 cut damage if pushed down)"
+        "Description": "There is a chute, blade-lined (take 2d6 cut damage if pushed down) ${ Corner Or Center }"
     },
     {
         "Weight": 1,
-        "Description": "There is a chute, filled with sand/quicksand"
+        "Description": "There is a chute, filled with sand/quicksand ${ Corner Or Center }"
     },
     {
         "Weight": 1,
@@ -992,8 +992,18 @@ var decoration_data = {
         "${ Corner } corner"
     ],
     "Walls Or Corner Or Center": [
-        "along the ${ Cardinal Direction } wall",
+        "${ Walls }",
         "in the ${ Corner } corner",
         "at the center of the room"
+    ],
+    "Corner Or Center": [
+        "in the ${ Corner } corner",
+        "at the center of the room"
+    ],
+    "Walls": [
+        "along the ${ Cardinal Direction } wall"
+    ],
+    "Wall": [
+        "on the ${ Cardinal Direction } wall"
     ]
 };
