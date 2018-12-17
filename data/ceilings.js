@@ -35,7 +35,7 @@
         "Height": 7.5
     },
     {
-        "Weight": 3,
+        "Weight": 6,
         "Description": "Moderate",
         "Height": 8
     },
