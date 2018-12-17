@@ -1005,5 +1005,8 @@ var decoration_data = {
     ],
     "Wall": [
         "on the ${ Cardinal Direction } wall"
+    ],
+    "DEBUG": [
+        " _INJECTED DEBUG STATEMENT_ ${ Walls }"
     ]
 };
