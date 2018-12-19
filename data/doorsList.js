@@ -100,3 +100,18 @@ var doorsList = [
    "Tags": "Stone"
  }
 ];
+
+var open_door_list = [
+    {
+        "Weight": 10,
+        "Description": "It is half open"
+    },
+    {
+        "Weight": 20,
+        "Description": "It is slightly ajar"
+    },
+    {
+        "Weight": 5,
+        "Description": "It is wide open"
+    }
+];
