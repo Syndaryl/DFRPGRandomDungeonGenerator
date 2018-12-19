@@ -171,7 +171,7 @@ var dungeonLighting = [
       ]
     },
     {
-      "Description": "Permanant Sunlight Spell",
+      "Description": "Permanent Sunlight Spell",
       "Penalty": "0",
       "Weight": 1,
       "Tags": [
