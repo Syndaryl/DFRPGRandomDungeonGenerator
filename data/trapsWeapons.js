@@ -98,9 +98,9 @@ var trapsWeapons = [
       "ST 18": "3d+1",
       "ST 22": "4d+1",
       "ST 26": "5d+1",
-      "Type": "cutting",
-      "Melee": false,
-      "Ranged": true,
+        "Type": "cutting",
+        "Melee": true,
+        "Ranged": false,
       "Weight": 5
     },
     {
@@ -111,8 +111,8 @@ var trapsWeapons = [
       "ST 22": "2d+4",
       "ST 26": "2d+6",
       "Type": "impaling",
-      "Melee": true,
-      "Ranged": false,
+      "Melee": false,
+      "Ranged": true,
       "Weight": 5
     },
     {
@@ -121,9 +121,9 @@ var trapsWeapons = [
       "ST 18": "3d+4",
       "ST 22": "4d+4",
       "ST 26": "5d+4",
-      "Type": "cutting",
-      "Melee": false,
-      "Ranged": true,
+        "Type": "cutting",
+        "Melee": true,
+        "Ranged": false,
       "Weight": 5
     },
     {
@@ -132,9 +132,9 @@ var trapsWeapons = [
       "ST 18": "3d+5",
       "ST 22": "4d+5",
       "ST 26": "5d+5",
-      "Type": "cutting",
-      "Melee": false,
-      "Ranged": true,
+        "Type": "cutting",
+        "Melee": true,
+        "Ranged": false,
       "Weight": 5
     },
     {
@@ -155,8 +155,8 @@ var trapsWeapons = [
       "ST 22": "2d+2",
       "ST 26": "2d+4",
       "Type": "impaling",
-      "Melee": true,
-      "Ranged": false,
+      "Melee": false,
+      "Ranged": true,
       "Weight": 5
     },
     {
@@ -166,8 +166,8 @@ var trapsWeapons = [
       "ST 22": "4d+5",
       "ST 26": "5d+5",
       "Type": "crushing",
-      "Melee": false,
-      "Ranged": true,
+      "Melee": true,
+      "Ranged": false,
       "Weight": 5
     },
     {
@@ -176,9 +176,9 @@ var trapsWeapons = [
       "ST 18": "3d+3",
       "ST 22": "4d+3",
       "ST 26": "5d+3",
-      "Type": "impaling",
-      "Melee": false,
-      "Ranged": true,
+        "Type": "impaling",
+        "Melee": true,
+        "Ranged": false,
       "Weight": 5
     },
     {
@@ -197,9 +197,9 @@ var trapsWeapons = [
       "Description": "Star Shuriken",
       "ST 10": "1d-3",
       "ST 14": "1d-1",
-      "Type": "cutting",
-      "Melee": true,
-      "Ranged": false,
+        "Type": "cutting",
+        "Melee": false,
+        "Ranged": true,
       "Weight": 5
     }
    ];
