@@ -4,25 +4,29 @@
     <meta charset="utf-8" />
     <title>Random Dungeon Generator v1.0.3</title>
     <script type="text/javascript">
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// this is a completely self-contained random dungeon generator,
-// implemented in HTML5 and JavaScript.
-//
-//   version 1.0.3      updated save_canvas to use filename
-//   version 1.0.2      linked to generator.js version 2.0
-//   version 1.0.1      cache set_pixel() for performance
-//   version 1.0        initial release
-//
-// written by drow [drow@bin.sh]
-// http://creativecommons.org/licenses/by-nc/3.0/
+        // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        // this is a completely self-contained random dungeon generator,
+        // implemented in HTML5 and JavaScript.
+        //
+        //   version 1.0.3      updated save_canvas to use filename
+        //   version 1.0.2      linked to generator.js version 2.0
+        //   version 1.0.1      cache set_pixel() for performance
+        //   version 1.0        initial release
+        //
+        // written by drow [drow@bin.sh]
+        // http://creativecommons.org/licenses/by-nc/3.0/
 
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     </script>
     <link rel="stylesheet" type="text/css" href="css/dungeon.css" />
     <link rel="manifest" href='data:text/plain,{"short_name":"Dungeon","name":"DFRPG Random Dungeon Generator","icons":[{"src":"images/icons-192.png","type":"image/png","sizes":"192x192"},{"src":"images/icons-512.png","type":"image/png","sizes":"512x512"}],"default_locale":"en","description":"Generates dungeons with statistics for GURPS DF and DFRPG","start_url":".","background_color":"#FFF","display":"standalone","theme_color":"#FFF"}'>
     <link rel="icon" href="images/icons-192.png">
+    <link href="https://unpkg.com/vis@4.21.0/dist/vis.css" type="text/css" />
     <meta name="theme-color" content="#E7B546"> <!-- SJG website's distinctive color... -->
     <script type="text/javascript" src="lib/PrototypeJS.js"></script>
+    <script src="https://unpkg.com/delaunator@3.0.2/delaunator.min.js"></script> <!-- minified build -->
+    <script src="https://unpkg.com/js-graph-algorithms@1.0.18/build/jsgraphs.min.js"></script> <!-- minified build -->
+    <script src="https://unpkg.com/vis@4.21.0/dist/vis.min.js"></script> <!-- minified build -->
 </head>
 <body>
     <img src="images/crosshatch.png" id="hatching" width="0" height="0" />
@@ -153,8 +157,11 @@
     <script type="text/javascript" src="lib/travel_environment.js"></script>
     <script type="text/javascript" src="lib/linkify.min.js"></script>
     <script type="text/javascript" src="lib/linkify-string.min.js"></script>
+    <script type="text/javascript" src="lib/spanning_tree.js"></script>
     <script type="text/javascript" src="lib/dungeon.js"></script>
 
+    <div id="mynetwork"></div>
+    <p id="selection"></p>
     <div id="debug"></div>
 </body>
 </html>

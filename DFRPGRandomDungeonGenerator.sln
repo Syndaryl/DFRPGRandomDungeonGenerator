@@ -26,6 +26,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DFRPGRandomDungeonGenerator
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateTraps", "..\GenerateTraps\GenerateTraps.csproj", "{61455B7B-8500-42A6-8E37-EE24CF2F1069}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "DelaunatorRooms", "..\DelaunatorRooms\DelaunatorRooms.njsproj", "{FC840C1C-C2ED-4F65-AFCB-BBCEE676189A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{61455B7B-8500-42A6-8E37-EE24CF2F1069}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61455B7B-8500-42A6-8E37-EE24CF2F1069}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61455B7B-8500-42A6-8E37-EE24CF2F1069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC840C1C-C2ED-4F65-AFCB-BBCEE676189A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC840C1C-C2ED-4F65-AFCB-BBCEE676189A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC840C1C-C2ED-4F65-AFCB-BBCEE676189A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC840C1C-C2ED-4F65-AFCB-BBCEE676189A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
