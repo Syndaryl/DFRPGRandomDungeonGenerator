@@ -30,6 +30,8 @@ td { padding: 0.5ex 0.5em; text-align: left; vertical-align: top; }
 /* .text {}
 div.encounters {} */
 
+
+
 #wandering_monsters {
     -webkit-justify-content: center;
     justify-content: center;
@@ -92,6 +94,13 @@ table.center { margin-left: auto; margin-right: auto; }
       padding: 0 !important;
       width: 100% !important;
   }
+
+
+    #mynetwork {
+        width: 1600px;
+        height: 1000px;
+        border: 1px solid lightgray;
+    }
 }
 @media screen and (max-width: 870px) {
     .room {width: 95%;}
@@ -168,6 +177,10 @@ table.center { margin-left: auto; margin-right: auto; }
         height: 9.5in !important;
         /* width: 7in !important; */
         object-fit: scale-down !important;
+    }
+
+    #mynetwork {
+        display: none !important;
     }
 }
 
