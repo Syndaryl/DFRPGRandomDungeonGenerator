@@ -94,16 +94,22 @@ table.center { margin-left: auto; margin-right: auto; }
       padding: 0 !important;
       width: 100% !important;
   }
-
+    html, body {
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+    }
 
     #mynetwork {
-        width: 1600px;
-        height: 1000px;
+        width: inherit;
+        height: 100vmin;
+        margin: 0px;
         border: 1px solid lightgray;
     }
 }
 @media screen and (max-width: 870px) {
     .room {width: 95%;}
+    canvas {width: 95%;}
   }
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /* print */
