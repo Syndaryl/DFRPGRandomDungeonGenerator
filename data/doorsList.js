@@ -115,3 +115,21 @@ var open_door_list = [
         "Description": "It is wide open"
     }
 ];
+var open_portc_list = [
+    {
+        "Weight": 10,
+        "Description": "It is fully open"
+    },
+    {
+        "Weight": 20,
+        "Description": "It is propped up on a 2' crate"
+    },
+    {
+        "Weight": 5,
+        "Description": "It is propped up with a 6' pole"
+    },
+    {
+        "Weight": 5,
+        "Description": "It is fully open but will fall closed if jiggled (1 point of damage is enough)"
+    }
+];
