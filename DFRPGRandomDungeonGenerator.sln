@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateTraps", "..\Generat
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "DelaunatorRooms", "..\DelaunatorRooms\DelaunatorRooms.njsproj", "{FC840C1C-C2ED-4F65-AFCB-BBCEE676189A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeomorphDungeonWindowsClient", "..\GeomorphDungeonWindowsClient\GeomorphDungeonWindowsClient.csproj", "{899B928C-8335-4F4C-BE57-A992AE5040C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,10 @@ Global
 		{FC840C1C-C2ED-4F65-AFCB-BBCEE676189A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC840C1C-C2ED-4F65-AFCB-BBCEE676189A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC840C1C-C2ED-4F65-AFCB-BBCEE676189A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{899B928C-8335-4F4C-BE57-A992AE5040C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{899B928C-8335-4F4C-BE57-A992AE5040C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{899B928C-8335-4F4C-BE57-A992AE5040C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{899B928C-8335-4F4C-BE57-A992AE5040C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
