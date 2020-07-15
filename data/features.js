@@ -4,7 +4,7 @@
         "Description": "Nothing"
     },
     {
-        "Weight": 35,
+        "Weight": 30,
         "Description": "Random monster",
         "Tables": "monsters"
     },
@@ -14,17 +14,17 @@
         "Tables": "monsters; treasure; container"
     },
     {
-        "Weight": 8,
+        "Weight": 18,
         "Description": "Unusual atmosphere",
         "Tables": "atmosphere"
     },
     {
-        "Weight": 10,
+        "Weight": 20,
         "Description": "Concealed treasure",
         "Tables": "treasure; concealment"
     },
     {
-        "Weight": 10,
+        "Weight": 30,
         "Description": "Concealed treasure in a container",
         "Tables": "treasure; concealment; container"
     },
@@ -89,7 +89,7 @@
         "Tables": "water"
     },
     {
-        "Weight": 15,
+        "Weight": 10,
         "Description": "A Random monster",
         "Tables": "water; monsters"
     },
@@ -99,22 +99,22 @@
         "Tables": "water; monsters; treasure; container"
     },
     {
-        "Weight": 4,
+        "Weight": 15,
         "Description": "An Unusual atmosphere",
         "Tables": "water; atmosphere"
     },
     {
-        "Weight": 5,
+        "Weight": 7,
         "Description": "Concealed treasure",
         "Tables": "water; treasure; concealment"
     },
     {
-        "Weight": 6,
+        "Weight": 9,
         "Description": "Concealed treasure in a container",
         "Tables": "water; treasure; concealment; container"
     },
     {
-        "Weight": 12,
+        "Weight": 15,
         "Description": "A Random monster, plus a concealed treasure",
         "Tables": "water; monsters; treasure; concealment"
     },
