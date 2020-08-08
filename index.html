@@ -74,8 +74,13 @@
                 <td class="value"><select id="add_stairs"></select></td>
                 <td class="key">Doors:</td>
                 <td class="value"><select id="doors"></select></td>
+                <td class="key">Biome Strictness:</td>
+                <td class="value"><select id="biome_strictness"></select></td>
+            </tr>
+            <tr>
                 <td class="key">Biome:</td>
                 <td class="value"><select id="biomes"></select></td>
+                <td class="value"><fieldset name="Biomes" id="biomes_fields"></fieldset></td>
             </tr>
             <tr>
                 <td colspan="6"><div class="center">Link <a id="self_link">to re-create this dungeon</a></div></td>
@@ -86,7 +91,7 @@
                         <input type="button" value="Save as PNG" onclick="save_map();" />
                         &nbsp; <input type="button" value="Print" onclick="do_print();" />
                         <span class="key">Px Per Yard:</span>
-                        <span class="value"><input id="Resolution" value="50" style="width:3em;" /></span>
+                        <span class="value"><input id="resolution" style="width:3em;" /></span>
                     </div>
                     <div class="center">
                         <input type="checkbox" name="remote_treasure" id="remote_treasure" onclick="remote_reaction();" /> <label for="remote_treasure">Use remote treasure service?</label>
@@ -175,7 +180,8 @@
             }
             );
             options['seed'] = $("dungeon_name").getValue();
-            options['resolution'] = $("Resolution").getValue() || 25;
+            options['biomes'] = $("biomes").getValue() || 25;
+            options['resolution'] = $("resolution").getValue() || 25;
             var serial = GET_serialize(options);
             const newLocal = window.location.href;
 
