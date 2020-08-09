@@ -39,7 +39,9 @@
         <table id="form" class="center">
             <tr>
                 <td class="key">Dungeon Name:</td>
-                <td colspan="5" class="value"><input id="dungeon_name" size="60" /> &nbsp; <input type="button" id="new_name" value="New" /> </td>
+                <td colspan="3" class="value"><input id="dungeon_name" size="60" /> &nbsp; <input type="button" id="new_name" value="New" /> </td>
+                <td class="key">Seed:</td>
+                <td class="value"><input id="seed" /></td>
             </tr>
             <tr>
                 <td class="key">Dungeon Size:</td>
@@ -84,7 +86,7 @@
             <tr>
                 <td class="key">Biome:</td>
                 <!--<td class="value"><select id="biomes"></select></td>-->
-                <td class="value" colspan="3"><fieldset name="Biomes" id="biomes_fields"></fieldset></td>
+                <td class="value" colspan="3"><fieldset name="Biomes" id="biomes_fields" class="dropdown-content"></fieldset></td>
             </tr>
             <tr>
                 <td colspan="6"><div class="center">Link <a id="self_link">to re-create this dungeon</a></div></td>
