@@ -84,7 +84,7 @@
                 <td class="value"><select id="biome_strictness"></select></td>
             </tr>
             <tr>
-                <td class="key">Biome:</td>
+                <td class="key dropdown">Biome:</td>
                 <!--<td class="value"><select id="biomes"></select></td>-->
                 <td class="value" colspan="3"><fieldset name="Biomes" id="biomes_fields" class="dropdown-content"></fieldset></td>
             </tr>
@@ -169,6 +169,7 @@
     <script type="text/javascript" src="lib/linkify.min.js"></script>
     <script type="text/javascript" src="lib/linkify-string.min.js"></script>
     <script type="text/javascript" src="lib/spanning_tree.js"></script>
+    <script type="text/javascript" src="lib/datastore.js"></script>
     <script type="text/javascript" src="lib/dungeon.js"></script>
 
     <script>
@@ -188,7 +189,7 @@
             options['seed'] = $("dungeon_name").getValue();
             var arr = jQ('biome_list').map(function () {
                 return this.value;
-            }); 
+            });
             options['biome_list'] = arr || ['ANY'];
             options['resolution'] = $("resolution").getValue() || 25;
             var serial = GET_serialize(options);
