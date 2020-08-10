@@ -4,26 +4,62 @@
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /* structure */
 
-body { margin: 0; padding: 0;
-  font-family: 'Asul', sans-serif; font-size: 14px; }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Asul', sans-serif;
+    font-size: 14px;
+}
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /* common */
 
-h1 { text-align: center; font-size: 150%; font-weight: bold; }
+h1 {
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+}
 
-form { margin: 2ex 2em; padding: 0; }
-input { margin-right: 0.5em; padding: 0.5ex 0.5em;
-  font-family: Monaco, monospace; font-size: 11px; }
-select { min-width: 10em; margin-right: 0.5em; font-size: 11px; }
+form {
+    margin: 2ex 2em;
+    padding: 0;
+}
 
-table { margin: 0 2em; border: none; border-collapse: collapse; }
-td { padding: 0.5ex 0.5em; text-align: left; vertical-align: top; }
-.key { text-align: right; font-weight: bold; }
+input {
+    margin-right: 0.5em;
+    padding: 0.5ex 0.5em;
+    font-family: Monaco, monospace;
+    font-size: 11px;
+}
 
-.label { font-weight: bold; }
+select {
+    min-width: 10em;
+    margin-right: 0.5em;
+    font-size: 11px;
+}
 
-.hidden{
+table {
+    margin: 0 2em;
+    border: none;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0.5ex 0.5em;
+    text-align: left;
+    vertical-align: top;
+}
+
+.key {
+    text-align: right;
+    font-weight: bold;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.hidden {
     display: none !important;
 }
 
@@ -42,8 +78,9 @@ div.encounters {} */
 tr.thead {
     font-weight: bold;
 }
+
 #footer {
-    font-style:italic;
+    font-style: italic;
     font-size: 14px;
 }
 
@@ -62,6 +99,7 @@ tr.thead {
     margin: 10px;
     background-color: lightgrey;
 }
+
 .dungeon, .room, .wandering_monsters, .travel {
     background-color: ghostwhite;
     width: 45%;
@@ -69,31 +107,44 @@ tr.thead {
     padding: 10px;
 }
 
-.dungeon, .wandering_monsters, .travel{
+.dungeon, .wandering_monsters, .travel {
     width: 95%;
 }
 
-canvas { margin: 2ex auto; 
+canvas {
+    margin: 2ex auto;
 }
 
-.center { text-align: center; }
-table.center { margin-left: auto; margin-right: auto; }
+.center {
+    text-align: center;
+}
 
-#hatching{
-    visibility:hidden;
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hatching {
+    visibility: hidden;
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /* screen */
 
 @media screen {
-  h1.title { display: none; }
-  form { display: block; }
-  div.page {
-      margin: 0 !important; 
-      padding: 0 !important;
-      width: 100% !important;
-  }
+    h1.title {
+        display: none;
+    }
+
+    form {
+        display: block;
+    }
+
+    div.page {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+    }
 
 
     #mynetwork {
@@ -102,54 +153,63 @@ table.center { margin-left: auto; margin-right: auto; }
         border: 1px solid lightgray;
     }
 }
+
 @media screen and (max-width: 870px) {
-    .room {width: 95%;}
-  }
-
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    .room {
+        width: 95%;
+    }
 }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
+@media screen {
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: relative;
+        background-color: #f1f1f1;
+        /*min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+        z-index: 1;
+    }
+    p.dropdown-content{
+        margin-bottom: unset;
+    }
 
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        /*position: relative;
+        display: inline-block;
+        min-width: 160px;*/
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover + .dropdown-content{
+        display: inline-block;
+    }
+}
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /* print */
 /* style sheet for "A4" printing */
 @media print and (width: 21cm) and (height: 29.7cm) {
     @page {
-       margin: 1.5cm;
+        margin: 1.5cm;
     }
- }
+}
 
- /* style sheet for "letter" printing */
- @media print and (width: 8.5in) and (height: 11in) {
+/* style sheet for "letter" printing */
+@media print and (width: 8.5in) and (height: 11in) {
     @page {
         margin: 0.5in;
     }
- }
+}
+
 @media print {
-    
-     * { 
-        margin: 0; 
-        padding: 0; 
-    } 
-    
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
     h1.title {
         display: block;
     }
@@ -157,32 +217,31 @@ table.center { margin-left: auto; margin-right: auto; }
     form {
         display: none;
     }
+
     div.page {
         /* page-break-inside:avoid; */
-
-        margin: 0 !important; 
-        padding: 0 !important; 
-        
+        margin: 0 !important;
+        padding: 0 !important;
         /* height: 100% !important; */
         width: 100% !important;
     }
 
     div.dungeon, div.travel {
-        page-break-inside:avoid;
-        text-align:initial;
+        page-break-inside: avoid;
+        text-align: initial;
         width: 100% !important;
         display: block;
-        margin-left: 0 !important; 
-        padding-left: 0 !important; 
+        margin-left: 0 !important;
+        padding-left: 0 !important;
     }
 
     div.encounters {
         page-break-before: always;
-        text-align:initial;
+        text-align: initial;
     }
 
     div.rooms {
-        page-break-inside:avoid;
+        page-break-inside: avoid;
         display: inline !important;
     }
     /* #dungeon_key, .dungeon {
@@ -192,9 +251,10 @@ table.center { margin-left: auto; margin-right: auto; }
     } */
     .dungeon_key, .room {
         width: 100% !important;
-        margin: 5 !important; 
-        padding: 5 !important; 
+        margin: 5 !important;
+        padding: 5 !important;
     }
+
     canvas {
         /* object-fit: contain;*/
         height: 9.5in !important;
