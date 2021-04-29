@@ -515,7 +515,7 @@
       "Environment":[
          "Outdoor",
          "Plains",
-         "Mountains",
+         "Mountain",
          "Dungeon",
          "Cave"
       ],
@@ -540,7 +540,7 @@
       "Environment":[
          "Outdoor",
          "Plains",
-         "Mountains",
+         "Mountain",
          "Dungeon",
          "Cave"
       ],
@@ -565,7 +565,7 @@
       "Environment":[
          "Outdoor",
          "Plains",
-         "Mountains",
+         "Mountain",
          "Dungeon",
          "Cave"
       ],
@@ -590,7 +590,7 @@
       "Environment":[
          "Outdoor",
          "Plains",
-         "Mountains",
+         "Mountain",
          "Dungeon",
          "Cave"
       ],
@@ -869,7 +869,8 @@
       "Description":"Bleeder",
       "Class":"Undead",
       "Environment":[
-         "any"
+        "any",
+        "grave"
       ],
       "OR":30,
       "PR":40,
@@ -1266,7 +1267,7 @@
          "Outdoor",
          "Dungeon",
          "Cave",
-         "Mountains"
+         "Mountain"
       ],
       "OR":53,
       "PR":28,
@@ -1317,7 +1318,7 @@
          "Outdoor",
          "Dungeon",
          "Cave",
-         "Mountains"
+         "Mountain"
       ],
       "OR":16,
       "PR":16,
@@ -1341,7 +1342,7 @@
          "Outdoor",
          "Dungeon",
          "Cave",
-         "Mountains"
+         "Mountain"
       ],
       "OR":28,
       "PR":0,
@@ -1509,7 +1510,7 @@
          "Dungeon",
          "Cave",
          "Outdoor",
-         "Mountains"
+         "Mountain"
       ],
       "OR":24,
       "PR":11,
@@ -1723,7 +1724,7 @@
          "Dungeon",
          "Water",
          "Swampland",
-         "Island/Beech",
+         "Island/Beach",
          "Ocean"
       ],
       "OR":91,
@@ -1751,7 +1752,7 @@
       "Environment":[
          "Dungeon",
          "Water",
-         "Island/Beech",
+         "Island/Beach",
          "Ocean"
       ],
       "OR":20,
@@ -1909,7 +1910,7 @@
          "Outdoor",
          "Dungeon",
          "Cave",
-         "Swamp",
+         "Swampland",
          "Desert"
       ],
       "OR":9,
@@ -1931,35 +1932,38 @@
          }
       ]
    },
-   {
-      "Description":"Dinoman Hero",
-      "Class":"Mundane",
-      "Subclass":[
-         "Humanoid"
-      ],
-      "Environment":[
-         "Outdoor",
-         "Dungeon",
-         "Cave",
-         "Swamp",
-         "Desert"
-      ],
-      "OR":12,
-      "PR":5,
-      "CER":5,
-      "SM":0,
-      "Hexes":"1 ¥ 1",
-      "Source":[
-         {
-            "Book":"DFRPG Monsters 1",
-            "Page":20
-         },
-         {
-            "Book":"GURPS Dungeon Fantasy Monsters 1",
-            "Page":11
-         }
-      ]
-   },
+  {
+    "Description": "Dinoman Hero",
+    "Class": "Mundane",
+    "Subclass": [
+      "Humanoid"
+    ],
+    "Environment": [
+      "Outdoor",
+      "Dungeon",
+      "Cave",
+      "Swampland",
+      "Desert"
+    ],
+    "OR": 12,
+    "PR": 5,
+    "CER": 5,
+    "SM": 0,
+    "Hexes": {
+      "Length": 1,
+      "Width": 1
+    },
+    "Source": [
+      {
+        "Book": "DFRPG Monsters 1",
+        "Page": 20
+      },
+      {
+        "Book": "GURPS Dungeon Fantasy Monsters 1",
+        "Page": 11
+      }
+    ]
+  },
    {
       "Description":"Dire Frog",
       "Class":"Dire Animal",
@@ -2060,7 +2064,7 @@
          "Outdoor",
          "Plains",
          "Desert",
-         "Mountains"
+         "Mountain"
       ],
       "OR":19,
       "PR":9,
@@ -2218,7 +2222,7 @@
          "Outdoor",
          "Dungeon",
          "Cave",
-         "Swamp",
+         "Swampland",
          "Desert"
       ],
       "OR":38,
@@ -2243,7 +2247,7 @@
          "Outdoor",
          "Dungeon",
          "Cave",
-         "Swamp",
+         "Swampland",
          "Desert"
       ],
       "OR":17,
@@ -2321,7 +2325,7 @@
       ],
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":125,
@@ -2451,7 +2455,7 @@
       ],
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":31,
@@ -3137,7 +3141,6 @@
          "Swampland",
          "Ocean",
          "Outdoor",
-         "Water",
          "Water"
       ],
       "OR":10,
@@ -3732,7 +3735,7 @@
       "OR":39,
       "PR":67,
       "CER":67,
-      "SM":"0/+6",
+      "SM":"0",
       "Hexes":{
          "Length":1,
          "Width":1
@@ -4047,7 +4050,8 @@
       "Description":"Flaming Skull",
       "Class":"Undead",
       "Environment":[
-         "Dungeon"
+        "Dungeon",
+        "Grave"
       ],
       "OR":37,
       "PR":48,
@@ -4109,7 +4113,7 @@
       "OR":48,
       "PR":8,
       "CER":8,
-      "SM":"-4 or -3",
+      "SM":"-3",
       "Hexes":{
          "Length":1,
          "Width":1
@@ -8610,7 +8614,8 @@
          "Humanoid"
       ],
       "Environment":[
-         "Dungeon"
+        "Dungeon",
+        "Grave"
       ],
       "OR":41,
       "PR":21,
@@ -8663,7 +8668,7 @@
       ],
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":6,
@@ -8689,7 +8694,7 @@
       ],
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":13,
@@ -8715,7 +8720,7 @@
       ],
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":13,
@@ -8741,7 +8746,7 @@
       ],
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":10,
@@ -8767,7 +8772,7 @@
       ],
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":9,
@@ -8793,7 +8798,7 @@
       ],
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":17,
@@ -8819,7 +8824,7 @@
       ],
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":1,
@@ -8845,7 +8850,7 @@
       ],
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":13,
@@ -8871,7 +8876,7 @@
       ],
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":6,
@@ -8946,7 +8951,7 @@
       "Class":"Animal",
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":13,
@@ -8969,7 +8974,7 @@
       "Class":"Animal",
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":15,
@@ -8992,7 +8997,7 @@
       "Class":"Giant Animal",
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":21,
@@ -9015,7 +9020,7 @@
       "Class":"Giant Animal",
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":14,
@@ -9038,7 +9043,7 @@
       "Class":"Giant Animal",
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":40,
@@ -9288,7 +9293,8 @@
       "Environment":[
          "Outdoor",
          "Cave",
-         "Woodlands"
+        "Woodlands",
+        "Grave"
       ],
       "OR":28,
       "PR":12,
@@ -9357,7 +9363,8 @@
       "Environment":[
          "outdoor",
          "cave",
-         "sewer"
+        "sewer",
+        "grave"
       ],
       "OR":13,
       "PR":5,
@@ -9424,46 +9431,52 @@
          }
       ]
    },
-   {
-      "Description":"Giant Snake, Viper (SM +1)",
-      "Class":"Giant Animal",
-      "Environment":[
-         "Outdoor",
-         "Swampland",
-         "Jungle"
-      ],
-      "OR":21,
-      "PR":14,
-      "CER":14,
-      "SM":1,
-      "Hexes":"3 ¥ 1",
-      "Source":[
-         {
-            "Book":"DFRPG Monsters 1",
-            "Page":31
-         }
-      ]
-   },
-   {
-      "Description":"Giant Snake, Viper (SM +2)",
-      "Class":"Giant Animal",
-      "Environment":[
-         "Outdoor",
-         "Swampland",
-         "Jungle"
-      ],
-      "OR":28,
-      "PR":20,
-      "CER":20,
-      "SM":2,
-      "Hexes":"4 ¥ 1",
-      "Source":[
-         {
-            "Book":"DFRPG Monsters 1",
-            "Page":31
-         }
-      ]
-   },
+  {
+    "Description": "Giant Snake, Viper (SM +1)",
+    "Class": "Giant Animal",
+    "Environment": [
+      "Outdoor",
+      "Swampland",
+      "Jungle"
+    ],
+    "OR": 21,
+    "PR": 14,
+    "CER": 14,
+    "SM": 1,
+    "Hexes": {
+      "Length": 3,
+      "Width": 1
+    },
+    "Source": [
+      {
+        "Book": "DFRPG Monsters 1",
+        "Page": 31
+      }
+    ]
+  },
+  {
+    "Description": "Giant Snake, Viper (SM +2)",
+    "Class": "Giant Animal",
+    "Environment": [
+      "Outdoor",
+      "Swampland",
+      "Jungle"
+    ],
+    "OR": 28,
+    "PR": 20,
+    "CER": 20,
+    "SM": 2,
+    "Hexes": {
+      "Length": 4,
+      "Width": 1
+    },
+    "Source": [
+      {
+        "Book": "DFRPG Monsters 1",
+        "Page": 31
+      }
+    ]
+  },
    {
       "Description":"Giant Spider, Big Spider",
       "Class":"Giant Animal",
@@ -9472,7 +9485,7 @@
       ],
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":41,
@@ -9498,7 +9511,7 @@
       ],
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":46,
@@ -9524,7 +9537,7 @@
       ],
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":53,
@@ -9550,7 +9563,7 @@
       ],
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":38,
@@ -9576,7 +9589,7 @@
       ],
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":45,
@@ -9602,7 +9615,7 @@
       ],
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":31,
@@ -9628,7 +9641,7 @@
       ],
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":59,
@@ -9654,7 +9667,7 @@
       ],
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":18,
@@ -9679,7 +9692,8 @@
          "Humanoid"
       ],
       "Environment":[
-         "Dungeon"
+        "Dungeon",
+        "Grave"
       ],
       "OR":22,
       "PR":24,
@@ -10313,7 +10327,7 @@
       "Class":"Faerie",
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":50,
@@ -10336,7 +10350,7 @@
       "Class":"Faerie",
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":47,
@@ -10384,7 +10398,7 @@
       "Class":"Animal",
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave",
          "Dungeon"
       ],
@@ -10479,7 +10493,7 @@
       ],
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":53,
@@ -10634,7 +10648,8 @@
       "Description":"Horrid Skull",
       "Class":"Undead",
       "Environment":[
-         "Dungeon"
+        "Dungeon",
+        "Grave"
       ],
       "OR":49,
       "PR":-22,
@@ -11240,7 +11255,8 @@
          "Undead"
       ],
       "Environment":[
-         "any"
+        "any",
+        "Grave"
       ],
       "OR":-1,
       "PR":23,
@@ -11344,7 +11360,8 @@
          "Undead"
       ],
       "Environment":[
-         "any"
+        "any",
+        "Grave"
       ],
       "OR":38,
       "PR":65,
@@ -11392,7 +11409,7 @@
          "Outdoor",
          "Plains",
          "Cave",
-         "Mountains",
+         "Mountain",
          "Dungeon"
       ],
       "OR":46,
@@ -11417,7 +11434,7 @@
          "Outdoor",
          "Plains",
          "Cave",
-         "Mountains",
+         "Mountain",
          "Dungeon"
       ],
       "OR":46,
@@ -11442,7 +11459,7 @@
          "Outdoor",
          "Plains",
          "Cave",
-         "Mountains",
+         "Mountain",
          "Dungeon"
       ],
       "OR":46,
@@ -11467,7 +11484,7 @@
          "Outdoor",
          "Plains",
          "Cave",
-         "Mountains",
+         "Mountain",
          "Dungeon"
       ],
       "OR":41,
@@ -11492,7 +11509,7 @@
          "Outdoor",
          "Plains",
          "Cave",
-         "Mountains",
+         "Mountain",
          "Dungeon"
       ],
       "OR":46,
@@ -11520,7 +11537,7 @@
          "Outdoor",
          "Plains",
          "Cave",
-         "Mountains",
+         "Mountain",
          "Dungeon"
       ],
       "OR":96,
@@ -11548,7 +11565,7 @@
          "Outdoor",
          "Plains",
          "Cave",
-         "Mountains",
+         "Mountain",
          "Dungeon"
       ],
       "OR":99,
@@ -11576,7 +11593,7 @@
          "Outdoor",
          "Plains",
          "Cave",
-         "Mountains",
+         "Mountain",
          "Dungeon"
       ],
       "OR":96,
@@ -11604,7 +11621,7 @@
          "Outdoor",
          "Plains",
          "Cave",
-         "Mountains",
+         "Mountain",
          "Dungeon"
       ],
       "OR":96,
@@ -11632,7 +11649,7 @@
          "Outdoor",
          "Plains",
          "Cave",
-         "Mountains",
+         "Mountain",
          "Dungeon"
       ],
       "OR":106,
@@ -11657,7 +11674,7 @@
          "Outdoor",
          "Plains",
          "Cave",
-         "Mountains",
+         "Mountain",
          "Dungeon"
       ],
       "OR":103,
@@ -11682,7 +11699,7 @@
          "Outdoor",
          "Plains",
          "Cave",
-         "Mountains",
+         "Mountain",
          "Dungeon"
       ],
       "OR":110,
@@ -11710,7 +11727,7 @@
          "Outdoor",
          "Plains",
          "Cave",
-         "Mountains",
+         "Mountain",
          "Dungeon"
       ],
       "OR":96,
@@ -11889,7 +11906,7 @@
       "OR":9,
       "PR":35,
       "CER":35,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -11918,7 +11935,7 @@
       "OR":24,
       "PR":35,
       "CER":35,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -11947,7 +11964,7 @@
       "OR":14,
       "PR":35,
       "CER":35,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -11976,7 +11993,7 @@
       "OR":-5,
       "PR":35,
       "CER":35,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12005,7 +12022,7 @@
       "OR":9,
       "PR":35,
       "CER":35,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12034,7 +12051,7 @@
       "OR":24,
       "PR":35,
       "CER":35,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12063,7 +12080,7 @@
       "OR":10,
       "PR":35,
       "CER":35,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12092,7 +12109,7 @@
       "OR":5,
       "PR":35,
       "CER":35,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12121,7 +12138,7 @@
       "OR":24,
       "PR":35,
       "CER":35,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12150,7 +12167,7 @@
       "OR":9,
       "PR":36,
       "CER":36,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12179,7 +12196,7 @@
       "OR":24,
       "PR":36,
       "CER":36,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12208,7 +12225,7 @@
       "OR":14,
       "PR":36,
       "CER":36,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12237,7 +12254,7 @@
       "OR":-5,
       "PR":36,
       "CER":36,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12266,7 +12283,7 @@
       "OR":9,
       "PR":36,
       "CER":36,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12295,7 +12312,7 @@
       "OR":24,
       "PR":36,
       "CER":36,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12324,7 +12341,7 @@
       "OR":10,
       "PR":36,
       "CER":36,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12353,7 +12370,7 @@
       "OR":5,
       "PR":36,
       "CER":36,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12382,7 +12399,7 @@
       "OR":24,
       "PR":36,
       "CER":36,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12411,7 +12428,7 @@
       "OR":9,
       "PR":33,
       "CER":33,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12440,7 +12457,7 @@
       "OR":24,
       "PR":33,
       "CER":33,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12469,7 +12486,7 @@
       "OR":14,
       "PR":33,
       "CER":33,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12498,7 +12515,7 @@
       "OR":-5,
       "PR":33,
       "CER":33,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12527,7 +12544,7 @@
       "OR":9,
       "PR":33,
       "CER":33,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12556,7 +12573,7 @@
       "OR":24,
       "PR":33,
       "CER":33,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12585,7 +12602,7 @@
       "OR":10,
       "PR":33,
       "CER":33,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12614,7 +12631,7 @@
       "OR":5,
       "PR":33,
       "CER":33,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12643,7 +12660,7 @@
       "OR":24,
       "PR":33,
       "CER":33,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -12664,7 +12681,7 @@
       "Class":"Animal",
       "Environment":[
          "Outdoor",
-         "Mountains"
+         "Mountain"
       ],
       "OR":22,
       "PR":17,
@@ -12686,7 +12703,7 @@
       "Class":"Animal",
       "Environment":[
          "Outdoor",
-         "Mountains"
+         "Mountain"
       ],
       "OR":23,
       "PR":7,
@@ -12708,7 +12725,7 @@
       "Class":"Animal",
       "Environment":[
          "Outdoor",
-         "Mountains"
+         "Mountain"
       ],
       "OR":17,
       "PR":8,
@@ -12779,7 +12796,7 @@
       "Description":"Mylja Ormur",
       "Class":"Dire Animal",
       "Environment":[
-         "DUNGEON_1"
+         "Dungeon"
       ],
       "OR":36,
       "PR":23,
@@ -12854,7 +12871,7 @@
       "Description":"Nankilstlani",
       "Class":"Divine Servitor",
       "Environment":[
-         "DUNGEON_1"
+         "Dungeon"
       ],
       "OR":60,
       "PR":48,
@@ -12878,7 +12895,7 @@
          "Humanoid"
       ],
       "Environment":[
-         "DUNGEON_1"
+         "Dungeon"
       ],
       "OR":90,
       "PR":30,
@@ -12905,7 +12922,7 @@
       "OR":19,
       "PR":21,
       "CER":21,
-      "SM":"*",
+      "SM":0,
       "Hexes":{
          "Length":1,
          "Width":1
@@ -13001,7 +13018,7 @@
          "Outdoor",
          "Woodlands",
          "Arctic",
-         "Mountains"
+         "Mountain"
       ],
       "OR":29,
       "PR":11,
@@ -13025,7 +13042,7 @@
          "Humanoid"
       ],
       "Environment":[
-         "DUNGEON_1"
+         "Dungeon"
       ],
       "OR":21,
       "PR":14,
@@ -13049,7 +13066,7 @@
          "Humanoid"
       ],
       "Environment":[
-         "DUNGEON_1"
+         "Dungeon"
       ],
       "OR":11,
       "PR":-1,
@@ -13073,7 +13090,7 @@
          "Humanoid"
       ],
       "Environment":[
-         "DUNGEON_1"
+         "Dungeon"
       ],
       "OR":22,
       "PR":10,
@@ -13554,7 +13571,7 @@
       "Class":"Elemental",
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Woodlands"
       ],
       "OR":49,
@@ -13577,7 +13594,7 @@
       "Class":"Elemental",
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Woodlands"
       ],
       "OR":49,
@@ -13600,7 +13617,7 @@
       "Class":"Elemental",
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Woodlands"
       ],
       "OR":49,
@@ -13623,7 +13640,7 @@
       "Class":"Elemental",
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Woodlands"
       ],
       "OR":49,
@@ -13646,7 +13663,7 @@
       "Class":"Elemental",
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Woodlands"
       ],
       "OR":49,
@@ -13923,7 +13940,7 @@
       "Description":"Ramex",
       "Class":"Elder Thing",
       "Environment":[
-         "DUNGEON_1"
+         "Dungeon"
       ],
       "OR":28,
       "PR":42,
@@ -14218,7 +14235,7 @@
       ],
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Dungeon",
          "Cave"
       ],
@@ -14454,7 +14471,7 @@
       "Description":"Salamander",
       "Class":"Elemental",
       "Environment":[
-         "DUNGEON_1"
+         "Dungeon"
       ],
       "OR":39,
       "PR":19,
@@ -14577,7 +14594,7 @@
       "Description":"Shamblethorn",
       "Class":"Plant",
       "Environment":[
-         "DUNGEON_1"
+         "Dungeon"
       ],
       "OR":20,
       "PR":99,
@@ -14777,7 +14794,7 @@
       "Description":"Sky Glider",
       "Class":"Dire Animal",
       "Environment":[
-         "DUNGEON_1"
+         "Dungeon"
       ],
       "OR":20,
       "PR":11,
@@ -14798,7 +14815,7 @@
       "Description":"Sky Glider Shock",
       "Class":"Dire Animal (Swarm)",
       "Environment":[
-         "DUNGEON_1"
+         "Dungeon"
       ],
       "OR":48,
       "PR":114,
@@ -15225,7 +15242,7 @@
       ]
    },
    {
-      "Description":"Sn?w Whit",
+      "Description":"Snaw Whit",
       "Class":"Undead",
       "Environment":[
          "Arctic",
@@ -16584,14 +16601,14 @@
       ]
    },
    {
-      "Description":"Swamp Alligator",
+      "Description":"Swampland Alligator",
       "Class":"Animal",
       "Subclass":[
          "Aquatic"
       ],
       "Environment":[
          "Outdoor",
-         "Swamp"
+         "Swampland"
       ],
       "OR":34,
       "PR":42,
@@ -16609,11 +16626,11 @@
       ]
    },
    {
-      "Description":"Swamp Wisp",
+      "Description":"Swampland Wisp",
       "Class":"Undead",
       "Environment":[
          "Outdoor",
-         "Swamp"
+         "Swampland"
       ],
       "OR":30,
       "PR":54,
@@ -16879,7 +16896,9 @@
          "Swarm"
       ],
       "Environment":[
-         "DUNGEON_1"
+        "Dungeon",
+        "Grave",
+        "Sewer"
       ],
       "OR":19,
       "PR":-23,
@@ -16903,7 +16922,7 @@
          "Swarm"
       ],
       "Environment":[
-         "DUNGEON_1"
+         "Dungeon"
       ],
       "OR":25,
       "PR":-21,
@@ -16927,7 +16946,7 @@
          "Swarm"
       ],
       "Environment":[
-         "DUNGEON_1"
+         "Dungeon"
       ],
       "OR":14,
       "PR":-19,
@@ -16951,7 +16970,7 @@
          "Swarm"
       ],
       "Environment":[
-         "DUNGEON_1"
+         "Dungeon"
       ],
       "OR":25,
       "PR":-21,
@@ -16975,7 +16994,7 @@
          "Swarm"
       ],
       "Environment":[
-         "DUNGEON_1"
+         "Dungeon"
       ],
       "OR":17,
       "PR":-17,
@@ -16996,7 +17015,7 @@
       "Description":"Sweeping Void",
       "Class":"Elder Thing",
       "Environment":[
-         "DUNGEON_1"
+         "Dungeon"
       ],
       "OR":42,
       "PR":57,
@@ -17048,7 +17067,7 @@
          "Humanoid"
       ],
       "Environment":[
-         "DUNGEON_1"
+         "Dungeon"
       ],
       "OR":11,
       "PR":24,
@@ -17069,7 +17088,7 @@
       "Description":"Talus",
       "Class":"Elemental",
       "Environment":[
-         "DUNGEON_1"
+         "Dungeon"
       ],
       "OR":10,
       "PR":16,
@@ -17090,7 +17109,7 @@
       "Description":"Tatterdemalion",
       "Class":"Construct",
       "Environment":[
-         "DUNGEON_1"
+         "Dungeon"
       ],
       "OR":16,
       "PR":25,
@@ -17114,7 +17133,7 @@
          "Humanoid"
       ],
       "Environment":[
-         "DUNGEON_1"
+         "Dungeon"
       ],
       "OR":18,
       "PR":4,
@@ -17646,7 +17665,7 @@
       "Environment":[
          "Outdoor",
          "Arctic",
-         "Mountains"
+         "Mountain"
       ],
       "OR":16,
       "PR":14,
@@ -17948,7 +17967,7 @@
       "Class":"Elemental",
       "Environment":[
          "Dungeon",
-         "Mountains"
+         "Mountain"
       ],
       "OR":-1,
       "PR":16,
@@ -17973,7 +17992,7 @@
       ],
       "Environment":[
          "Outdoor",
-         "Mountains",
+         "Mountain",
          "Cave"
       ],
       "OR":42,
@@ -18268,7 +18287,7 @@
       "Environment":[
          "Outdoor",
          "Cave",
-         "Mountains"
+         "Mountain"
       ],
       "OR":43,
       "PR":21,
@@ -18294,7 +18313,7 @@
       "Environment":[
          "Outdoor",
          "Cave",
-         "Mountains"
+         "Mountain"
       ],
       "OR":43,
       "PR":21,
@@ -18320,7 +18339,7 @@
       "Environment":[
          "Outdoor",
          "Cave",
-         "Mountains"
+         "Mountain"
       ],
       "OR":45,
       "PR":21,
