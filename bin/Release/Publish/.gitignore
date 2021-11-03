@@ -1,0 +1,21 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/packages.config
+*.exclude
+/.vs
+*.bak
+*.orig
+/.cache
+/images/icons*.*
+/dist
+*.zip
+/packages/Newtonsoft.Json.12.0.1
+/website.publishproj
+/App_Data/PublishProfiles
+/debug.log
+/test
+/CountMonsterStats
+/libman.json
+/DFRPGRandomDungeonGenerator.sln.DotSettings.user

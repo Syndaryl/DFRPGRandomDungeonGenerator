@@ -1,0 +1,193 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* dungeon.css */
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* structure */
+
+body { margin: 0; padding: 0;
+  font-family: 'Asul', sans-serif; font-size: 14px; }
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* common */
+
+h1 { text-align: center; font-size: 150%; font-weight: bold; }
+
+form { margin: 2ex 2em; padding: 0; }
+input { margin-right: 0.5em; padding: 0.5ex 0.5em;
+  font-family: Monaco, monospace; font-size: 11px; }
+select { min-width: 10em; margin-right: 0.5em; font-size: 11px; }
+
+table { margin: 0 2em; border: none; border-collapse: collapse; }
+td { padding: 0.5ex 0.5em; text-align: left; vertical-align: top; }
+.key { text-align: right; font-weight: bold; }
+
+.label { font-weight: bold; }
+
+.hidden{
+    display: none !important;
+}
+
+/* .text {}
+div.encounters {} */
+
+
+
+#wandering_monsters {
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+tr.thead {
+    font-weight: bold;
+}
+#footer {
+    font-style:italic;
+    font-size: 14px;
+}
+
+.rooms {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100% - 20px;
+    height: 70%;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgrey;
+}
+.dungeon, .room, .wandering_monsters, .travel {
+    background-color: ghostwhite;
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.dungeon, .wandering_monsters, .travel{
+    width: 95%;
+}
+
+canvas { margin: 2ex auto; 
+}
+
+.center { text-align: center; }
+table.center { margin-left: auto; margin-right: auto; }
+
+#hatching{
+    visibility:hidden;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* screen */
+
+@media screen {
+  h1.title { display: none; }
+  form { display: block; }
+  div.page {
+      margin: 0 !important; 
+      padding: 0 !important;
+      width: 100% !important;
+  }
+    html, body {
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+    }
+
+    #mynetwork {
+        width: inherit;
+        height: 100vmin;
+        margin: 0px;
+        border: 1px solid lightgray;
+    }
+}
+@media screen and (max-width: 870px) {
+    .room {width: 95%;}
+    canvas {width: 95%;}
+  }
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* print */
+/* style sheet for "A4" printing */
+@media print and (width: 21cm) and (height: 29.7cm) {
+    @page {
+       margin: 1.5cm;
+    }
+ }
+
+ /* style sheet for "letter" printing */
+ @media print and (width: 8.5in) and (height: 11in) {
+    @page {
+        margin: 0.5in;
+    }
+ }
+@media print {
+    
+     * { 
+        margin: 0; 
+        padding: 0; 
+    } 
+    
+    h1.title {
+        display: block;
+    }
+
+    form {
+        display: none;
+    }
+    div.page {
+        /* page-break-inside:avoid; */
+
+        margin: 0 !important; 
+        padding: 0 !important; 
+        
+        /* height: 100% !important; */
+        width: 100% !important;
+    }
+
+    div.dungeon, div.travel {
+        page-break-inside:avoid;
+        text-align:initial;
+        width: 100% !important;
+        display: block;
+        margin-left: 0 !important; 
+        padding-left: 0 !important; 
+    }
+
+    div.encounters {
+        page-break-before: always;
+        text-align:initial;
+    }
+
+    div.rooms {
+        page-break-inside:avoid;
+        display: inline !important;
+    }
+    /* #dungeon_key, .dungeon {
+        
+        margin: 0 !important; 
+        padding: 0 !important; 
+    } */
+    .dungeon_key, .room {
+        width: 100% !important;
+        margin: 5 !important; 
+        padding: 5 !important; 
+    }
+    canvas {
+        /* object-fit: contain;*/
+        height: 9.5in !important;
+        /* width: 7in !important; */
+        object-fit: scale-down !important;
+    }
+
+    #mynetwork {
+        display: none !important;
+    }
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */

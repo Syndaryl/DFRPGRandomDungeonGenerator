@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html >
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Random Dungeon Generator v1.0.3</title>
+    <script type="text/javascript">
+        // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        // this is a completely self-contained random dungeon generator,
+        // implemented in HTML5 and JavaScript.
+        //
+        //   version 1.0.3      updated save_canvas to use filename
+        //   version 1.0.2      linked to generator.js version 2.0
+        //   version 1.0.1      cache set_pixel() for performance
+        //   version 1.0        initial release
+        //
+        // written by drow [drow@bin.sh]
+        // http://creativecommons.org/licenses/by-nc/3.0/
+
+        // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/dungeon.css" />
+    <!--<link rel="manifest" href='data:text/plain,{"short_name":"Dungeon","name":"DFRPG Random Dungeon Generator","icons":[{"src":"images/icons-192.png","type":"image/png","sizes":"192x192"},{"src":"images/icons-512.png","type":"image/png","sizes":"512x512"}],"default_locale":"en","description":"Generates dungeons with statistics for GURPS DF and DFRPG","start_url":".","background_color":"#FFFFFF","display":"standalone","theme_color":"#FFFFFF"}'>-->
+    <link rel="icon" href="images/icons-192.png">
+    <link href="https://unpkg.com/vis@4.21.0/dist/vis.css" type="text/css" />
+    <meta name="theme-color" content="#E7B546"> <!-- SJG website's distinctive color... -->
+    <script type="text/javascript" src="lib/PrototypeJS.js"></script>
+    <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script> <!-- minified build -->
+    <script>
+        var $j = jQuery.noConflict();
+        // $j is now an alias to the jQuery function; creating the new alias is optional.
+    </script>
+    <script src="https://unpkg.com/delaunator@3.0.2/delaunator.min.js"></script> <!-- minified build -->
+    <script src="https://unpkg.com/js-graph-algorithms@1.0.18/build/jsgraphs.min.js"></script> <!-- minified build -->
+    <script src="https://unpkg.com/vis@4.21.0/dist/vis.min.js"></script> <!-- minified build -->
+    <script type='text/javascript' src='lib/astar.js'></script>
+</head>
+<body>
+    <img src="images/crosshatch.png" id="hatching" width="0" height="0" />
+    <form method="get" onsubmit="return false;">
+        <h1>Random Dungeon Generator</h1>
+        <table id="form" class="center">
+            <tr>
+                <td class="key">Dungeon Name:</td>
+                <td colspan="5" class="value"><input id="dungeon_name" size="60" /> &nbsp; <input type="button" id="new_name" value="New" /> </td>
+            </tr>
+            <tr>
+                <td class="key">Dungeon Size:</td>
+                <td class="value"><select id="dungeon_size"></select></td>
+                <td class="key">Grid:</td>
+                <td class="value"><select id="grid"></select></td>
+                <td class="key">Party CER</td>
+                <td class="value"><input id="cer" value="100" /></td>
+            </tr>
+            <tr>
+                <td class="key">Dungeon Shape:</td>
+                <td class="value"><select id="dungeon_layout"></select></td>
+                <td class="key">Map Style:</td>
+                <td class="value"><select id="map_style"></select></td>
+                <td class="key">Monster Challenge:</td>
+                <td class="value"><select id="challenge"></select></td>
+            </tr>
+            <tr>
+                <td class="key">Dungeon Flow:</td>
+                <td class="value"><select id="room_layout"></select></td>
+                <td class="key">Corridors:</td>
+                <td class="value"><select id="corridor_layout"></select></td>
+                <td class="key">Generosity:</td>
+                <td class="value"><select id="generosity"></select></td>
+            </tr>
+            <tr>
+                <td class="key">Room density:</td>
+                <td class="value"><select id="room_density"></select></td>
+                <td class="key">Trim deadends?</td>
+                <td class="value"><select id="remove_deadends"></select></td>
+                <td class="key">Travel time:</td>
+                <td class="value"><select id="travel_distance"></select></td>
+            </tr>
+            <tr>
+                <td class="key">Room Size:</td>
+                <td class="value"><select id="room_size"></select></td>
+                <td class="key">Doors:</td>
+                <td class="value"><select id="doors"></select></td>
+                <td class="key"></td>
+                <td class="value"></td>
+            </tr>
+            <tr>
+                <td class="key">Stairs?</td>
+                <td class="value"><select id="add_stairs"></select></td>
+                <td class="key"></td>
+                <td class="value"></td>
+                <td class="key"></td>
+                <td class="value"></td>
+            </tr>
+            <tr>
+                <td colspan="6"><div class="center">Link <a id="self_link">to re-create this dungeon</a></div></td>
+            </tr>
+            <tr>
+                <td colspan="6" style="background: #dedede;">
+                    <div class="center">
+                        <input type="button" value="Save as PNG" onclick="save_map();" />
+                        &nbsp; <input type="button" value="Print" onclick="do_print();" />
+                        <span class="key">Px Per Yard:</span>
+                        <span class="value"><input id="Resolution" value="50" style="width:3em;" /></span>
+                    </div>
+                    <div class="center">
+                        <input type="checkbox" name="remote_treasure" id="remote_treasure" onclick="remote_reaction();" /> <label for="remote_treasure">Use remote treasure service?</label>
+                        <p id="remote_treasure_notice">Remote treasure service disabled</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <div class="center">
+        <div class="page">
+            <h1 id="dungeon_title" class="title"></h1>
+            <div id="map_div">
+                <img id="gm_map" usemap="#dungeon_map" />
+                <canvas id="map" class="hidden"  width="1" height="1" usemap="#dungeon_map">Your web browser does not appear to support the HTML5 &lt;canvas&gt; element.</canvas>
+            </div>
+            <div id="playermap_div" class="hidden">
+                <img id="blank_map" usemap="#dungeon_map" />
+                <canvas id="playermap" width="1" height="1" class="hidden" usemap="#dungeon_map">Your web browser does not appear to support the HTML5 &lt;canvas&gt; element.</canvas>
+            </div>
+            <map id="dungeon_map" name="dungeon_map"></map>
+            <p><img src="data:image/gif;base64,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" alt="" /></p>
+            <div>
+                <input type="button" value="GM/Player map" onclick="swap_map();" />
+            </div>
+        </div>
+        <p id="selection"></p>
+        <div class="dungeon">
+            <h1>Dungeon Key</h1>
+            <div id="dungeon_key" class="rooms">
+            </div>
+        </div>
+        <div class="encounters">
+            <h1>Room Key</h1>
+            <div id="room_key" class="rooms">
+            </div>
+        </div>
+        <p>Original Random Dungeon Generator found here: <br />http://donjon.bin.sh/</p>
+    </div>
+    <script type="text/javascript" src="lib/treasure_service.js"></script>
+    <script type="text/javascript" src="data/archesList.js"></script>
+    <script type="text/javascript" src="data/atmospheres.js"></script>
+    <script type="text/javascript" src="data/biomes.js"></script>
+    <script type="text/javascript" src="data/ceilings.js"></script>
+    <script type="text/javascript" src="data/concealment.js"></script>
+    <script type="text/javascript" src="data/currency.js"></script>
+    <script type="text/javascript" src="data/decorationNumber.js"></script>
+    <script type="text/javascript" src="data/decorations.js"></script>
+    <script type="text/javascript" src="data/doorsList.js"></script>
+    <script type="text/javascript" src="data/dungeonLighting.js"></script>
+    <script type="text/javascript" src="data/features.js"></script>
+    <script type="text/javascript" src="data/water.js"></script>
+    <script type="text/javascript" src="data/manaLevels.js"></script>
+    <script type="text/javascript" src="data/monsters.js"></script>
+    <script type="text/javascript" src="data/poison.js"></script>
+    <script type="text/javascript" src="data/portcullisesList.js"></script>
+    <script type="text/javascript" src="data/roomLighting.js"></script>
+    <script type="text/javascript" src="data/sizeArea.js"></script>
+    <script type="text/javascript" src="data/smells.js"></script>
+    <script type="text/javascript" src="data/smellsNumber.js"></script>
+    <script type="text/javascript" src="data/springs.js"></script>
+    <script type="text/javascript" src="data/stuckDoorsList.js"></script>
+    <script type="text/javascript" src="data/threatDistribution.js"></script>
+    <script type="text/javascript" src="data/traps.js"></script>
+    <script type="text/javascript" src="data/travel_times.js"></script>
+    <script type="text/javascript" src="data/treasure.js"></script>
+    <script type="text/javascript" src="lib/prng.js"></script>
+    <script type="text/javascript" src="lib/dice.js"></script>
+    <script type="text/javascript" src="lib/generator.js"></script>
+    <script type="text/javascript" src="lib/name.js"></script>
+    <script type="text/javascript" src="lib/gen_data.js"></script>
+    <script type="text/javascript" src="lib/name_set.js"></script>
+    <script type="text/javascript" src="lib/canvas.js"></script>
+    <script type="text/javascript" src="lib/dungeon_types.js"></script>
+    <script type="text/javascript" src="lib/CER_encounter.js"></script>
+    <script type="text/javascript" src="lib/travel_environment.js"></script>
+    <script type="text/javascript" src="lib/linkify.min.js"></script>
+    <script type="text/javascript" src="lib/linkify-string.min.js"></script>
+    <script type="text/javascript" src="lib/spanning_tree.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/image-map/dist/image-map.js"></script>
+    <script type="text/javascript" src="lib/dungeon.js"></script>
+
+<div id="mynetwork" class="hidden"></div>
+    <div id="debug" class="hidden"></div>
+</body>
+</html>
